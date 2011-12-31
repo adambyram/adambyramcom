@@ -1,0 +1,38 @@
+---
+author: adam
+date: '2009-01-01 23:16:32'
+layout: post
+slug: my-goals-for-2009
+status: publish
+title: My Goals for 2009
+wordpress_id: '63'
+categories:
+- Life
+---
+
+Now seems as good a time as any to post my a list of goals I want to
+accomplish in 2009. I think everything is quite realistic. So, I now have 364
+days left to:
+
+#### Financial
+
+  * Fully fund 2008 & 2009 Roth IRAs
+  * Pay off second mortgage OR refinance into single mortgage (with much lower rate and no PMI)
+  * Get my side income up to the point I could live off of it if the need arose (NOT trying to get this to replace my actual income level...although that would be fantastic if it did)
+  * Maintain at least a 3 month emergency fund (currently at 12 months, but expect some of this to use used for other financial goals)
+
+#### Health
+
+  * Get weight to 190 or lower and keep it there (~25 lbs to lose)
+  * Decrease caffeine intake - and keep it down (target is around 1 12oz can of soda per day or less)
+  * Drink more water (no particular amount - just when I'm thirsty, grab a water instead of a soda)
+  * Cook (healthly-ish) meals at home more than I eat out (including lunch)
+
+#### Personal & Professional Development / Other
+
+  * Read at least 1 non-fiction (but not computer related) book a month
+  * Read at least 1 fiction book a month
+  * Attend WWDC 2009 (contingent on other financial goals being met/on track in May)
+  * Get my passport
+  * Write at least one blog post per week on this blog - just to start writing more
+
