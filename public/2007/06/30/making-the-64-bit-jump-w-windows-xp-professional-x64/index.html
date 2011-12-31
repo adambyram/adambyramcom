@@ -1,0 +1,339 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Making the 64-bit Jump (w/ Windows XP Professional x64) - Adam Byram</title>
+  <meta name="author" content="Adam Byram">
+
+  
+  <meta name="description" content="So I&#8217;ve had a copy of Windows XP Professional x64 for quite a while - I never
+bothered to install it because all of my machines, except one, &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://www.adambyram.com/2007/06/30/making-the-64-bit-jump-w-windows-xp-professional-x64">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Adam Byram" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-174266-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Adam Byram</a></h1>
+  
+    <h2>My little corner of the web</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:www.adambyram.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Making the 64-bit Jump (W/ Windows XP Professional X64)</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-06-30T21:05:16-07:00" pubdate data-updated="true">Jun 30<span>th</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>So I&#8217;ve had a copy of Windows XP Professional x64 for quite a while - I never
+bothered to install it because all of my machines, except one, are 32-bit
+only.  My main desktop has an older Athlon 64 (3500+) processor, but I
+recently bumped up the RAM to 3GB for some photography and development work -
+so I decided it was time to give the 64-bit world a try.  I&#8217;m not sure why
+exactly, but after about 2 weeks of running x64, my machine is still blazing
+fast.  With XP Pro 32-bit, my machine was really taking a while to startup and
+would get bogged down quite easily.  I&#8217;m sure I have less software installed
+on the machine now, but I have my main applications installed now and things
+are quite nice.</p>
+
+<p>I was a bit worried that some of my hardware wouldn&#8217;t be supported under a
+64-bit Windows OS (which is one reason I haven&#8217;t been in a hurry to jump on
+the Vista bandwagon&#8230;I know there is 32-bit Vista, but if I have a 64-bit
+machine, I&#8217;m running a 64-bit OS&#8230;).  Anyway - the experience of getting
+things up and running was really quite nice.  Some applications went and
+installed just fine without any modification at all.  Others did require that
+I download a 64-bit version of the installer (as the 32-bit installer refused
+to run at all), but this was pretty painless.  Even my Brother multi-function
+laser printer and my Garmin Legend C GPS device had 64-bit compatible drivers,
+which was pretty surprising.  Interestingly enough, the only application I&#8217;ve
+really had trouble with is Apple&#8217;s iTunes.  I have the latest version of the
+software and the install process went fine, but when it came time to sync my
+iPod, I got all sorts of errors.  I ended up &#8220;restoring&#8221; (i.e. reformatting
+basically) my iPod 3 times, disabling all syncing except music, and rebooting
+a few times&#8230;now things &#8220;work&#8221;.  I still get funky error messages every once
+in a while, but my music plays on the PC and my iPod appears to have my music
+again.  I noticed that Apple has a page saying 64-bit Windows (XP Pro and
+Vista) aren&#8217;t actually supported by iTunes at this time - which is kinda funny
+because now I&#8217;m seeing quite a few posts from <strike>iBroke</strike> iPhone
+owners that are upset that they can&#8217;t sync the iPhone since they run 64-bit
+OSes.</p>
+
+<p>Anyway, I thought I would post my base application list in case anyone else is
+curious about what works in the 64-bit world:</p>
+
+<ul>
+<li>Adobe Photoshop CS2</li>
+<li>Adobe Photoshop Lightroom v1.1</li>
+<li>Microsoft Office 2003</li>
+<li>Visual Studio 2005</li>
+<li>Microsoft Virtual PC 2007 (* 64-bit installer required)</li>
+<li>Garmin City Navigator v7 (* after 64-bit driver download for GPS unit)</li>
+<li>Quicken 2006 Home and Business</li>
+<li>Microsoft ActiveSync</li>
+<li>Apple Safari (Beta 3)</li>
+<li>Alcohol 52%</li>
+<li>Mozilla Firefox</li>
+</ul>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">adam</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-06-30T21:05:16-07:00" pubdate data-updated="true">Jun 30<span>th</span>, 2007</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/categories/tech/'>Tech</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.adambyram.com/2007/06/30/making-the-64-bit-jump-w-windows-xp-professional-x64/" data-via="adambyram" data-counturl="http://www.adambyram.com/2007/06/30/making-the-64-bit-jump-w-windows-xp-professional-x64/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2007/06/24/3-reasons-i-probably-wont-buy-an-iphone/" title="Previous Post: 3 Reasons I Probably Won't Buy an iPhone">&laquo; 3 Reasons I Probably Won't Buy an iPhone</a>
+      
+      
+        <a class="basic-alignment right" href="/2007/07/01/money-choices/" title="next Post: Money Choices">Money Choices &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2011/11/26/blog-block/">Blog Block</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/10/28/t-0/">T-0</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/04/14/alter-oculos-project-1/">Alter Oculos - Project #1</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/01/03/goals-2011-edition/">Goals - 2011 Edition</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2010/12/28/looking-back-on-2010/">Looking Back on 2010</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Github Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/adambyram">@adambyram</a> on Github
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'adambyram',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("adambyram", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/adambyram" class="twitter-follow-button" data-show-count="false">Follow @adambyram</a>
+  
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2011 - Adam Byram -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'adambyramcom';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

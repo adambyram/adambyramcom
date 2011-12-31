@@ -1,0 +1,868 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Adam Byram</title>
+  <meta name="author" content="Adam Byram">
+
+  
+  <meta name="description" content="I just spent a few hours working on a small iPhone app using the Beta 2 iPhone
+SDK and thought I would share my my initial thoughts. Keep in mind &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://www.adambyram.com/page/4">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Adam Byram" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-174266-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Adam Byram</a></h1>
+  
+    <h2>My little corner of the web</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:www.adambyram.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2008/04/06/first-thoughts-on-iphone-sdk/">First Thoughts on iPhone SDK</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-04-06T07:04:24-07:00" pubdate data-updated="true">Apr 6<span>th</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I just spent a few hours working on a small iPhone app using the Beta 2 iPhone
+SDK and thought I would share my my initial thoughts. Keep in mind that this
+is the first time I&#8217;ve tried programming for OS X period and I spend 99% of my
+time programming in C# with Microsoft&#8217;s Visual Studio.</p>
+
+<p>Xcode itself is not even comparable to Visual Studio (I realize VS isn&#8217;t free,
+but even the free Express Editions are much, MUCH better than Xcode). I found
+out how to turn on the autocomplete functionality in Xcode, but it&#8217;s so
+unhelpful that I may turn it back off since it seems to get in the way more
+than it helps. I&#8217;m so accustomed to intellisense in VS - if you know nothing
+about a library, you can use intellisense to get up and running in a flash
+(usually), but not in Xcode. In Xcode, if you don&#8217;t know the frameworks you&#8217;re
+using in and out, prepare to be checking out Safari constantly. The whole
+Interface Builder application doesn&#8217;t really make sense to me yet, so I won&#8217;t
+really comment on it yet. The error messages from Xcode have been fairly
+useful so far, so that&#8217;s a good thing. The editor is decent in that it color
+codes syntax for you and it does have the ability to jump directly to specific
+functions from a menu (very similar to VS on this one).</p>
+
+<p>Perhaps the bigger issue for people coming from a non-OS X background is the
+knowledge of all of the frameworks. It&#8217;s not nearly as expansive as the .NET
+framework, but it&#8217;s quite different - so you&#8217;re not going to be able to just
+pick up the frameworks and hit the ground running. The documentation on
+Apple&#8217;s dev center isn&#8217;t terrible&#8230;it takes a little bit to find what you
+need, but it&#8217;s usually there somewhere. The naming convention does make it
+pretty clear what you&#8217;re doing when calling a method, however, this is
+realllllllly irritating without intellisense. I&#8217;m still trying to figure out
+which classes do what and how to structure the View/Controllers in my
+application. The sample apps are really helping out there. It does seem like I
+have to write quite a bit of code for even fairly basic stuff. I just feel
+really unproductive at this point..I know that&#8217;s mostly the learning curve
+that I&#8217;m working through, but I would have thought Apple would have a better
+developer toolset in this day and age. I don&#8217;t think the Objective-C language
+will be that hard to pickup since it seems pretty logical once you get the
+syntax for methods and method calls. The frameworks are going to take some
+time and I&#8217;m sure things will still be changing between now and June, but
+hopefully I&#8217;ll get this stuff figured out soon so I can have my little app up
+and running in the simulator.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2008/03/27/its-not-the-platform-its-the-data/">It&#8217;s Not the Platform, It&#8217;s the Data</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-03-27T06:35:34-07:00" pubdate data-updated="true">Mar 27<span>th</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I don&#8217;t normally blog about random things I see on the internet, but I ran
+across an article by John C. Dvorak today (<a href="http://www.pcmag.com/article2/0,2817,2278816,00.asp">The iPhone Is No
+Desktop</a>) that really
+annoyed me enough that I have to do this. John is basically saying that it&#8217;s
+ridiculous that people are using the iPhone as a desktop computing platform
+and that drives him crazy in many ways (10 ways to be exact). I don&#8217;t disagree
+that the iPhone is not a &#8220;desktop replacement&#8221; in the typical sense, but what
+bothers me is the fact that he thinks this is important.</p>
+
+<p>In the technical world, so many people still believe the &#8220;platform&#8221; is the key
+to everything. There are always discussions about which platform is the best -
+laptop vs desktop vs PDA, Windows vs OS X vs Linux, Nikon vs Canon, Ford vs
+Chevy - you get the point. That&#8217;s all fine and dandy and I don&#8217;t disagree that
+sometimes there are certain benefits to using a specific platform. But the
+kicker is that this is a stupid argument to begin with.</p>
+
+<p>People don&#8217;t care about the platform. Even if you think you care, you probably
+don&#8217;t when you get right down to it. For example, when I&#8217;m using the Windows
+platform, I keep my current TODO list in Microsoft Outlook. Now that I also
+work on a Mac, I decided to move my TODO list to an
+<a href="http://www.rememberthemilk.com">online</a> platform. Sure - I moved to a
+different &#8220;platform&#8221; because it made it easier to get to my TODO list from
+either OS, but it&#8217;s not the platform I really care about, it&#8217;s the data.</p>
+
+<p>Whether my TODO list is on the web, on my desktop, on my iPhone, or on my
+physical notepad, the platform is of little importance to me as long as my
+list is there and it&#8217;s accessible when I need it. The platform only comes into
+the picture when it can better enable me to manipulate my data in ways that
+make me more efficient and effective. In reality, forget the platform and
+focus on the data (or on the actions driven by the data) and you&#8217;ll see that
+the platform being the key is a fallacy in this day and age.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2008/03/27/new-addition-to-the-family-bought-a-macbook/">New Addition to the Family - Bought a MacBook</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-03-27T00:01:48-07:00" pubdate data-updated="true">Mar 27<span>th</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Well, I finally decided it is time for me to give Apple&#8217;s OS X a try. I&#8217;ve
+been interested in seeing how things work on an Apple system, but I haven&#8217;t
+really had a reason to buy an Apple machine. I still don&#8217;t <em>really</em> have a
+reason, but I do want to play around with the iPhone SDK since I have some
+ideas I&#8217;d like to try out so I used that as an excuse to buy a MacBook.</p>
+
+<p>I ended up going with a black 2.4 GHz Core 2 Duo version. It came with 2GB of
+RAM, but that&#8217;s not really enough since I want to run VMWare Fusion so that I
+can have Visual Studio 2005/2008 running in unity mode as well as SQL Server
+2005/2008. So I had the MacBook upgraded to 4GB DDR2 RAM. Apple wanted $400
+extra to add 2GB, but I used Crucial memory and did the upgrade myself for a
+grand total of $111 including tax &amp; shipping. Not a bad deal since I
+effectively saved nearly $300 by spending about 10 minutes swapping the RAM
+sticks out.</p>
+
+<p>So far, my impression of OS X is favorable. I&#8217;ve found replacements for
+everything I typically used on Windows (except development tools and Quicken)
+and I&#8217;m fairly happy with the way things work. For the first week or so, I
+wasn&#8217;t sure that I was ever going to like OS X, but it&#8217;s one of those things
+that grows on you. I wouldn&#8217;t make the claim that a lot of people when they
+say Macs are easier to use than Windows. I think usability (as a whole) is
+pretty similar between the two. OS X does have some standards that most
+applications seem to follow which is better than on Windows, but the big
+difference is that the &#8220;graphic arts&#8221; background of historical Mac users has
+resulted in software developers taking more time to refine the user experience
+to the point that things are a bit more logical than they are in Windows-based
+counterparts.</p>
+
+<p>I&#8217;m really happy with the battery life on this thing. As long as I&#8217;m just
+surfing the net, typing up blog posts, reading e-mail, and other light tasks,
+I get fantastic battery life. I have a feeling even playing a DVD will still
+result in good battery life, but it may not be the 4 or so hours I get now.
+Time machine seems useful, although I keep forgetting to eject the disk before
+I unplug the backup drive - so I think I&#8217;m going to end up getting the Time
+Capsule before long, but I don&#8217;t really want to spend that money right now.</p>
+
+<p>The one thing that is slightly disappointing thus far is that the MacBook gets
+a little choppy when playing World of Warcraft with everything maxed out. It&#8217;s
+not terrible and I do realize this machine has an integrated graphics card,
+but WoW isn&#8217;t <em>that</em> demanding&#8230;either way, it&#8217;s still plenty playable, but
+it&#8217;s just a little disappointing that it&#8217;s not as smooth as I&#8217;d like.</p>
+
+<p>After I&#8217;ve used OS X for a few more weeks, I&#8217;ll post my updated impressions,
+but so far so good.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2007/12/09/first-diy-oil-change-complete/">First DIY Oil Change Complete!</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-12-09T22:49:36-08:00" pubdate data-updated="true">Dec 9<span>th</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Today was the first time I have ever changed the oil in my Explorer at home
+without help.  In the past, I always took it to Ford to have the service done
+- but I don&#8217;t like the Ford dealerships around here, so I wanted to do it
+myself.  So last time I needed to change my oil, my Dad came up and helped me
+change it.  His help was basically him doing the work, but me watching so I
+had some idea of what was going on.  I&#8217;ve been overdue for a change for a bit,
+so I decided to bite the bullet and just go for it today.  It really isn&#8217;t
+that bad - I think the worst part of the whole thing is picking the proper oil
+filter (there are tons of options out there).</p>
+
+<p>The whole process of draining the oil is simple (just make sure you find the
+correct drain plug&#8230;there may be more than just the oil one and if you pick
+the wrong one&#8230;well&#8230;it probably wouldn&#8217;t be very pretty).  All you really
+do is remove the plug, let the oil drain, replace the plug, remove the filter,
+let remaining oil drain (if any), install the new filter, then just fill it
+back up with fresh oil.  It is a bit messy, but I would rather spend 30
+minutes doing it myself than to spend 1-2 hours (mostly waiting) for someone
+else to do it - and you can save quite a bit of money depending on how cheap
+you want to be.  (I think my total costs are about the same as the dealer, but
+they could be way less if I tried and didn&#8217;t mind cheaper materials&#8230;)</p>
+
+<p>Overall, the whole process is quite fun.  I think I&#8217;m going to start learning
+more about cars now - they don&#8217;t seem that hard to understand&#8230;there are lots
+of parts, but each part is pretty simple by itself.  We&#8217;ll see how it goes,
+but hopefully I&#8217;ll learn enough that I can start to work on my car more to fix
+the little issues that are popping up these days.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2007/12/02/startin-the-blog-up-again/">Startin the Blog Up Again&#8230;</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-12-02T23:04:18-08:00" pubdate data-updated="true">Dec 2<span>nd</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>So, it&#8217;s been nearly 2 months since I last blogged&#8230;  I&#8217;ve had quite a few
+things going on in those two months, probably as much or more than when I
+first moved to TN.  I started remodeling my kitchen - the counter-tops will be
+delivered on Friday if all goes as planned, then I&#8217;ll get the sink in and
+things will be all good.  I also changed jobs - I went from a relatively huge
+public company with 55K-ish employees to a little bitty private software
+company.  It&#8217;s been quite a change, but it&#8217;s great - it&#8217;s exactly the type of
+job I was looking for and I&#8217;m enjoying the people there (although I do still
+miss the people at the previous employer).  Overall though, it was the right
+move and I have no regrets.  Anyway - I plan to start blogging a few times a
+week at least from now on, but we&#8217;ll see what happens.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2007/10/09/iphone-thoughts-one-month-later/">iPhone Thoughts - One Month Later</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-10-09T19:32:50-07:00" pubdate data-updated="true">Oct 9<span>th</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&#8217;ve had my 4GB iPhone for about a month now so I thought I would share my
+impressions now that I&#8217;ve had plenty of time to check things out.  Overall,
+I&#8217;m still very happy with my purchase, but there are a few annoying things:</p>
+
+<p><strong>No Tasklist.</strong>  I don&#8217;t know why Apple decided to include all of the other PIM applications (contacts, calendar, notes), but decided to leave off a tasklist.  I really miss that feature from my Windows Mobile phone.  Hopefully Apple will add this soon.<br/>
+<strong>Random Crashes.  </strong>It isn&#8217;t clear why it happens, but every once in a while, the iPhone will freeze and I&#8217;ll have to reboot.  Most of the time, I can just use the home button to kill the application and things are fine (although you usually lose whatever data you were updating, if any, when you do this).  It doesn&#8217;t take long to reset (maybe 20 seconds), but it&#8217;s still a bit of a pain.  My Windows Mobile phone and my PocketPC seem more stable (and I don&#8217;t have non-Apple applications on my phone).<br/>
+<strong>No local downloading.</strong>  You can browse anything you want via Safari, but you can&#8217;t save anything.  I had one time when I really wanted to save a PDF document for viewing later or even e-mail it to myself&#8230;but the iPhone doesn&#8217;t support that.<br/>
+<strong>No copy &amp; paste.  </strong>There have been a couple of times when I needed to take a snippit of a webpage (or even copy a URL) and paste it into a note or e-mail, but at present, there is no ability to copy and paste on the iPhone.<br/>
+Of coure, there are still the original issues of not having Flash support and
+no Assisted GPS.</p>
+
+<p>But other than these few issues, the phone really works well.  The photo
+viewer works great, the call quality has been excellent, the EDGE network in
+my area is certainly speedy enough for everything I&#8217;ve needed, and the battery
+life is better than I expected.  It may not be the perfect phone, but it&#8217;s
+certainly a step in the right direction.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2007/09/30/business-20-is-dead/">Business 2.0 Is Dead</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-09-30T13:54:17-07:00" pubdate data-updated="true">Sep 30<span>th</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&#8217;ve been a loyal reader of Business 2.0 for quite a few years now.  It is one
+of the only magazines to which I subscribe.  I really look forward to getting
+it each month to see all of the new business ideas and to read the magazine&#8217;s
+take on various things.  Well, I just received my October copy and this is the
+end of the road for Business 2.0.  Apparently they never figured out how to
+get/keep advertisers interested in the magazine and it the magazine&#8217;s parent
+company decided it didn&#8217;t bring in enough cash to trouble with keeping the
+magazine alive.  Some of the staff are going to write for Fortune, but I just
+don&#8217;t think it&#8217;ll be the same.  All of the other magazines are stuffed with
+ads, so I may buy a 100 page magazine, but only 40 of the pages are actual
+content&#8230;and I&#8217;m not interested in flipping through ad after ad to find a
+handful of stories that interest me - so I doubt I&#8217;ll pick up a subscription
+to anything else to replace Business 2.0.  Oh well, it was good while it
+lasted.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2007/09/16/windows-vista-woes/">Windows Vista Woes</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-09-16T10:47:02-07:00" pubdate data-updated="true">Sep 16<span>th</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>A while back, I posted that I made the move to 64-bit Vista.  Then I got an
+iPhone, which doesn&#8217;t have 64-bit drivers, so I downgraded to Vista 32-bit.
+Well, this weekend, I have had another ordeal - I just finished installing
+32-bit Vista again.  My primary hard drive is beginning to fail apparently -
+it did have a handful of bad sectors.  I&#8217;m fine with that, except Vista
+refused to boot up so I can do a couple of things like de-activate iTunes,
+check for any files that I may need to save (mainly installers - I keep all
+data on a different drive), etc.  Well - after trying to boot into Vista in
+every way I could think of, I decided I&#8217;ll go ahead and reinstall.  Guess what
+- the install DVD fails to startup as well!  It would try to startup, but then
+it would hang at the loading screen (black screen with the little green
+progress bar at the bottom).  It appears that Vista&#8217;s boot process (from DVD
+or HDD) can be hung when there is a corrupted partion.  I can understand the
+HDD install not booting, but come on - why can&#8217;t the DVD boot?</p>
+
+<p>I ended up getting an iso of the <a href="http://www.ultimatebootcd.com/">Ultimate Boot
+CD</a>, running SeaTools to fix up the drive, and
+then using the disk partioning tools there to wipe the drive clean.  After
+that, the Vista DVD was able to boot just fine and now I&#8217;m finally back up and
+running.  This is one of the reasons I keep wanting to switch to Apple though
+- I know they have issues as well, but I can&#8217;t believe the various issues I
+keep hitting with Vista&#8230;granted, I&#8217;m a power user so I don&#8217;t expect most of
+the issues I see would cause a problem with &#8220;normal&#8221; home users, but geez,
+it&#8217;s bad when I&#8217;m tempted to downgrade back to XP at least once a week.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2007/09/10/my-top-10-ways-to-save-money/">My Top 10 Ways to Save Money</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-09-10T01:23:33-07:00" pubdate data-updated="true">Sep 10<span>th</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><strong>1) Cut the cable</strong><br/>
+Do you really need those 100 channels you never watch?  I have an HDTV that
+picks up over the air channels and I can assure you that my FOX, NBC, ABC, and
+PBS look just as good, if not better, than anything you would get on cable.
+It does mean giving up certain channels (I do miss Sci-Fi, Discovery, and a
+couple of other ones), but it saves a ton of money and you don&#8217;t have to deal
+with the cable company.</p>
+
+<p><strong>2) Check the unit price on grocery items</strong><br/>
+I find it amazing that identical items in the grocery have vastly different
+pricing.  Two different brands of the same pasta sauce may have the same price
+per item, but if you look at the unit price, you may see that one of them
+actually gives you quite a bit more sauce for the same price (you can&#8217;t always
+tell this by the size of the container).  Another really surprising thing is
+that larger &#8220;family size&#8221; items are often more per unit than the &#8220;regular&#8221;
+size item - sounds strange, but if you check out the unit price on the labels,
+you&#8217;ll see what I&#8217;m talking about.</p>
+
+<p><strong>3) Use fans instead of air conditioner when possible</strong><br/>
+This certainly depends on where you live, but around here, it&#8217;s quite hot in
+the summer.  If I know I&#8217;m only going to be in a couple of rooms in the house,
+I&#8217;ll just open a window or use a fan since there is no point to chilling the
+whole house.</p>
+
+<p><strong>4) Never buy on credit (specifically don&#8217;t pay interest)</strong><br/>
+Hopefully it&#8217;s obvious that it&#8217;s always worse to end up paying more for an
+item than what the store charged&#8230;if not, these tips probably won&#8217;t help&#8230;
+The best thing you can do for yourself is to stop using credit cards - go with
+your bank check card.</p>
+
+<p><strong>5) Minimize impulse buying (still working on this one - but it usually works well with #7)</strong><br/>
+This is one of the hardest things for me to do - you see the new gadget come
+out, want the extra pack of candy in the grocery that you didn&#8217;t plan on,
+decide it&#8217;s time to buy an HDTV&#8230;  The best way I&#8217;ve found to minimize this
+is to keep very little money in my checking account - I move it all to
+investments (either mutual funds or savings accounts like ING Direct).  That
+way, I can get the money if I need it, but I don&#8217;t have enough to make a huge
+purchase unless I go through a transfer process that takes 3-5 days&#8230;by then,
+I may decide I didn&#8217;t really need the item anyway.</p>
+
+<p><strong>6) Know where your money is going / Implement a budget</strong><br/>
+It&#8217;s really important that you know where your money is going - I don&#8217;t
+particularly like doing a true budget, so I track all expenses (including
+categories) in Quicken, then review spending each month to see how I&#8217;m doing
+against my mental budget.  Doing a &#8220;real&#8221; budget would be more helpful, but I
+haven&#8217;t found a nice way to do the budget the way I want in Quicken.</p>
+
+<p><strong>7) Treat yourself to something nice</strong><br/>
+When I first decided I would start cutting my expenses and saving up to pay
+off my student loans early, I kept myself from buying anything unless I really
+needed it.  The problem I ran into was that sometimes it would feel even worse
+than being broke - sometimes you just need to have a little something extra.
+I&#8217;m taking buying a $50 video game or $100 night out - not buying a car or
+something crazy like that.  If you don&#8217;t treat yourself, what will probably
+happen is that you&#8217;ll eventually break down and spend like crazy for a bit and
+it&#8217;ll put you back to square one - sounds crazy I know, but trust me, it&#8217;s
+better to set aside $100/mo blow money instead of spending $3000 one month
+because you couldn&#8217;t take it anymore.</p>
+
+<p><strong>8) Use utilities efficiently</strong><br/>
+Nothing special here - use compact florescent light bulbs, turn off the lights
+when you&#8217;re not in the room, minimize hot water usage, don&#8217;t water the lawn if
+you don&#8217;t have to, etc.  Turning off the computer at night can save about
+$20/mo - you&#8217;ll be surprised at home much it costs to use different items you
+have around the house.</p>
+
+<p><strong>9) Be as frugal as possible, but not cheap (buy good quality / be proactive)</strong><br/>
+I&#8217;ll explain this one via an example - 6 months ago, I bought a little
+battery-powered drill for $30.  I used it to drive in some screws here and
+there and it worked fine.  I recently decided to put in new cabinets and
+needed to do more heavy duty work.  Well, the drill basically bit the dust -
+it couldn&#8217;t take the stress.  So now I need a new drill&#8230; If I would have
+went ahead and bought a good quality drill from the start for $100 or so, I
+would have come out much better than having to go buy a new one now (plus the
+time lost messing with the cheap drill trying to finish the job).  These days,
+I try to buy the middle priced version of whatever I&#8217;m buying - I don&#8217;t care
+for paying premium prices, but I don&#8217;t mind paying a few dollars more when
+those few dollars create enough value to justify the extra expense.</p>
+
+<p><strong>10) Avoid marketing as much as possible</strong><br/>
+This sounds dumb, but the more marketing you&#8217;re exposed to, the more stuff
+you&#8217;ll want to buy - that&#8217;s the point of marketing after all.  Now that
+doesn&#8217;t mean that you&#8217;ll buy something just because you saw a single ad, but
+it does mean that the more ads you see, the harder #5 gets.  I know I&#8217;m going
+to have to stay away from Apple keynotes - I don&#8217;t know why, but they always
+make me want to buy the newest thing Apple thought up&#8230;so far, I&#8217;ve been able
+to resist, but it&#8217;d be even better if I would just stop watching&#8230;</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2007/09/09/amazon-unbox-update/">Amazon Unbox Update</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-09-09T20:27:05-07:00" pubdate data-updated="true">Sep 9<span>th</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>A quick FYI on Amazon&#8217;s Unbox service.  I had 7 rentals on my computer that I
+had not been able to watch yet, but I needed to downgrade my Vista install to
+32-bit (from the 64-bit version).  So I copied off the Amazon videos and
+uninstalled the Unbox software.  Then after the new version of Vista was
+installed, I tried to re-import the videos into Unbox (they provide an Import
+function).  What I didn&#8217;t realize is that the Unbox agreement says you can&#8217;t
+move rental videos from your original download location&#8230;  I&#8217;m not sure if
+Amazon Customer Service is going to help here or not, but I think they will
+this one time.  Something to keep in mind if you&#8217;re thinking about getting a
+video rental.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/page/5/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/page/3/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2011/11/26/blog-block/">Blog Block</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/10/28/t-0/">T-0</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/04/14/alter-oculos-project-1/">Alter Oculos - Project #1</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/01/03/goals-2011-edition/">Goals - 2011 Edition</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2010/12/28/looking-back-on-2010/">Looking Back on 2010</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Github Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/adambyram">@adambyram</a> on Github
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'adambyram',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("adambyram", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/adambyram" class="twitter-follow-button" data-show-count="false">Follow @adambyram</a>
+  
+</section>
+
+
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2011 - Adam Byram -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'adambyramcom';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

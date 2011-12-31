@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Photography | Adam Byram]]></title>
+  <link href="http://www.adambyram.com/categories/photography/atom.xml" rel="self"/>
+  <link href="http://www.adambyram.com/"/>
+  <updated>2011-12-31T15:51:27-08:00</updated>
+  <id>http://www.adambyram.com/</id>
+  <author>
+    <name><![CDATA[Adam Byram]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Alter Oculos - Project #1]]></title>
+    <link href="http://www.adambyram.com/2011/04/14/alter-oculos-project-1/"/>
+    <updated>2011-04-14T22:23:01-07:00</updated>
+    <id>http://www.adambyram.com/2011/04/14/alter-oculos-project-1</id>
+    <content type="html"><![CDATA[<p>A few guys I know decided to start a photo group on Flickr called Alter
+Oculos. It's a group for sharing photowalk images and trying out some photo
+projects as a group. This week, we decided to all use the same set of shots,
+but then we'll all process them and compare our take on the post processing.
+These are my two finished images. I think the first turned out ok, but I
+really like the second image quite a lot.</p>
+
+<p><a href="http://www.flickr.com/photos/88578101@N00/5620858228"><img src="http://farm6.static.flickr.com/5266/5620858228_b9fe1acaa1.jpg" alt="Alter Oculos Post Processing Project #1 - Scene 1" /></a> <a href="http://www.flickr.com/photos/88578101@N00/5620857666"><img src="http://farm6.static.flickr.com/5147/5620857666_2d56b77f9e.jpg" alt="Alter Oculos Post Processing Project #1 - Scene 2" /></a></p>
+
+<p>The photos were taken by Matthew Osborne - you can see more of his images
+here: <a href="http://www.fli%0Ackr.com/photos/matthewosbornephotography/">http://www.flickr.com/photos/matthewosbornephotography/</a></p>
+]]></content>
+  </entry>
+  
+</feed>
