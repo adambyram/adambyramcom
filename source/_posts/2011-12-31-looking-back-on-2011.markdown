@@ -14,10 +14,10 @@ categories:
 
 - Took a great vacation to Charleston, SC
 
-- I turned 30
+- Turned 30
 
 - Moved 2200 miles from the East Coast to the West Coast for a new job
 
-- Begin working a dream job in the space industry
+- Began working a dream job in the space industry
 
 There were some low points in 2011, but overall, it's been a good year.  In a lot of ways, I feel like 2011 was a transitional year.  All of the change is mostly finished at this point, so it feels like it's time for the good stuff to begin.  I'm *really* excited about 2012 - I think like it's going to be an amazing year.
