@@ -4,7 +4,7 @@
   <title><![CDATA[Adam Byram]]></title>
   <link href="http://www.adambyram.com/atom.xml" rel="self"/>
   <link href="http://www.adambyram.com/"/>
-  <updated>2011-12-31T20:13:17-08:00</updated>
+  <updated>2012-01-01T11:32:16-08:00</updated>
   <id>http://www.adambyram.com/</id>
   <author>
     <name><![CDATA[Adam Byram]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Goals for 2012]]></title>
+    <link href="http://www.adambyram.com/2012/01/01/goals-for-2012/"/>
+    <updated>2012-01-01T00:00:00-08:00</updated>
+    <id>http://www.adambyram.com/2012/01/01/goals-for-2012</id>
+    <content type="html"><![CDATA[<p>It&#8217;s that time of year again.  These goals will change over the course of the year, but today, my goals for 2012 are to:</p>
+
+<ul>
+<li>Pay off cat medical debt</li>
+<li>Sell (or rent) house</li>
+<li>Launch at least one new iOS game or app</li>
+<li>Get involved with open source</li>
+</ul>
+
+
+<p>Of course, the standard goals of lose weight, eat better, save more, and the like are all things I plan to work on as well.  The goals above are specific to 2012.  It should be a fun &amp; exciting year.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Switching to Octopress]]></title>
@@ -879,38 +898,6 @@ is being made.</li>
 Linode. I&#8217;ll post about why I decided to move later, but in if things look odd
 around the blog for the next day or so, it&#8217;s probably related to the move (I&#8217;m
 having to reconfigure all kinds of things).</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Top 5 Favorite Apps (for Mac)]]></title>
-    <link href="http://www.adambyram.com/2009/02/18/top-5-favorite-apps-for-mac/"/>
-    <updated>2009-02-18T08:22:13-08:00</updated>
-    <id>http://www.adambyram.com/2009/02/18/top-5-favorite-apps-for-mac</id>
-    <content type="html"><![CDATA[<p>I&#8217;ve been using the mac for just right around 5 months now. In that time, I&#8217;ve
-found that there are a handful of applications I use very regularly, so I
-thought I would share in case any other switchers are looking for apps to
-check out. Here are my current top 5 (in no particular order):</p>
-
-<ul>
-<li><a href="http://macromates.com/">TextMate</a></li>
-<li><a href="http://culturedcode.com/things/">Things</a></li>
-<li><a href="http://agilewebsolutions.com/products/1Password">1Password</a></li>
-<li><a href="http://delicious-monster.com/">Delicious Library 2</a></li>
-<li><a href="http://docs.blacktree.com/quicksilver/what_is_quicksilver">Quicksilver</a></li>
-</ul>
-
-
-<h3>Other Noteworthy Apps</h3>
-
-<ul>
-<li><a href="http://www.adiumx.com/">Adium</a></li>
-<li><a href="http://www.vmware.com/products/fusion/">VMWare Fusion</a></li>
-<li><a href="http://www.newsgator.com/INDIVIDUALS/NETNEWSWIRE/">NetNewsWire</a></li>
-<li><a href="http://cyberduck.ch/">CyberDuck</a></li>
-<li><a href="http://www.transmissionbt.com/">Transmission</a></li>
-</ul>
-
 ]]></content>
   </entry>
   

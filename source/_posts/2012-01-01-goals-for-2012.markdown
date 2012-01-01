@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Goals for 2012"
+date: 2012-01-01 00:00
+comments: true
+categories: 
+- Life
+---
+It's that time of year again.  These goals will change over the course of the year, but today, my goals for 2012 are to:
+
+- Pay off cat medical debt
+- Sell (or rent) house
+- Launch at least one new iOS game or app
+- Get involved with open source
+
+Of course, the standard goals of lose weight, eat better, save more, and the like are all things I plan to work on as well.  The goals above are specific to 2012.  It should be a fun & exciting year.
