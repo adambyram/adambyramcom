@@ -4,7 +4,7 @@
   <title><![CDATA[Adam Byram]]></title>
   <link href="http://www.adambyram.com/atom.xml" rel="self"/>
   <link href="http://www.adambyram.com/"/>
-  <updated>2011-12-31T16:15:08-08:00</updated>
+  <updated>2011-12-31T19:13:02-08:00</updated>
   <id>http://www.adambyram.com/</id>
   <author>
     <name><![CDATA[Adam Byram]]></name>
@@ -12,6 +12,48 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Switching to Octopress]]></title>
+    <link href="http://www.adambyram.com/2011/12/31/switching-to-octopress/"/>
+    <updated>2011-12-31T19:08:00-08:00</updated>
+    <id>http://www.adambyram.com/2011/12/31/switching-to-octopress</id>
+    <content type="html"><![CDATA[<p>I&#8217;ve been looking into Octopress for a month or so now and I finally decided to take the plunge.  As of now, this blog is now powered by Octopress (more or less out of the box) instead of WordPress.  I&#8217;d like to change the theme a bit, but it&#8217;s good enough that I&#8217;ll leave it for now.</p>
+
+<h3>WordPress -> Octopress</h3>
+
+<p>Nothing was wrong with WordPress itself, but I just didn&#8217;t use any of the features it offered.  I&#8217;d rather just type the blog posts in a regular editor instead of a textbox on a webpage.  There are some great tools out there that help with that of course, but I just don&#8217;t need the features there either.  In addition, maintaining WordPress means logging in pretty often to check for updates, apply them, make sure the database is backed up, etc.  All of that would be just fine if I received enough benefit to offset the time there, but I just didn&#8217;t.</p>
+
+<h3>Enter Heroku</h3>
+
+<p>In addition to switching the blogging engine, I moved the physical blog from Linode over to Heroku + Amazon S3.  My blog is very low traffic, so I don&#8217;t need a high powered VPS host that I have to maintain &amp; patch.  Heroku offers a free account if you don&#8217;t need much power and can live without a database (well, effectively without a DB - a 5MB one is included).  I decided to go ahead and put any post specific images/files onto S3 since Heroku offers a limited amount of local storage and I can also redeploy back to Linode if something doesn&#8217;t work out at Heroku.  For the record though, I <em>love</em> Linode for a Linux VPS host.  I highly recommend them as long as you&#8217;re comfortable dealing with Linux via the command line.</p>
+
+<h3>Simplicity</h3>
+
+<p>As I get older, the technology side of things appeals to me less and less.  I still love technology in general, but the nitty gritty details of what platform/framework/OS/whatever is the best is less and less interesting to me.  I&#8217;m more interested in the best way to deliver a solution in a way that is as simple as possible.  That doesn&#8217;t mean I&#8217;m adverse to complexity under the hood though. It means I value the experience, productivity, and the ability to simply get things done over the technical aspects of a solution.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Looking Back on 2011]]></title>
+    <link href="http://www.adambyram.com/2011/12/31/looking-back-on-2011/"/>
+    <updated>2011-12-31T19:08:00-08:00</updated>
+    <id>http://www.adambyram.com/2011/12/31/looking-back-on-2011</id>
+    <content type="html"><![CDATA[<p>2011 was a crazy year for me.  It was a year full of change.  This year I:</p>
+
+<ul>
+<li><p>Started dating my beautiful girlfriend</p></li>
+<li><p>Watched the last launch of Space Shuttle Discovery from the NASA press site thanks to the STS-133 NASATweetup</p></li>
+<li><p>Took a great vacation to Charleston, SC</p></li>
+<li><p>I turned 30</p></li>
+<li><p>Moved 2200 miles from the East Coast to the West Coast for a new job</p></li>
+<li><p>Begin working a dream job in the space industry</p></li>
+</ul>
+
+
+<p>There were some low points in 2011, but overall, it&#8217;s been a good year.  In a lot of ways, I feel like 2011 was a transitional year.  All of the change is mostly finished at this point, so it feels like it&#8217;s time for the good stuff to begin.  I&#8217;m <em>really</em> excited about 2012 - I think like it&#8217;s going to be an amazing year.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Blog Block]]></title>
@@ -867,102 +909,6 @@ check out. Here are my current top 5 (in no particular order):</p>
 <li><a href="http://www.newsgator.com/INDIVIDUALS/NETNEWSWIRE/">NetNewsWire</a></li>
 <li><a href="http://cyberduck.ch/">CyberDuck</a></li>
 <li><a href="http://www.transmissionbt.com/">Transmission</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[First Time Skiing]]></title>
-    <link href="http://www.adambyram.com/2009/01/21/first-time-skiing/"/>
-    <updated>2009-01-21T08:54:04-08:00</updated>
-    <id>http://www.adambyram.com/2009/01/21/first-time-skiing</id>
-    <content type="html"><![CDATA[<p>Since I moved to Tennessee, I&#8217;ve wanted to go try out skiing - mainly because
-it&#8217;s relatively close to where I live, so it alwayed seemed like a good thing
-to try while I&#8217;m in the area.  Well, yesterday, I tried skiing for the first
-time&#8230;</p>
-
-<p>I went to <a href="http://www.obergatlinburg.com/">Ober Gatlinburg</a> with a couple of
-co-workers.  I haven&#8217;t heard great things about Ober, but it took less than an
-hour to get there and we all had free passes for the ski lift because of a
-Hardee&#8217;s promotion earlier in the week.  My friends let me borrow the basic
-items that I&#8217;d need (other than the skis themselves) so the whole trip really
-only cost $13 for skis&#8230;although I did buy a pair of goggles while I was
-there, but I could have done without them.</p>
-
-<p>The overall ski experience was interesting.  I&#8217;ve never waterskied, so this
-was my first time on skis period.  After falling down the &#8220;ski school&#8221; slope a
-couple of times, my friends decided it was time we all take the ski lift up to
-a long, but easy run.  I didn&#8217;t think I was ready for that, but eventually I
-went anyway.  Those ski lifts are harder to exit than I would have thought -
-in fact, I never was able to successfully exit the thing without falling (I
-could slide away, but never got very far).</p>
-
-<p>As far as skiing down the mountain, well, when the snow was fresh (it was
-snowing a lot while we were there), I could control my speed pretty well in
-general.  I still fell a lot, but it was usually because I hit a steeper area
-and I&#8217;d lose my balance when I sped up too much.  I never really figured out
-how to turn with the skis, I did figure out how to wobble a bit so I could
-shift my weight slightly to turn just a little, but never got the hang of
-doing a regular turn.</p>
-
-<p>As the night went on, I think the slopes got more icy.  It certainly got
-pretty chilly, but by the last run I made, I could barely control the ski
-speed even though I was doing the same thing I did before.  So my last run was
-relatively fast, but a bit more painful since I kept falling faster and pretty
-repeatedly.</p>
-
-<p>Today, I&#8217;m totally sore.  I kept falling in the same position, so I banged up
-one side pretty good (but I was never going very fast so no lasting injuries
-or anything)&#8230;some good bruises though.  I wish I got the hang of skiing and
-I&#8217;m sure it&#8217;s just like a friend was telling me - I just had to let go when I
-started going faster and just go with it.  The problem is that I&#8217;m not a big
-adrenaline junkie - so I don&#8217;t want to go fast or feel that out of control, so
-I never could quite let go and I&#8217;m pretty positive that is what made me fall
-so much once I started going at a good pace (because I know I kept leaning
-back too far and my skis came out from under me).  Overall, I&#8217;m glad I went
-since I&#8217;ve wanted to try skiing, but I don&#8217;t think I&#8217;ll be going back.  Skiing
-just isn&#8217;t for me, but it was certainly an interesting experience.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[My Goals for 2009]]></title>
-    <link href="http://www.adambyram.com/2009/01/01/my-goals-for-2009/"/>
-    <updated>2009-01-01T23:16:32-08:00</updated>
-    <id>http://www.adambyram.com/2009/01/01/my-goals-for-2009</id>
-    <content type="html"><![CDATA[<p>Now seems as good a time as any to post my a list of goals I want to
-accomplish in 2009. I think everything is quite realistic. So, I now have 364
-days left to:</p>
-
-<h4>Financial</h4>
-
-<ul>
-<li>Fully fund 2008 &amp; 2009 Roth IRAs</li>
-<li>Pay off second mortgage OR refinance into single mortgage (with much lower rate and no PMI)</li>
-<li>Get my side income up to the point I could live off of it if the need arose (NOT trying to get this to replace my actual income level&#8230;although that would be fantastic if it did)</li>
-<li>Maintain at least a 3 month emergency fund (currently at 12 months, but expect some of this to use used for other financial goals)</li>
-</ul>
-
-
-<h4>Health</h4>
-
-<ul>
-<li>Get weight to 190 or lower and keep it there (~25 lbs to lose)</li>
-<li>Decrease caffeine intake - and keep it down (target is around 1 12oz can of soda per day or less)</li>
-<li>Drink more water (no particular amount - just when I&#8217;m thirsty, grab a water instead of a soda)</li>
-<li>Cook (healthly-ish) meals at home more than I eat out (including lunch)</li>
-</ul>
-
-
-<h4>Personal &amp; Professional Development / Other</h4>
-
-<ul>
-<li>Read at least 1 non-fiction (but not computer related) book a month</li>
-<li>Read at least 1 fiction book a month</li>
-<li>Attend WWDC 2009 (contingent on other financial goals being met/on track in May)</li>
-<li>Get my passport</li>
-<li>Write at least one blog post per week on this blog - just to start writing more</li>
 </ul>
 
 ]]></content>

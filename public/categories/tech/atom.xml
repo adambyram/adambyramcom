@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Tech | Adam Byram]]></title>
   <link href="http://www.adambyram.com/categories/tech/atom.xml" rel="self"/>
   <link href="http://www.adambyram.com/"/>
-  <updated>2011-12-31T16:15:08-08:00</updated>
+  <updated>2011-12-31T19:13:02-08:00</updated>
   <id>http://www.adambyram.com/</id>
   <author>
     <name><![CDATA[Adam Byram]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Switching to Octopress]]></title>
+    <link href="http://www.adambyram.com/2011/12/31/switching-to-octopress/"/>
+    <updated>2011-12-31T19:08:00-08:00</updated>
+    <id>http://www.adambyram.com/2011/12/31/switching-to-octopress</id>
+    <content type="html"><![CDATA[<p>I've been looking into Octopress for a month or so now and I finally decided to take the plunge.  As of now, this blog is now powered by Octopress (more or less out of the box) instead of WordPress.  I'd like to change the theme a bit, but it's good enough that I'll leave it for now.</p>
+
+<h3>WordPress -> Octopress</h3>
+
+<p>Nothing was wrong with WordPress itself, but I just didn't use any of the features it offered.  I'd rather just type the blog posts in a regular editor instead of a textbox on a webpage.  There are some great tools out there that help with that of course, but I just don't need the features there either.  In addition, maintaining WordPress means logging in pretty often to check for updates, apply them, make sure the database is backed up, etc.  All of that would be just fine if I received enough benefit to offset the time there, but I just didn't.</p>
+
+<h3>Enter Heroku</h3>
+
+<p>In addition to switching the blogging engine, I moved the physical blog from Linode over to Heroku + Amazon S3.  My blog is very low traffic, so I don't need a high powered VPS host that I have to maintain &amp; patch.  Heroku offers a free account if you don't need much power and can live without a database (well, effectively without a DB - a 5MB one is included).  I decided to go ahead and put any post specific images/files onto S3 since Heroku offers a limited amount of local storage and I can also redeploy back to Linode if something doesn't work out at Heroku.  For the record though, I <em>love</em> Linode for a Linux VPS host.  I highly recommend them as long as you're comfortable dealing with Linux via the command line.</p>
+
+<h3>Simplicity</h3>
+
+<p>As I get older, the technology side of things appeals to me less and less.  I still love technology in general, but the nitty gritty details of what platform/framework/OS/whatever is the best is less and less interesting to me.  I'm more interested in the best way to deliver a solution in a way that is as simple as possible.  That doesn't mean I'm adverse to complexity under the hood though. It means I value the experience, productivity, and the ability to simply get things done over the technical aspects of a solution.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[iPhone 4 - Early Thoughts]]></title>
@@ -353,18 +374,6 @@ on your choices, it may feel a little too much like a FPS for some people, but
 the balance seemed just about right to me. Now I can start watching for Mass
 Effect 2 information...I've been trying to avoid it until I finished this just
 to make sure I didn't see any of the ending before it was time.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Site Move in Progress]]></title>
-    <link href="http://www.adambyram.com/2009/02/22/site-move-in-progress/"/>
-    <updated>2009-02-22T10:06:29-08:00</updated>
-    <id>http://www.adambyram.com/2009/02/22/site-move-in-progress</id>
-    <content type="html"><![CDATA[<p>This weekend, I've started the process of moving away from Dreamhost and onto
-Linode. I'll post about why I decided to move later, but in if things look odd
-around the blog for the next day or so, it's probably related to the move (I'm
-having to reconfigure all kinds of things).</p>
 ]]></content>
   </entry>
   
