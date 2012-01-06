@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Tech | Adam Byram]]></title>
   <link href="http://www.adambyram.com/categories/tech/atom.xml" rel="self"/>
   <link href="http://www.adambyram.com/"/>
-  <updated>2012-01-01T11:32:16-08:00</updated>
+  <updated>2012-01-05T22:23:44-08:00</updated>
   <id>http://www.adambyram.com/</id>
   <author>
     <name><![CDATA[Adam Byram]]></name>
@@ -12,6 +12,43 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Thoughts on the 13&quot; MacBook Air]]></title>
+    <link href="http://www.adambyram.com/2012/01/05/thoughts-on-the-13-macbook-air/"/>
+    <updated>2012-01-05T21:53:00-08:00</updated>
+    <id>http://www.adambyram.com/2012/01/05/thoughts-on-the-13-macbook-air</id>
+    <content type="html"><![CDATA[<p>I've had my 13" MacBook Air (mid-2011 model) for a few weeks now and thought it'd be a good idea to share my impressions.  I originally moved to Apple on a black MacBook, then switched to a top end 17" MacBook Pro, and now I'm on an Air.</p>
+
+<h2>What's Good?</h2>
+
+<p><strong>Weight</strong></p>
+
+<p>It's fantastically light.  My MacBook Pro feels like a brick after using the MBA for a while.</p>
+
+<p><strong>Size</strong></p>
+
+<p>Not only is it light, it's thin.  Like, really thin.  It's not really that much thicker than my iPad and that's impressive when you consider it's a full featured computer.</p>
+
+<p><strong>Battery Life</strong></p>
+
+<p>I haven't used it for photo/video editing nor have I used it for games, so my usage is pretty moderate, but still, the battery life is excellent.  My MacBook Pro has a good battery life for its size, but the Air has been really impressive.  I haven't timed the battery life, but I can say that I frequently use it for extended periods of time without even thinking about the power cable.  That hasn't been my experience with other laptops (Apple or otherwise).</p>
+
+<p><strong>Solid State Drive</strong></p>
+
+<p>It's amazing how much of a difference a solid state drive makes.  Startup is extremely fast, launching apps is even faster, and even development in a virtual machine is faster.</p>
+
+<h2>What's Bad?</h2>
+
+<p><strong>Screen Size</strong></p>
+
+<p>It's totally usable for most of my everyday tasks, but for things like development, it's a bit small.  The good news is that it powers an external monitor just fine.  If you're on the go and need to do certain kinds of tasks, it'll feel a bit cramped.  I can't imagine the MacBook Airs line won't merge with the MacBook Pro line to provide the larger screen sizes in the future.</p>
+
+<h2>Other Thoughts</h2>
+
+<p>That's actually the only negative thing I've noticed.  I happen to have the 4GB RAM/256GB SSD model, so it's maxed out on the basic specs.  It'd be nice if the RAM went up to 8GB, but honestly, 4GB has been plenty (even with large-ish databases loaded) due to the SSD.  The storage space may end up being a problem for me down the road if I started storing my main photo library, but I'm undecided how I want to handle that.  Overall, the MacBook Air is the best laptop I've used for my everyday tasks.  I'm sure I'll find a few things where I miss the power of my PC workstation or my MacBook Pro, but so far, I've really impressed.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Switching to Octopress]]></title>
@@ -348,32 +385,6 @@ channels can be used until the recording has stopped).  For me, this isn't a
 deal breaker, but I thought I should put a note on here since this limit
 wasn't clear to me...I knew the limit of 4 streams on the DVR box, I just
 didn't realize that was a limit on the whole U-verse install.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Finished Mass Effect]]></title>
-    <link href="http://www.adambyram.com/2009/07/03/finished-mass-effect/"/>
-    <updated>2009-07-03T00:06:37-07:00</updated>
-    <id>http://www.adambyram.com/2009/07/03/finished-mass-effect</id>
-    <content type="html"><![CDATA[<p>I finally finished the main story in Mass Effect just a couple of days ago. I
-think I have about 15 hours of game time in...which is pretty short, but I
-didn't do all that many of the side missions. The story was really excellent.
-There were quite a few surprises along the way that really made things move
-along nicely.</p>
-
-<p>I think Final Fantasy 7 is still the best RPG I've played, but I would say
-Mass Effect is in my overall top 10 games list. The only thing that never
-really clicked for me was all of the equipment. Sure, you can buy fancy
-weapons and and all kinds of upgrades, but I barely did any of that and the
-game wasn't that hard to beat. I suppose I could up the difficulty level and
-maybe all of the equipment would matter more.</p>
-
-<p>In any event, it's a fun game if you like more action oriented RPGs. Depending
-on your choices, it may feel a little too much like a FPS for some people, but
-the balance seemed just about right to me. Now I can start watching for Mass
-Effect 2 information...I've been trying to avoid it until I finished this just
-to make sure I didn't see any of the ending before it was time.</p>
 ]]></content>
   </entry>
   

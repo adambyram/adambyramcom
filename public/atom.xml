@@ -4,7 +4,7 @@
   <title><![CDATA[Adam Byram]]></title>
   <link href="http://www.adambyram.com/atom.xml" rel="self"/>
   <link href="http://www.adambyram.com/"/>
-  <updated>2012-01-01T11:32:16-08:00</updated>
+  <updated>2012-01-05T22:23:44-08:00</updated>
   <id>http://www.adambyram.com/</id>
   <author>
     <name><![CDATA[Adam Byram]]></name>
@@ -12,6 +12,43 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Thoughts on the 13&quot; MacBook Air]]></title>
+    <link href="http://www.adambyram.com/2012/01/05/thoughts-on-the-13-macbook-air/"/>
+    <updated>2012-01-05T21:53:00-08:00</updated>
+    <id>http://www.adambyram.com/2012/01/05/thoughts-on-the-13-macbook-air</id>
+    <content type="html"><![CDATA[<p>I&#8217;ve had my 13&#8221; MacBook Air (mid-2011 model) for a few weeks now and thought it&#8217;d be a good idea to share my impressions.  I originally moved to Apple on a black MacBook, then switched to a top end 17&#8221; MacBook Pro, and now I&#8217;m on an Air.</p>
+
+<h2>What&#8217;s Good?</h2>
+
+<p><strong>Weight</strong></p>
+
+<p>It&#8217;s fantastically light.  My MacBook Pro feels like a brick after using the MBA for a while.</p>
+
+<p><strong>Size</strong></p>
+
+<p>Not only is it light, it&#8217;s thin.  Like, really thin.  It&#8217;s not really that much thicker than my iPad and that&#8217;s impressive when you consider it&#8217;s a full featured computer.</p>
+
+<p><strong>Battery Life</strong></p>
+
+<p>I haven&#8217;t used it for photo/video editing nor have I used it for games, so my usage is pretty moderate, but still, the battery life is excellent.  My MacBook Pro has a good battery life for its size, but the Air has been really impressive.  I haven&#8217;t timed the battery life, but I can say that I frequently use it for extended periods of time without even thinking about the power cable.  That hasn&#8217;t been my experience with other laptops (Apple or otherwise).</p>
+
+<p><strong>Solid State Drive</strong></p>
+
+<p>It&#8217;s amazing how much of a difference a solid state drive makes.  Startup is extremely fast, launching apps is even faster, and even development in a virtual machine is faster.</p>
+
+<h2>What&#8217;s Bad?</h2>
+
+<p><strong>Screen Size</strong></p>
+
+<p>It&#8217;s totally usable for most of my everyday tasks, but for things like development, it&#8217;s a bit small.  The good news is that it powers an external monitor just fine.  If you&#8217;re on the go and need to do certain kinds of tasks, it&#8217;ll feel a bit cramped.  I can&#8217;t imagine the MacBook Airs line won&#8217;t merge with the MacBook Pro line to provide the larger screen sizes in the future.</p>
+
+<h2>Other Thoughts</h2>
+
+<p>That&#8217;s actually the only negative thing I&#8217;ve noticed.  I happen to have the 4GB RAM/256GB SSD model, so it&#8217;s maxed out on the basic specs.  It&#8217;d be nice if the RAM went up to 8GB, but honestly, 4GB has been plenty (even with large-ish databases loaded) due to the SSD.  The storage space may end up being a problem for me down the road if I started storing my main photo library, but I&#8217;m undecided how I want to handle that.  Overall, the MacBook Air is the best laptop I&#8217;ve used for my everyday tasks.  I&#8217;m sure I&#8217;ll find a few things where I miss the power of my PC workstation or my MacBook Pro, but so far, I&#8217;ve really impressed.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Goals for 2012]]></title>
@@ -886,18 +923,6 @@ year, I think I&#8217;ve still grown quite a lot in this area so at least progre
 is being made.</li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Site Move in Progress]]></title>
-    <link href="http://www.adambyram.com/2009/02/22/site-move-in-progress/"/>
-    <updated>2009-02-22T10:06:29-08:00</updated>
-    <id>http://www.adambyram.com/2009/02/22/site-move-in-progress</id>
-    <content type="html"><![CDATA[<p>This weekend, I&#8217;ve started the process of moving away from Dreamhost and onto
-Linode. I&#8217;ll post about why I decided to move later, but in if things look odd
-around the blog for the next day or so, it&#8217;s probably related to the move (I&#8217;m
-having to reconfigure all kinds of things).</p>
 ]]></content>
   </entry>
   
