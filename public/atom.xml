@@ -4,7 +4,7 @@
   <title><![CDATA[Adam Byram]]></title>
   <link href="http://www.adambyram.com/atom.xml" rel="self"/>
   <link href="http://www.adambyram.com/"/>
-  <updated>2012-01-05T22:23:44-08:00</updated>
+  <updated>2012-07-21T10:23:46-04:00</updated>
   <id>http://www.adambyram.com/</id>
   <author>
     <name><![CDATA[Adam Byram]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Thoughts on the 13&quot; MacBook Air]]></title>
     <link href="http://www.adambyram.com/2012/01/05/thoughts-on-the-13-macbook-air/"/>
-    <updated>2012-01-05T21:53:00-08:00</updated>
+    <updated>2012-01-05T21:53:00-05:00</updated>
     <id>http://www.adambyram.com/2012/01/05/thoughts-on-the-13-macbook-air</id>
     <content type="html"><![CDATA[<p>I&#8217;ve had my 13&#8221; MacBook Air (mid-2011 model) for a few weeks now and thought it&#8217;d be a good idea to share my impressions.  I originally moved to Apple on a black MacBook, then switched to a top end 17&#8221; MacBook Pro, and now I&#8217;m on an Air.</p>
 
@@ -53,7 +53,7 @@
   <entry>
     <title type="html"><![CDATA[Goals for 2012]]></title>
     <link href="http://www.adambyram.com/2012/01/01/goals-for-2012/"/>
-    <updated>2012-01-01T00:00:00-08:00</updated>
+    <updated>2012-01-01T00:00:00-05:00</updated>
     <id>http://www.adambyram.com/2012/01/01/goals-for-2012</id>
     <content type="html"><![CDATA[<p>It&#8217;s that time of year again.  These goals will change over the course of the year, but today, my goals for 2012 are to:</p>
 
@@ -72,7 +72,7 @@
   <entry>
     <title type="html"><![CDATA[Switching to Octopress]]></title>
     <link href="http://www.adambyram.com/2011/12/31/switching-to-octopress/"/>
-    <updated>2011-12-31T19:08:00-08:00</updated>
+    <updated>2011-12-31T19:08:00-05:00</updated>
     <id>http://www.adambyram.com/2011/12/31/switching-to-octopress</id>
     <content type="html"><![CDATA[<p>I&#8217;ve been looking into Octopress for a month or so now and I finally decided to take the plunge.  As of now, this blog is now powered by Octopress (more or less out of the box) instead of WordPress.  I&#8217;d like to change the theme a bit, but it&#8217;s good enough that I&#8217;ll leave it for now.</p>
 
@@ -93,7 +93,7 @@
   <entry>
     <title type="html"><![CDATA[Looking Back on 2011]]></title>
     <link href="http://www.adambyram.com/2011/12/31/looking-back-on-2011/"/>
-    <updated>2011-12-31T19:08:00-08:00</updated>
+    <updated>2011-12-31T19:08:00-05:00</updated>
     <id>http://www.adambyram.com/2011/12/31/looking-back-on-2011</id>
     <content type="html"><![CDATA[<p>2011 was a crazy year for me.  It was a year full of change.  This year I:</p>
 
@@ -114,7 +114,7 @@
   <entry>
     <title type="html"><![CDATA[Blog Block]]></title>
     <link href="http://www.adambyram.com/2011/11/26/blog-block/"/>
-    <updated>2011-11-26T01:28:06-08:00</updated>
+    <updated>2011-11-26T01:28:06-05:00</updated>
     <id>http://www.adambyram.com/2011/11/26/blog-block</id>
     <content type="html"><![CDATA[<p>I really thought I&#8217;d have a lot to blog about since this whole week was a
 pretty crazy cross country adventure&#8230;but I can&#8217;t seem to focus on blogging
@@ -138,7 +138,7 @@ so far, so good.</p>
   <entry>
     <title type="html"><![CDATA[T-0]]></title>
     <link href="http://www.adambyram.com/2011/10/28/t-0/"/>
-    <updated>2011-10-28T21:09:47-07:00</updated>
+    <updated>2011-10-28T21:09:47-04:00</updated>
     <id>http://www.adambyram.com/2011/10/28/t-0</id>
     <content type="html"><![CDATA[<p>Today is my last day of work on the East Coast. It&#8217;s a sad day since I&#8217;m
 leaving a stable company full of good people and interesting opportunities. At
@@ -166,7 +166,7 @@ decorating to my cube&#8230;</p>
   <entry>
     <title type="html"><![CDATA[Alter Oculos - Project #1]]></title>
     <link href="http://www.adambyram.com/2011/04/14/alter-oculos-project-1/"/>
-    <updated>2011-04-14T22:23:01-07:00</updated>
+    <updated>2011-04-14T22:23:01-04:00</updated>
     <id>http://www.adambyram.com/2011/04/14/alter-oculos-project-1</id>
     <content type="html"><![CDATA[<p>A few guys I know decided to start a photo group on Flickr called Alter
 Oculos. It&#8217;s a group for sharing photowalk images and trying out some photo
@@ -185,7 +185,7 @@ here: <a href="http://www.fli%0Ackr.com/photos/matthewosbornephotography/">http:
   <entry>
     <title type="html"><![CDATA[Goals - 2011 Edition]]></title>
     <link href="http://www.adambyram.com/2011/01/03/goals-2011-edition/"/>
-    <updated>2011-01-03T20:07:08-08:00</updated>
+    <updated>2011-01-03T20:07:08-05:00</updated>
     <id>http://www.adambyram.com/2011/01/03/goals-2011-edition</id>
     <content type="html"><![CDATA[<p>This year, I&#8217;m setting 5 major goals for myself. I have several other
 behaviors to change/actions to take this year, but I&#8217;m only considering these
@@ -225,7 +225,7 @@ accomplishing these goals (as well as several other things).</p>
   <entry>
     <title type="html"><![CDATA[Looking Back on 2010]]></title>
     <link href="http://www.adambyram.com/2010/12/28/looking-back-on-2010/"/>
-    <updated>2010-12-28T23:57:51-08:00</updated>
+    <updated>2010-12-28T23:57:51-05:00</updated>
     <id>http://www.adambyram.com/2010/12/28/looking-back-on-2010</id>
     <content type="html"><![CDATA[<p>Back in January, I posted my [top three goals for
 2010.](http://www.adambyram.com/2010/01/10/my-goals-the-2010-edition/</p>
@@ -267,7 +267,7 @@ wanted, 2011 is looking to be the best year yet.</p>
   <entry>
     <title type="html"><![CDATA[NASA Tweetup Preview]]></title>
     <link href="http://www.adambyram.com/2010/11/07/nasa-tweetup-preview/"/>
-    <updated>2010-11-07T22:19:05-08:00</updated>
+    <updated>2010-11-07T22:19:05-05:00</updated>
     <id>http://www.adambyram.com/2010/11/07/nasa-tweetup-preview</id>
     <content type="html"><![CDATA[<p>Most of you probably know I just spent a week down at NASA for the STS-133
 Tweetup. 150 of us were down there to watch Discovery lift off for her final
@@ -296,7 +296,7 @@ tweetup content is in here somewhere though):</p>
   <entry>
     <title type="html"><![CDATA[Camping at Elkmont]]></title>
     <link href="http://www.adambyram.com/2010/10/24/camping-at-elkmont/"/>
-    <updated>2010-10-24T21:47:44-07:00</updated>
+    <updated>2010-10-24T21:47:44-04:00</updated>
     <id>http://www.adambyram.com/2010/10/24/camping-at-elkmont</id>
     <content type="html"><![CDATA[<p>This weekend was my first time camping at Elkmont. My Dad &amp; I used to go
 camping a good bit when I was little, so I thought he would like going camping
@@ -377,7 +377,7 @@ certainly deal with a regular camping trip every now and then.</p>
   <entry>
     <title type="html"><![CDATA[Back to Basics]]></title>
     <link href="http://www.adambyram.com/2010/10/22/back-to-basics/"/>
-    <updated>2010-10-22T22:29:16-07:00</updated>
+    <updated>2010-10-22T22:29:16-04:00</updated>
     <id>http://www.adambyram.com/2010/10/22/back-to-basics</id>
     <content type="html"><![CDATA[<p>If you read my blog in the browser and not via RSS, you may notice the look
 has changed a bit. Everything is streamlined and I have a more minimalist
@@ -406,7 +406,7 @@ come in the near future&#8230;stay tuned.</p>
   <entry>
     <title type="html"><![CDATA[iPhone 4 - Early Thoughts]]></title>
     <link href="http://www.adambyram.com/2010/06/28/iphone-4-early-thoughts/"/>
-    <updated>2010-06-28T11:19:07-07:00</updated>
+    <updated>2010-06-28T11:19:07-04:00</updated>
     <id>http://www.adambyram.com/2010/06/28/iphone-4-early-thoughts</id>
     <content type="html"><![CDATA[<p>The main reasons I upgraded from my 3GS to iPhone 4:</p>
 
@@ -534,7 +534,7 @@ clear on my end and no complaints from those that I&#8217;ve called.</p>
   <entry>
     <title type="html"><![CDATA[Giving Tumblr a Try]]></title>
     <link href="http://www.adambyram.com/2010/03/14/giving-tumblr-a-try/"/>
-    <updated>2010-03-14T06:41:47-07:00</updated>
+    <updated>2010-03-14T06:41:47-04:00</updated>
     <id>http://www.adambyram.com/2010/03/14/giving-tumblr-a-try</id>
     <content type="html"><![CDATA[<p>I know I don&#8217;t post very much to this blog&#8230;I never have really. I can&#8217;t
 quite figure out a good use for my domain. I post a reasonable amount on
@@ -553,7 +553,7 @@ follow me there. Here&#8217;s the URL:</p>
   <entry>
     <title type="html"><![CDATA[FTL is spooled. Jumping in 3... 2... 1...]]></title>
     <link href="http://www.adambyram.com/2010/02/12/ftl-is-spooled-jumping-in-3-2-1/"/>
-    <updated>2010-02-12T09:23:10-08:00</updated>
+    <updated>2010-02-12T09:23:10-05:00</updated>
     <id>http://www.adambyram.com/2010/02/12/ftl-is-spooled-jumping-in-3-2-1</id>
     <content type="html"><![CDATA[<p>JUMP!</p>
 
@@ -571,7 +571,7 @@ out for more details (a post will be up by Monday at the latest).</p>
   <entry>
     <title type="html"><![CDATA[My Goals - The 2010 Edition]]></title>
     <link href="http://www.adambyram.com/2010/01/10/my-goals-the-2010-edition/"/>
-    <updated>2010-01-10T00:55:06-08:00</updated>
+    <updated>2010-01-10T00:55:06-05:00</updated>
     <id>http://www.adambyram.com/2010/01/10/my-goals-the-2010-edition</id>
     <content type="html"><![CDATA[<p>Over the last year, I&#8217;ve been making a list of things I want to accomplish (or
 at least think about accomplishing) in 2010. Now that 2010 is finally here,
@@ -616,7 +616,7 @@ view).</p>
   <entry>
     <title type="html"><![CDATA[My AT&T U-verse Experience in Knoxville]]></title>
     <link href="http://www.adambyram.com/2009/10/28/my-att-u-verse-experience-in-knoxville/"/>
-    <updated>2009-10-28T13:01:25-07:00</updated>
+    <updated>2009-10-28T13:01:25-04:00</updated>
     <id>http://www.adambyram.com/2009/10/28/my-att-u-verse-experience-in-knoxville</id>
     <content type="html"><![CDATA[<p>I&#8217;ve had quite a few people ask about my recent AT&amp;T U-verse install, so I
 thought a quick blog post was in order. Keep in mind, my install happened
@@ -786,7 +786,7 @@ didn&#8217;t realize that was a limit on the whole U-verse install.</p>
   <entry>
     <title type="html"><![CDATA[Important Life Truths]]></title>
     <link href="http://www.adambyram.com/2009/09/16/important-life-truths/"/>
-    <updated>2009-09-16T20:27:08-07:00</updated>
+    <updated>2009-09-16T20:27:08-04:00</updated>
     <id>http://www.adambyram.com/2009/09/16/important-life-truths</id>
     <content type="html"><![CDATA[<p>I ran across an article the other day that I thought would be worth sharing -
 it&#8217;s called <a href="http://www.raptitude.com/2009/07/88-important-truths-ive-learned-about-%0Alife/">&#8220;88 Important Truths I’ve Learned About
@@ -851,7 +851,7 @@ agree&#8230;<em>nothing</em> is truly free.</em></p>
   <entry>
     <title type="html"><![CDATA[Finished Mass Effect]]></title>
     <link href="http://www.adambyram.com/2009/07/03/finished-mass-effect/"/>
-    <updated>2009-07-03T00:06:37-07:00</updated>
+    <updated>2009-07-03T00:06:37-04:00</updated>
     <id>http://www.adambyram.com/2009/07/03/finished-mass-effect</id>
     <content type="html"><![CDATA[<p>I finally finished the main story in Mass Effect just a couple of days ago. I
 think I have about 15 hours of game time in&#8230;which is pretty short, but I
@@ -877,7 +877,7 @@ to make sure I didn&#8217;t see any of the ending before it was time.</p>
   <entry>
     <title type="html"><![CDATA[Mid-2009 Goal Update]]></title>
     <link href="http://www.adambyram.com/2009/07/01/mid-2009-goal-update/"/>
-    <updated>2009-07-01T00:01:50-07:00</updated>
+    <updated>2009-07-01T00:01:50-04:00</updated>
     <id>http://www.adambyram.com/2009/07/01/mid-2009-goal-update</id>
     <content type="html"><![CDATA[<p>So I thought it would be good to post an update on the ol&#8217; blog here and since
 it&#8217;s the middle of the year, it seems fitting that the post should be an
