@@ -1,0 +1,328 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Cat Feeder Project - Part 1 - Adam Byram</title>
+  <meta name="author" content="Adam Byram">
+
+  
+  <meta name="description" content="Some of you may know my cat situation. If you&#8217;re not aware, the long and the short of it is that my cats used to only eat dry cat food. One of &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://www.adambyram.com/2012/10/12/cat-feeder-project-part-1/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="http://feeds.feedburner.com/adambyram" rel="alternate" title="Adam Byram" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-174266-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Adam Byram</a></h1>
+  
+    <h2>Tech. Geekery. Photography. Lots of Random.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="http://feeds.feedburner.com/adambyram" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:www.adambyram.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/archives">Archives</a></li>
+  </ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Cat Feeder Project - Part 1</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-10-12T23:29:00-04:00" pubdate data-updated="true">Oct 12<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Some of you may know my cat situation.  If you&#8217;re not aware, the long and the short of it is that my cats used to only eat dry cat food.  One of the cats ended up getting very sick when I moved to Los Angeles.  After she recovered (she&#8217;s fine now), she decided she&#8217;ll never eat dry food again and only eats very specific wet cat food.</p>
+
+<p>The problem is that I have two very nice automated dry food feeders that I can&#8217;t use.  Both cats need to be on a schedule to help control their weight.  So I started researching wet cat food feeders and it turns out, there aren&#8217;t many.  Not only that, the feeders that are out there all use ice packs which limit you to 8 or maybe 12 hours of feeding.  That&#8217;s totally not acceptable to me so I&#8217;ve decided I&#8217;m going to try to design my own wet cat food feeder.</p>
+
+<h3>What</h3>
+
+<p>So what is this thing?  Well, it&#8217;s a small (~2 ft wide) unit that has a certain number of rotating food cups.  The food cups can be filled with wet food (or dry food) and the unit can be programmed to expose each food cup to the cats on a specific schedule.  The unexposed food will stay seal up inside the unit and a cooling unit will keep the unexposed food nice and cool.</p>
+
+<p>The goal is to have the unit keep food at refridgerated temperatures (TBD what that means) consistently to allow food to be stored in the unit for up to three days.  That seems to be the maximum time wet food is allowed to be refridgerated based on manufacturer information, so that&#8217;ll be the target for version 1.</p>
+
+<p>If the machine can feed twice a day for an overnight trip or once a day for a long weekend trip, it&#8217;ll be fantastic, so that&#8217;s the target.</p>
+
+<h3>Why</h3>
+
+<p>On top of the issues mentioned above, I really want a exposure to the hardware + software world.  I&#8217;ve worked on software for quite a long time and basically everything I&#8217;ve built is totally virtual in nature.  That&#8217;s all fine and good, but I&#8217;m really wanting build something physical.  Of course, some software will still be needed, but I&#8217;ll also get some electrical engineering, product design, and CAD modeling.</p>
+
+<p>The other part of the why is that I really want to be able to go on a long weekend trip and not have to worry about the cats getting fed.  Today, we basically can&#8217;t be gone for longer than about 8 hours at a time without having someone come by to feed the cats.</p>
+
+<h3>How</h3>
+
+<p>I&#8217;m planning on building everything with some pretty common parts.  The initial design / prototype is going to be all plastic, mainly because I&#8217;m getting a <a href="http://www.kickstarter.com/projects/2105227104/ultra-bot-3d-printer">3D printer</a> in December.  The general electronics won&#8217;t be anything super special.  For the prototype, I&#8217;ll be using an Arduino Uno for overall control, a motor controller board to rotate the food dish, a external power module to power the cooling system, and a few other random bits.</p>
+
+<p>For cooling, I&#8217;m planning on using a Peltier cooler.  They aren&#8217;t very efficient, but they are relatively easy to use and they can work reasonably well (based on my experience with a little mini fridge).  They are also pretty cheap, so it&#8217;s quite cost effective from a component perspective.  The cooling will be the trickiest aspect of the whole project.</p>
+
+<h3>When</h3>
+
+<p>Well, I&#8217;ve already started playing with the basic components and working on the hardware design (the body of the feeder, not the electronic components).  The 3D printer won&#8217;t be available until later in December, so I can&#8217;t start working on the real prototype until then, but I&#8217;ll be able to play with the cooling system this month and into November.  My goal is to have a really rough 3D model ready by the time the printer is available.  I&#8217;m assuming I&#8217;ll needed lots of revisions to the plastic parts since all of this (the design process, printing process, and design software) is new to me, but I want to be able to hit the ground running.</p>
+
+<p>As far as the finished product, I&#8217;m hoping to have a totally working prototype in Q1 2013.  Will that happen? I have no idea, but I really, really want this product so I&#8217;d like to have something working sooner rather than later.</p>
+
+<h3>What&#8217;s Next</h3>
+
+<p>I plan to blog my progress on this project.  It&#8217;s as much for me to keep track of things as it is for everyone else to follow along.  Next time, I&#8217;ll show the current stage of the design and share some thoughts on the design process as well as the design software I&#8217;m using.  This should be a fun project, so I hope you have as much fun following along as I&#8217;m having building this thing.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Adam Byram</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-10-12T23:29:00-04:00" pubdate data-updated="true">Oct 12<span>th</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/categories/catfeeder/'>catfeeder</a>, <a class='category' href='/categories/projects/'>projects</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.adambyram.com/2012/10/12/cat-feeder-project-part-1/" data-via="adambyram" data-counturl="http://www.adambyram.com/2012/10/12/cat-feeder-project-part-1/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2012/01/05/thoughts-on-the-13-macbook-air/" title="Previous Post: Thoughts on the 13&quot; MacBook Air">&laquo; Thoughts on the 13&quot; MacBook Air</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2012/10/12/cat-feeder-project-part-1/">Cat Feeder Project - Part 1</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/01/05/thoughts-on-the-13-macbook-air/">Thoughts on the 13&quot; MacBook Air</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/01/01/goals-for-2012/">Goals for 2012</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/12/31/switching-to-octopress/">Switching to Octopress</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2011/12/31/looking-back-on-2011/">Looking Back on 2011</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/adambyram">@adambyram</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'adambyram',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("adambyram", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/adambyram" class="twitter-follow-button" data-show-count="false">Follow @adambyram</a>
+  
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Adam Byram -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'adambyramcom';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://www.adambyram.com/2012/10/12/cat-feeder-project-part-1/';
+        var disqus_url = 'http://www.adambyram.com/2012/10/12/cat-feeder-project-part-1/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
