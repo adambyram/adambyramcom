@@ -4,7 +4,7 @@
   <title><![CDATA[Adam Byram]]></title>
   <link href="http://www.adambyram.com/atom.xml" rel="self"/>
   <link href="http://www.adambyram.com/"/>
-  <updated>2012-07-21T10:23:46-04:00</updated>
+  <updated>2012-10-13T00:08:10-04:00</updated>
   <id>http://www.adambyram.com/</id>
   <author>
     <name><![CDATA[Adam Byram]]></name>
@@ -12,6 +12,47 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Cat Feeder Project - Part 1]]></title>
+    <link href="http://www.adambyram.com/2012/10/12/cat-feeder-project-part-1/"/>
+    <updated>2012-10-12T23:29:00-04:00</updated>
+    <id>http://www.adambyram.com/2012/10/12/cat-feeder-project-part-1</id>
+    <content type="html"><![CDATA[<p>Some of you may know my cat situation.  If you&#8217;re not aware, the long and the short of it is that my cats used to only eat dry cat food.  One of the cats ended up getting very sick when I moved to Los Angeles.  After she recovered (she&#8217;s fine now), she decided she&#8217;ll never eat dry food again and only eats very specific wet cat food.</p>
+
+<p>The problem is that I have two very nice automated dry food feeders that I can&#8217;t use.  Both cats need to be on a schedule to help control their weight.  So I started researching wet cat food feeders and it turns out, there aren&#8217;t many.  Not only that, the feeders that are out there all use ice packs which limit you to 8 or maybe 12 hours of feeding.  That&#8217;s totally not acceptable to me so I&#8217;ve decided I&#8217;m going to try to design my own wet cat food feeder.</p>
+
+<h3>What</h3>
+
+<p>So what is this thing?  Well, it&#8217;s a small (~2 ft wide) unit that has a certain number of rotating food cups.  The food cups can be filled with wet food (or dry food) and the unit can be programmed to expose each food cup to the cats on a specific schedule.  The unexposed food will stay seal up inside the unit and a cooling unit will keep the unexposed food nice and cool.</p>
+
+<p>The goal is to have the unit keep food at refridgerated temperatures (TBD what that means) consistently to allow food to be stored in the unit for up to three days.  That seems to be the maximum time wet food is allowed to be refridgerated based on manufacturer information, so that&#8217;ll be the target for version 1.</p>
+
+<p>If the machine can feed twice a day for an overnight trip or once a day for a long weekend trip, it&#8217;ll be fantastic, so that&#8217;s the target.</p>
+
+<h3>Why</h3>
+
+<p>On top of the issues mentioned above, I really want a exposure to the hardware + software world.  I&#8217;ve worked on software for quite a long time and basically everything I&#8217;ve built is totally virtual in nature.  That&#8217;s all fine and good, but I&#8217;m really wanting build something physical.  Of course, some software will still be needed, but I&#8217;ll also get some electrical engineering, product design, and CAD modeling.</p>
+
+<p>The other part of the why is that I really want to be able to go on a long weekend trip and not have to worry about the cats getting fed.  Today, we basically can&#8217;t be gone for longer than about 8 hours at a time without having someone come by to feed the cats.</p>
+
+<h3>How</h3>
+
+<p>I&#8217;m planning on building everything with some pretty common parts.  The initial design / prototype is going to be all plastic, mainly because I&#8217;m getting a <a href="http://www.kickstarter.com/projects/2105227104/ultra-bot-3d-printer">3D printer</a> in December.  The general electronics won&#8217;t be anything super special.  For the prototype, I&#8217;ll be using an Arduino Uno for overall control, a motor controller board to rotate the food dish, a external power module to power the cooling system, and a few other random bits.</p>
+
+<p>For cooling, I&#8217;m planning on using a Peltier cooler.  They aren&#8217;t very efficient, but they are relatively easy to use and they can work reasonably well (based on my experience with a little mini fridge).  They are also pretty cheap, so it&#8217;s quite cost effective from a component perspective.  The cooling will be the trickiest aspect of the whole project.</p>
+
+<h3>When</h3>
+
+<p>Well, I&#8217;ve already started playing with the basic components and working on the hardware design (the body of the feeder, not the electronic components).  The 3D printer won&#8217;t be available until later in December, so I can&#8217;t start working on the real prototype until then, but I&#8217;ll be able to play with the cooling system this month and into November.  My goal is to have a really rough 3D model ready by the time the printer is available.  I&#8217;m assuming I&#8217;ll needed lots of revisions to the plastic parts since all of this (the design process, printing process, and design software) is new to me, but I want to be able to hit the ground running.</p>
+
+<p>As far as the finished product, I&#8217;m hoping to have a totally working prototype in Q1 2013.  Will that happen? I have no idea, but I really, really want this product so I&#8217;d like to have something working sooner rather than later.</p>
+
+<h3>What&#8217;s Next</h3>
+
+<p>I plan to blog my progress on this project.  It&#8217;s as much for me to keep track of things as it is for everyone else to follow along.  Next time, I&#8217;ll show the current stage of the design and share some thoughts on the design process as well as the design software I&#8217;m using.  This should be a fun project, so I hope you have as much fun following along as I&#8217;m having building this thing.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Thoughts on the 13&quot; MacBook Air]]></title>
@@ -871,58 +912,6 @@ on your choices, it may feel a little too much like a FPS for some people, but
 the balance seemed just about right to me. Now I can start watching for Mass
 Effect 2 information&#8230;I&#8217;ve been trying to avoid it until I finished this just
 to make sure I didn&#8217;t see any of the ending before it was time.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mid-2009 Goal Update]]></title>
-    <link href="http://www.adambyram.com/2009/07/01/mid-2009-goal-update/"/>
-    <updated>2009-07-01T00:01:50-04:00</updated>
-    <id>http://www.adambyram.com/2009/07/01/mid-2009-goal-update</id>
-    <content type="html"><![CDATA[<p>So I thought it would be good to post an update on the ol&#8217; blog here and since
-it&#8217;s the middle of the year, it seems fitting that the post should be an
-update on my 2009 goals&#8230;.so here goes&#8230;</p>
-
-<h4>Financial</h4>
-
-<ul>
-<li>Fully fund 2008 &amp; 2009 Roth IRAs <strong>[2008 fully funded; 2009 money saved, but not in Roth account yet] </strong></li>
-<li>Pay off second mortgage OR refinance into single mortgage (with much lower rate and no PMI) <strong>[I&#8217;ve been thinking about this and I&#8217;m not sure I want to go ahead with this right now. The total cost to ReFi was higher than I expected for the great rates and the reality is that my second mortgage isn&#8217;t hurting that much.  Given certain things going on in my career right now, holding on to the money seems like a wise thing to do for the moment. At present, about 1/2 of this is already in savings.] </strong></li>
-<li>Get my side income up to the point I could live off of it if the need arose (NOT trying to get this to replace my actual income level…although that would be fantastic if it did) <strong>[This is about the same or lower than it was at the start of the year - I&#8217;m still trying to hit this goal though.] </strong></li>
-<li>Maintain at least a 3 month emergency fund (currently at 12 months, but expect some of this to use used for other financial goals) <strong>[I&#8217;ve got around 6-8 months still hanging around at the moment, so even if I reallocate some of this for the mortgage payoff or towards investments, I&#8217;ll still be able to reach this goal just fine.]</strong></li>
-</ul>
-
-
-<h4>Health</h4>
-
-<ul>
-<li>Get weight to 190 or lower and keep it there (~25 lbs to lose) <strong>[Yeah&#8230;still um, working on this one.  Good news is I didn&#8217;t gain much weight&#8230;but I also didn&#8217;t exactly lose any either.  This one is still doable though&#8230;]</strong></li>
-<li>Decrease caffeine intake - and keep it down (target is around 1 12oz can of soda per day or less) <strong>[I did this one for a couple of months and now I&#8217;m back to drinking more soda than I should be.  I&#8217;ve done a decent job of keeping it out of the fridge at home, but at work, that&#8217;s a different story.  Going to refocus on this one.]</strong></li>
-<li>Drink more water (no particular amount - just when I’m thirsty, grab a water instead of a soda) <strong>[I&#8217;ve been drinking a moderate amount of water, but I&#8217;m still prone to grab a soda&#8230;so I need to focus more on this one as well.  It&#8217;s perfectly doable, but still on the ToDo list.]</strong></li>
-<li>Cook (healthly-ish) meals at home more than I eat out (including lunch) <strong>[Um, yeah&#8230;.gotta get the ball rolling on this one too.  The biggest problem here is going to lunch with the guys at work.  I have to stop that - it&#8217;ll help save a bit of money and be a bit healthier.]</strong></li>
-</ul>
-
-
-<h4>Personal &amp; Professional Development / Other</h4>
-
-<ul>
-<li>Read at least 1 non-fiction (but not computer related) book a month <strong>[I&#8217;m going to miss this goal - with everything else going on, I just can&#8217;t do this.  I do have a couple of new books to read - but not 12.]</strong></li>
-<li>Read at least 1 fiction book a month <strong>[Same as the non-fiction goal&#8230;I&#8217;d like to read a couple, but I don&#8217;t think I&#8217;ll get more than that in this year.] </strong></li>
-<li>Attend WWDC 2009 (contingent on other financial goals being met/on track in May) <strong>[This one is completed.  I went to WWDC a few weeks ago&#8230;that reminds me, I need to blog about that&#8230;]</strong></li>
-<li>Get my passport <strong>[Still need to do this one&#8230;I&#8217;m not in a rush for it though, I&#8217;d just like to get it done so I have it for the future.] </strong></li>
-<li>Write at least one blog post per week on this blog - just to start writing more <strong>[If you&#8217;ve checked this blog much you know I haven&#8217;t been anywhere close to successful on this one.  I need to make time for this, just for my own sake, but I&#8217;m not sure if I can do that.  I&#8217;ll probably put a preference to posting on my business blog over this one and still only post on this one when I have something in general that I want to share.]</strong>
-So how do I feel about my progress?  Financially, I feel really good.  While
-all of the goals aren&#8217;t completed just yet, I&#8217;m nearly there number wise&#8230;and
-that&#8217;s after taking into account the WWDC trip and a trip to Las Vegas.
-Health wise, I really dropped the ball.  I got distracted with too many other
-things and this set of goals really suffered.  I&#8217;m slightly disappointed with
-my progress on the personal/professional goals, but at the same time, I&#8217;ve had
-a heck of a lot happen and learned a lot over the last 6 months. While I may
-not have accomplished the specific goals I outlined at the beginning of the
-year, I think I&#8217;ve still grown quite a lot in this area so at least progress
-is being made.</li>
-</ul>
-
 ]]></content>
   </entry>
   
