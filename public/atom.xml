@@ -4,7 +4,7 @@
   <title><![CDATA[Adam Byram]]></title>
   <link href="http://www.adambyram.com/atom.xml" rel="self"/>
   <link href="http://www.adambyram.com/"/>
-  <updated>2012-10-13T12:47:45-04:00</updated>
+  <updated>2012-10-17T19:33:36-04:00</updated>
   <id>http://www.adambyram.com/</id>
   <author>
     <name><![CDATA[Adam Byram]]></name>
@@ -12,6 +12,48 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Early Thoughts on Microsoft Surface]]></title>
+    <link href="http://www.adambyram.com/2012/10/17/early-thoughts-on-microsoft-surface/"/>
+    <updated>2012-10-17T19:23:00-04:00</updated>
+    <id>http://www.adambyram.com/2012/10/17/early-thoughts-on-microsoft-surface</id>
+    <content type="html"><![CDATA[<p>The short version: I’m not going to buy one and I’m not sure why most people would buy one at launch.</p>
+
+<p>So the Surface pricing was revealed as the <a href="http://surface.microsoftstore.com/store/msstore/Content/pbpage.Surface?ESICaching=off">pre-order page</a> went live on the Microsoft Store.  For $499 you get a 32GB tablet without a keyboard.  Add $100 and you get a touch cover keyboard with it.  Lets be clear here, you’re going to want the keyboard.  Yes, it’s designed around touch, but Office is one of the bigger selling points of this tablet and you’re going to want a keyboard.</p>
+
+<p>Assuming you go with the $599 tablet + keyboard combo, what do you get?</p>
+
+<p>Well, you get&#8230;</p>
+
+<ul>
+<li>Windows RT</li>
+<li>Office Home &amp; Student 2013 RT</li>
+<li>Sleek (presumably high build quality) tablet hardware</li>
+<li>An innovative cover / keyboard combo</li>
+</ul>
+
+
+<p>That’s fine and dandy, but the real question is what can you <strong>do</strong> with that setup&#8230;</p>
+
+<ul>
+<li>Run the basic first party apps on all mobile platforms like Mail, Calendar, Contacts, Web Browser, etc.</li>
+<li>Run the big hitter 3rd party apps on all mobile platforms like Netflix, Kindle, Evernote, etc.</li>
+<li>Run Office (specifically Word, PowerPoint, Excel, and OneNote)</li>
+</ul>
+
+
+<p>If you don’t see what you do 90% of the time in that list, you’re going to be a bit screwed if you pick up a Surface at launch.  Since this is Windows RT and not Windows 8, it looks the same on the surface, but you can’t actually run any of your regular Windows desktop apps.  Office doesn’t include apps you may expect like Outlook, nor does it allow you to use certain features like macros&#8230;which may or may not be a deal breaker depending on your use case.  All apps have to come through the Windows Store as well - this is more like Apple’s iOS than it is the traditional Windows you’re probably expecting.</p>
+
+<p>Sure, there is an a Windows Store for apps now&#8230;but you’re going to be <strong>very</strong> disappointed with the selection if it doesn’t improve drastically between now and the official launch in 10 days.  Last I checked, there were 663 games in the store.  Of those games, you’ve probably heard of 5 or so of them&#8230;I wouldn’t expect much from the rest.  All of the other categories are worse.  Take the Finance category - there are 46 apps total.  Of those 46, 3 are checkbook/budget apps, a couple are currency converters, and the rest are basically stock tickers.  You’ll see a few apps like Adobe Lightroom 4, but then you’ll see they are “Desktop Apps” which means they aren’t going to work on your Surface.</p>
+
+<p>After browsing through every category in the store, there just isn’t much substance there.  I really thought there would be more useful and/or fun apps at this point, but honestly, I have no idea what people are going to use on their $600 tablet other than the big apps I mentioned earlier.  If Office on a tablet is <strong>that</strong> important to you (and you can live with the Office RT limitations), then maybe this tablet makes a sense for you.  Otherwise, you can get the other apps on a device like the Nexus 7 for much cheaper without sacrificing much (if anything).</p>
+
+<p>The worst part of this is the fact that the hardware looks really nice, the battery life sounds like it’s very reasonable, and the hardware specs overall are certainly capable of delivering some compelling experiences.  Those experiences just don’t exist in the Windows Store today.  I’m afraid the first wave of consumers will pick up the Surface, realize their tablet isn’t backed by a meaningful number of quality apps, and promptly kill any momentum the Surface picks up at launch.  Even the version of Office 2013 that ships on the Surface is a “Preview” release&#8230;it’s not even finished yet (although it may be perfectly usable as is - who knows).</p>
+
+<p>All in all, I hope Microsoft can pull this one off, but I’m not sure their massive marketing campaign can make up for the lackluster launch lineup once consumers get their shiny new devices home.  It’ll be a shame to see such a beautiful hardware design go to waste.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Cat Feeder Project - Part 1]]></title>
@@ -886,32 +928,6 @@ you only have a portion of the total picture.</em></p>
 
 <p><em>I don&#8217;t have anything special to add to this one - but I totally
 agree&#8230;<em>nothing</em> is truly free.</em></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Finished Mass Effect]]></title>
-    <link href="http://www.adambyram.com/2009/07/03/finished-mass-effect/"/>
-    <updated>2009-07-03T00:06:37-04:00</updated>
-    <id>http://www.adambyram.com/2009/07/03/finished-mass-effect</id>
-    <content type="html"><![CDATA[<p>I finally finished the main story in Mass Effect just a couple of days ago. I
-think I have about 15 hours of game time in&#8230;which is pretty short, but I
-didn&#8217;t do all that many of the side missions. The story was really excellent.
-There were quite a few surprises along the way that really made things move
-along nicely.</p>
-
-<p>I think Final Fantasy 7 is still the best RPG I&#8217;ve played, but I would say
-Mass Effect is in my overall top 10 games list. The only thing that never
-really clicked for me was all of the equipment. Sure, you can buy fancy
-weapons and and all kinds of upgrades, but I barely did any of that and the
-game wasn&#8217;t that hard to beat. I suppose I could up the difficulty level and
-maybe all of the equipment would matter more.</p>
-
-<p>In any event, it&#8217;s a fun game if you like more action oriented RPGs. Depending
-on your choices, it may feel a little too much like a FPS for some people, but
-the balance seemed just about right to me. Now I can start watching for Mass
-Effect 2 information&#8230;I&#8217;ve been trying to avoid it until I finished this just
-to make sure I didn&#8217;t see any of the ending before it was time.</p>
 ]]></content>
   </entry>
   
