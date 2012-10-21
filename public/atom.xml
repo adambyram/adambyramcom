@@ -4,7 +4,7 @@
   <title><![CDATA[Adam Byram]]></title>
   <link href="http://www.adambyram.com/atom.xml" rel="self"/>
   <link href="http://www.adambyram.com/"/>
-  <updated>2012-10-17T19:33:36-04:00</updated>
+  <updated>2012-10-21T15:36:40-04:00</updated>
   <id>http://www.adambyram.com/</id>
   <author>
     <name><![CDATA[Adam Byram]]></name>
@@ -12,6 +12,48 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Cat Feeder Project - Part 2]]></title>
+    <link href="http://www.adambyram.com/2012/10/21/cat-feeder-project-part-2/"/>
+    <updated>2012-10-21T14:47:00-04:00</updated>
+    <id>http://www.adambyram.com/2012/10/21/cat-feeder-project-part-2</id>
+    <content type="html"><![CDATA[<p>I spent some time this weekend working on the hardware to provide cooling for the cat feeder.  The goal is to get the cat feeder to the same temperatures as a refridgerator.  I want to keep the unit as trouble free and cost effective as possible, so I don&#8217;t want to go the compressor route.  The option I&#8217;m prototyping is using a <a href="http://en.wikipedia.org/wiki/Thermoelectric_cooling">thermoelectric cooling (TEC)</a> chip (known as a Peltier element).  If you apply power to a TEC, it will cool on one side and heat on another.  If you&#8217;re trying to cool, you have to remove the heat from the hot side of the TEC with an external heatsink.  TECs are very inefficient, but they should be able to do exactly what I need for this project.</p>
+
+<h2>The Prototype Setup</h2>
+
+<p><a href="http://share.adambyram.com/2012-10-21-cat-feeder-project-part-2/Cooling-Test.jpg"><img src="http://share.adambyram.com/2012-10-21-cat-feeder-project-part-2/Cooling-Test.jpg" alt="" /></a></p>
+
+<h3>Components</h3>
+
+<ul>
+<li><a href="https://www.adafruit.com/products/50">Arduino Uno R3</a></li>
+<li><a href="https://www.adafruit.com/products/184">Adafruit Adjustable Breadboard Power Supply</a></li>
+<li><a href="https://www.adafruit.com/products/798">12V 1A Regulated Power Adapter</a></li>
+<li><a href="https://www.sparkfun.com/products/10213">2 x N-Channel MOSFET 60V 30A</a></li>
+<li><a href="https://www.sparkfun.com/products/10686">70mm Heatsink and Fan</a></li>
+<li><a href="https://www.sparkfun.com/products/10080">40mm x 40mm Peltier element</a></li>
+<li>Breadboards, jumper wires, heatsink compound, and a few push buttons</li>
+</ul>
+
+
+<h3>Assembly</h3>
+
+<p>I used a few push buttons on the breadboard next the to Arduino so I could control the power to the heatsink&#8217;s fan and the TEC.  The Arudino&#8217;s PWM output is sent to the two MOSFETs which varies the amount of current sent to the fan &amp; TEC.  The fan &amp; TEC are both connected to the 12V 1A regulated power supply via the Adafruit breadboard power supply.  I originally tried to run the TEC at a lower voltage than 12V by using the adjustable power supply, but it turned out to be easier to just hook both items directly to the 12V supply.</p>
+
+<h3>Results</h3>
+
+<p>The power supply can&#8217;t provide enough power to run the TEC with the MOSFET wide open.  One the TEC starts drawing a reasonable amount of power, the fan starts slowing down and evetually, the TEC will draw so much current that everything else shuts down.  I was able to run the fan with the MOSFET wide open and the TEC MOSFET set to about 67% power.  At those settings, the fan runs (at less than full speed) and the TEC is able to cool quite reasonably.  The TEC MOSFET started getting quite hot, so I added a passive heatsink on there.</p>
+
+<p>The at the end of the day, I was able to use the settings above to take the TEC from 75F down to 38F in just a few seconds.  I ran the whole setup in this configuration for about 5 minutes with no issues.  Overall, I&#8217;m very happy to get near freezing temperatures with the relatively small power supply.</p>
+
+<h3>Next Steps</h3>
+
+<p>I want to get a bigger power supply.  I&#8217;d really like to get an adjustable lab power supply so I could try different amounts of current to see what exactly I need, but I&#8217;m thinking I&#8217;ll try a 12V 2A power supply.  I need to see how much current I can run through the jumper wires if I upgrade the power.  The current test didn&#8217;t get the wires hot, but I&#8217;m not sure how much more current they&#8217;ll take.</p>
+
+<p>At this point, I just need to get the TEC a little cooler while getting the fan to run faster on the heatsink.  I&#8217;m not too worried about the hinksink though&#8230;it never got that hot even with the fan running slower.  I&#8217;d like to build a small enclosure so I can experiment with cooling air and not just the surface of the TEC.  This will probably mean I end up building a styrofoam box (or buying one) and mounting a heatsink &amp; fan on the cold side of the TEC to distribute the cooling power.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Early Thoughts on Microsoft Surface]]></title>
@@ -863,71 +905,6 @@ channels can be used until the recording has stopped).  For me, this isn&#8217;
 deal breaker, but I thought I should put a note on here since this limit
 wasn&#8217;t clear to me&#8230;I knew the limit of 4 streams on the DVR box, I just
 didn&#8217;t realize that was a limit on the whole U-verse install.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Important Life Truths]]></title>
-    <link href="http://www.adambyram.com/2009/09/16/important-life-truths/"/>
-    <updated>2009-09-16T20:27:08-04:00</updated>
-    <id>http://www.adambyram.com/2009/09/16/important-life-truths</id>
-    <content type="html"><![CDATA[<p>I ran across an article the other day that I thought would be worth sharing -
-it&#8217;s called <a href="http://www.raptitude.com/2009/07/88-important-truths-ive-learned-about-%0Alife/">&#8220;88 Important Truths I’ve Learned About
-Life&#8221;</a>. I don&#8217;t necessarily think 100% of these items are &#8220;truths&#8221; in my life,
-but I&#8217;d say I can certainly agree with the vast majority of them. You should
-read the whole article - but here were my top favorites (with my thoughts in
-italics):</p>
-
-<blockquote><ol>
-<li>You can’t change other people, and it’s rude to try.</li>
-</ol>
-</blockquote>
-
-<p><em>I learned this one pretty early on - it has proven very true in my
-experience. The key is that <em>you</em> can&#8217;t change other people, but they <em>can</em>
-change&#8230;they just have to do the changing themselves.</em></p>
-
-<blockquote><ol>
-<li>Every problem you have is your responsibility, regardless of who caused
-it.</li>
-</ol>
-</blockquote>
-
-<p><em>I like this one a lot because too many people have a victim mentality. In the
-end though, your problems are just that&#8230;<em>your</em> problems. You don&#8217;t have to
-solve them if you don&#8217;t want to, but don&#8217;t forget that they are yours to solve
-and yours alone.</em></p>
-
-<blockquote><ol>
-<li>Credit card debt devours souls.</li>
-</ol>
-</blockquote>
-
-<p><em>Ok - this one is a little over the top for me, but I agree in general. Credit
-card debt (or any kind of debt for that matter) will almost always detract
-from you achieving your goals. If you manage it correctly, it may only have a
-negligible impact on your life, but if you don&#8217;t, it can easily destroy it. So
-while I wouldn&#8217;t go so far as credit card debt &#8220;devours souls&#8221;, I do believe
-that having it will, at some point, have a net negative impact on your life.</em></p>
-
-<blockquote><ol>
-<li>Most of what we see is only what we think about what we see.</li>
-</ol>
-</blockquote>
-
-<p><em>Out of all 88 items in the article, this is my favorite. Essentially,
-everything you see is based around perception which means you&#8217;ll color
-everything you see with your own beliefs, assumptions, and knowledge.
-Sometimes things will actually be what you perceived, but most than likely,
-you only have a portion of the total picture.</em></p>
-
-<blockquote><ol>
-<li>Even if it costs no money, nothing is free if it takes time.</li>
-</ol>
-</blockquote>
-
-<p><em>I don&#8217;t have anything special to add to this one - but I totally
-agree&#8230;<em>nothing</em> is truly free.</em></p>
 ]]></content>
   </entry>
   

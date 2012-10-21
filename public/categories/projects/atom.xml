@@ -4,7 +4,7 @@
   <title><![CDATA[Category: projects | Adam Byram]]></title>
   <link href="http://www.adambyram.com/categories/projects/atom.xml" rel="self"/>
   <link href="http://www.adambyram.com/"/>
-  <updated>2012-10-17T19:33:36-04:00</updated>
+  <updated>2012-10-21T15:36:40-04:00</updated>
   <id>http://www.adambyram.com/</id>
   <author>
     <name><![CDATA[Adam Byram]]></name>
@@ -12,6 +12,48 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Cat Feeder Project - Part 2]]></title>
+    <link href="http://www.adambyram.com/2012/10/21/cat-feeder-project-part-2/"/>
+    <updated>2012-10-21T14:47:00-04:00</updated>
+    <id>http://www.adambyram.com/2012/10/21/cat-feeder-project-part-2</id>
+    <content type="html"><![CDATA[<p>I spent some time this weekend working on the hardware to provide cooling for the cat feeder.  The goal is to get the cat feeder to the same temperatures as a refridgerator.  I want to keep the unit as trouble free and cost effective as possible, so I don't want to go the compressor route.  The option I'm prototyping is using a <a href="http://en.wikipedia.org/wiki/Thermoelectric_cooling">thermoelectric cooling (TEC)</a> chip (known as a Peltier element).  If you apply power to a TEC, it will cool on one side and heat on another.  If you're trying to cool, you have to remove the heat from the hot side of the TEC with an external heatsink.  TECs are very inefficient, but they should be able to do exactly what I need for this project.</p>
+
+<h2>The Prototype Setup</h2>
+
+<p><a href="http://share.adambyram.com/2012-10-21-cat-feeder-project-part-2/Cooling-Test.jpg"><img src="http://share.adambyram.com/2012-10-21-cat-feeder-project-part-2/Cooling-Test.jpg" alt="" /></a></p>
+
+<h3>Components</h3>
+
+<ul>
+<li><a href="https://www.adafruit.com/products/50">Arduino Uno R3</a></li>
+<li><a href="https://www.adafruit.com/products/184">Adafruit Adjustable Breadboard Power Supply</a></li>
+<li><a href="https://www.adafruit.com/products/798">12V 1A Regulated Power Adapter</a></li>
+<li><a href="https://www.sparkfun.com/products/10213">2 x N-Channel MOSFET 60V 30A</a></li>
+<li><a href="https://www.sparkfun.com/products/10686">70mm Heatsink and Fan</a></li>
+<li><a href="https://www.sparkfun.com/products/10080">40mm x 40mm Peltier element</a></li>
+<li>Breadboards, jumper wires, heatsink compound, and a few push buttons</li>
+</ul>
+
+
+<h3>Assembly</h3>
+
+<p>I used a few push buttons on the breadboard next the to Arduino so I could control the power to the heatsink's fan and the TEC.  The Arudino's PWM output is sent to the two MOSFETs which varies the amount of current sent to the fan &amp; TEC.  The fan &amp; TEC are both connected to the 12V 1A regulated power supply via the Adafruit breadboard power supply.  I originally tried to run the TEC at a lower voltage than 12V by using the adjustable power supply, but it turned out to be easier to just hook both items directly to the 12V supply.</p>
+
+<h3>Results</h3>
+
+<p>The power supply can't provide enough power to run the TEC with the MOSFET wide open.  One the TEC starts drawing a reasonable amount of power, the fan starts slowing down and evetually, the TEC will draw so much current that everything else shuts down.  I was able to run the fan with the MOSFET wide open and the TEC MOSFET set to about 67% power.  At those settings, the fan runs (at less than full speed) and the TEC is able to cool quite reasonably.  The TEC MOSFET started getting quite hot, so I added a passive heatsink on there.</p>
+
+<p>The at the end of the day, I was able to use the settings above to take the TEC from 75F down to 38F in just a few seconds.  I ran the whole setup in this configuration for about 5 minutes with no issues.  Overall, I'm very happy to get near freezing temperatures with the relatively small power supply.</p>
+
+<h3>Next Steps</h3>
+
+<p>I want to get a bigger power supply.  I'd really like to get an adjustable lab power supply so I could try different amounts of current to see what exactly I need, but I'm thinking I'll try a 12V 2A power supply.  I need to see how much current I can run through the jumper wires if I upgrade the power.  The current test didn't get the wires hot, but I'm not sure how much more current they'll take.</p>
+
+<p>At this point, I just need to get the TEC a little cooler while getting the fan to run faster on the heatsink.  I'm not too worried about the hinksink though...it never got that hot even with the fan running slower.  I'd like to build a small enclosure so I can experiment with cooling air and not just the surface of the TEC.  This will probably mean I end up building a styrofoam box (or buying one) and mounting a heatsink &amp; fan on the cold side of the TEC to distribute the cooling power.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Cat Feeder Project - Part 1]]></title>

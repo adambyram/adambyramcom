@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Cat Feeder Project - Part 2 - Adam Byram</title>
+  <meta name="author" content="Adam Byram">
+
+  
+  <meta name="description" content="I spent some time this weekend working on the hardware to provide cooling for the cat feeder. The goal is to get the cat feeder to the same &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://www.adambyram.com/2012/10/21/cat-feeder-project-part-2/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="http://feeds.feedburner.com/adambyram" rel="alternate" title="Adam Byram" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-174266-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Adam Byram</a></h1>
+  
+    <h2>Tech. Geekery. Photography. Lots of Random.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="http://feeds.feedburner.com/adambyram" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:www.adambyram.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/archives">Archives</a></li>
+  </ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Cat Feeder Project - Part 2</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-10-21T14:47:00-04:00" pubdate data-updated="true">Oct 21<span>st</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>I spent some time this weekend working on the hardware to provide cooling for the cat feeder.  The goal is to get the cat feeder to the same temperatures as a refridgerator.  I want to keep the unit as trouble free and cost effective as possible, so I don&#8217;t want to go the compressor route.  The option I&#8217;m prototyping is using a <a href="http://en.wikipedia.org/wiki/Thermoelectric_cooling">thermoelectric cooling (TEC)</a> chip (known as a Peltier element).  If you apply power to a TEC, it will cool on one side and heat on another.  If you&#8217;re trying to cool, you have to remove the heat from the hot side of the TEC with an external heatsink.  TECs are very inefficient, but they should be able to do exactly what I need for this project.</p>
+
+<h2>The Prototype Setup</h2>
+
+<p><a href="http://share.adambyram.com/2012-10-21-cat-feeder-project-part-2/Cooling-Test.jpg"><img src="http://share.adambyram.com/2012-10-21-cat-feeder-project-part-2/Cooling-Test.jpg" alt="" /></a></p>
+
+<h3>Components</h3>
+
+<ul>
+<li><a href="https://www.adafruit.com/products/50">Arduino Uno R3</a></li>
+<li><a href="https://www.adafruit.com/products/184">Adafruit Adjustable Breadboard Power Supply</a></li>
+<li><a href="https://www.adafruit.com/products/798">12V 1A Regulated Power Adapter</a></li>
+<li><a href="https://www.sparkfun.com/products/10213">2 x N-Channel MOSFET 60V 30A</a></li>
+<li><a href="https://www.sparkfun.com/products/10686">70mm Heatsink and Fan</a></li>
+<li><a href="https://www.sparkfun.com/products/10080">40mm x 40mm Peltier element</a></li>
+<li>Breadboards, jumper wires, heatsink compound, and a few push buttons</li>
+</ul>
+
+
+<h3>Assembly</h3>
+
+<p>I used a few push buttons on the breadboard next the to Arduino so I could control the power to the heatsink&#8217;s fan and the TEC.  The Arudino&#8217;s PWM output is sent to the two MOSFETs which varies the amount of current sent to the fan &amp; TEC.  The fan &amp; TEC are both connected to the 12V 1A regulated power supply via the Adafruit breadboard power supply.  I originally tried to run the TEC at a lower voltage than 12V by using the adjustable power supply, but it turned out to be easier to just hook both items directly to the 12V supply.</p>
+
+<h3>Results</h3>
+
+<p>The power supply can&#8217;t provide enough power to run the TEC with the MOSFET wide open.  One the TEC starts drawing a reasonable amount of power, the fan starts slowing down and evetually, the TEC will draw so much current that everything else shuts down.  I was able to run the fan with the MOSFET wide open and the TEC MOSFET set to about 67% power.  At those settings, the fan runs (at less than full speed) and the TEC is able to cool quite reasonably.  The TEC MOSFET started getting quite hot, so I added a passive heatsink on there.</p>
+
+<p>The at the end of the day, I was able to use the settings above to take the TEC from 75F down to 38F in just a few seconds.  I ran the whole setup in this configuration for about 5 minutes with no issues.  Overall, I&#8217;m very happy to get near freezing temperatures with the relatively small power supply.</p>
+
+<h3>Next Steps</h3>
+
+<p>I want to get a bigger power supply.  I&#8217;d really like to get an adjustable lab power supply so I could try different amounts of current to see what exactly I need, but I&#8217;m thinking I&#8217;ll try a 12V 2A power supply.  I need to see how much current I can run through the jumper wires if I upgrade the power.  The current test didn&#8217;t get the wires hot, but I&#8217;m not sure how much more current they&#8217;ll take.</p>
+
+<p>At this point, I just need to get the TEC a little cooler while getting the fan to run faster on the heatsink.  I&#8217;m not too worried about the hinksink though&#8230;it never got that hot even with the fan running slower.  I&#8217;d like to build a small enclosure so I can experiment with cooling air and not just the surface of the TEC.  This will probably mean I end up building a styrofoam box (or buying one) and mounting a heatsink &amp; fan on the cold side of the TEC to distribute the cooling power.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Adam Byram</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-10-21T14:47:00-04:00" pubdate data-updated="true">Oct 21<span>st</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/categories/catfeeder/'>catfeeder</a>, <a class='category' href='/categories/projects/'>projects</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.adambyram.com/2012/10/21/cat-feeder-project-part-2/" data-via="adambyram" data-counturl="http://www.adambyram.com/2012/10/21/cat-feeder-project-part-2/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2012/10/17/early-thoughts-on-microsoft-surface/" title="Previous Post: Early Thoughts on Microsoft Surface">&laquo; Early Thoughts on Microsoft Surface</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2012/10/21/cat-feeder-project-part-2/">Cat Feeder Project - Part 2</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/10/17/early-thoughts-on-microsoft-surface/">Early Thoughts on Microsoft Surface</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/10/12/cat-feeder-project-part-1/">Cat Feeder Project - Part 1</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/01/05/thoughts-on-the-13-macbook-air/">Thoughts on the 13&quot; MacBook Air</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/01/01/goals-for-2012/">Goals for 2012</a>
+      </li>
+    
+  </ul>
+</section>
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Adam Byram -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'adambyramcom';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://www.adambyram.com/2012/10/21/cat-feeder-project-part-2/';
+        var disqus_url = 'http://www.adambyram.com/2012/10/21/cat-feeder-project-part-2/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

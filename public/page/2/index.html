@@ -9,8 +9,7 @@
   <meta name="author" content="Adam Byram">
 
   
-  <meta name="description" content="2011 was a crazy year for me. It was a year full of change. This year I: Started dating my beautiful girlfriend
-Watched the last launch of Space &hellip;">
+  <meta name="description" content="I&#8217;ve been looking into Octopress for a month or so now and I finally decided to take the plunge. As of now, this blog is now powered by &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -77,6 +76,54 @@ Watched the last launch of Space &hellip;">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2011/12/31/switching-to-octopress/">Switching to Octopress</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-12-31T19:08:00-05:00" pubdate data-updated="true">Dec 31<span>st</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&#8217;ve been looking into Octopress for a month or so now and I finally decided to take the plunge.  As of now, this blog is now powered by Octopress (more or less out of the box) instead of WordPress.  I&#8217;d like to change the theme a bit, but it&#8217;s good enough that I&#8217;ll leave it for now.</p>
+
+<h3>WordPress -> Octopress</h3>
+
+<p>Nothing was wrong with WordPress itself, but I just didn&#8217;t use any of the features it offered.  I&#8217;d rather just type the blog posts in a regular editor instead of a textbox on a webpage.  There are some great tools out there that help with that of course, but I just don&#8217;t need the features there either.  In addition, maintaining WordPress means logging in pretty often to check for updates, apply them, make sure the database is backed up, etc.  All of that would be just fine if I received enough benefit to offset the time there, but I just didn&#8217;t.</p>
+
+<h3>Enter Heroku</h3>
+
+<p>In addition to switching the blogging engine, I moved the physical blog from Linode over to Heroku + Amazon S3.  My blog is very low traffic, so I don&#8217;t need a high powered VPS host that I have to maintain &amp; patch.  Heroku offers a free account if you don&#8217;t need much power and can live without a database (well, effectively without a DB - a 5MB one is included).  I decided to go ahead and put any post specific images/files onto S3 since Heroku offers a limited amount of local storage and I can also redeploy back to Linode if something doesn&#8217;t work out at Heroku.  For the record though, I <em>love</em> Linode for a Linux VPS host.  I highly recommend them as long as you&#8217;re comfortable dealing with Linux via the command line.</p>
+
+<h3>Simplicity</h3>
+
+<p>As I get older, the technology side of things appeals to me less and less.  I still love technology in general, but the nitty gritty details of what platform/framework/OS/whatever is the best is less and less interesting to me.  I&#8217;m more interested in the best way to deliver a solution in a way that is as simple as possible.  That doesn&#8217;t mean I&#8217;m adverse to complexity under the hood though. It means I value the experience, productivity, and the ability to simply get things done over the technical aspects of a solution.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -278,73 +325,6 @@ here: <a href="http://www.fli%0Ackr.com/photos/matthewosbornephotography/">http:
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2011/01/03/goals-2011-edition/">Goals - 2011 Edition</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-01-03T20:07:08-05:00" pubdate data-updated="true">Jan 3<span>rd</span>, 2011</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>This year, I&#8217;m setting 5 major goals for myself. I have several other
-behaviors to change/actions to take this year, but I&#8217;m only considering these
-five items my goals since they are realistic, actionable, and measurable.</p>
-
-<h3>Release a new app or website</h3>
-
-<p>I&#8217;ve been working on several ideas over the last year or so and I&#8217;m going to
-really push to get at least one new project released publicly. I&#8217;m not going
-to be more specific other than the new &#8220;thing&#8221; will must be something anyone
-can sign up for or download. Open source, closed source, free, or paid -
-doesn&#8217;t matter - I just want to complete v1.0 of a new project.</p>
-
-<h3>Max out 401K &amp; Roth IRA</h3>
-
-<p>Pretty simple - $16,500 pre-tax dollars into the 401K and $5,000 of after-tax
-dollars into a Roth IRA.</p>
-
-<h3>Lose weight</h3>
-
-<p>Nothing special about this goal. I&#8217;m targeting 35 pounds lost by the end of
-the year. I&#8217;ve had this one on my goal list for a while, so it&#8217;s time to
-finally knock this one off.</p>
-
-<h3>Write a journal entry a day</h3>
-
-<p>This is a new one for me. I wanted to do a 365 photo project, but I&#8217;d really
-like to do more writing&#8230;so a 365 writing project it is. I won&#8217;t be
-publishing these, but I&#8217;m really enjoying it so far (even though I&#8217;m only 3
-days in).</p>
-
-<p>2011 feels different from years past, so I have pretty high hopes for
-accomplishing these goals (as well as several other things).</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/page/3/">&larr; Older</a>
@@ -362,6 +342,10 @@ accomplishing these goals (as well as several other things).</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/10/21/cat-feeder-project-part-2/">Cat Feeder Project - Part 2</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/10/17/early-thoughts-on-microsoft-surface/">Early Thoughts on Microsoft Surface</a>
       </li>
     
@@ -375,10 +359,6 @@ accomplishing these goals (as well as several other things).</p>
     
       <li class="post">
         <a href="/2012/01/01/goals-for-2012/">Goals for 2012</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/12/31/switching-to-octopress/">Switching to Octopress</a>
       </li>
     
   </ul>

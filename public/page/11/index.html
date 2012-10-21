@@ -9,9 +9,8 @@
   <meta name="author" content="Adam Byram">
 
   
-  <meta name="description" content="I saw a link to a &#8220;nerd test&#8221; while reading over the old RSS feeds from some
-fellow Knoxville bloggers (Mike &amp;
-Dylan) and I had to &hellip;">
+  <meta name="description" content="One of the things that has been hugely frustrating about my move to Vista is
+that the backup tool is &#8220;dumbed down&#8221;.  It only copies files &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +77,57 @@ Dylan) and I had to &hellip;">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2007/09/06/robocopy-microsofts-little-gem/">Robocopy - Microsoft&#8217;s Little Gem</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-09-06T23:17:05-04:00" pubdate data-updated="true">Sep 6<span>th</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>One of the things that has been hugely frustrating about my move to Vista is
+that the backup tool is &#8220;dumbed down&#8221;.  It only copies files it wants to copy
+and it requires that you backup C: whether you want to or not.  All I wanted
+to do was schedule a daily backup from my data drive D: to my archive drive V:
+- I want any type of file copied&#8230;just a basic mirror type copy.  Apparently
+this is impossible in the standard windows backup application.  Enter Robocopy
+- a small command-line utility from Microsoft (included in Vista) that does
+exactly this.  Robocopy can take a source and destination and perform a mirror
+copy without a problem - and since it&#8217;s a command-line application, you can
+schedule it to run whenever you&#8217;d like.  It has tons of options to exclude
+certain files/directories based on name, attribute, date, etc - but the basic
+command to do a mirror copy is just this:</p>
+
+<p><code>robocopy d:\ v:\ /MIR</code></p>
+
+<p>Nifty huh?</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -361,64 +411,6 @@ don&#8217;t believe the iPhone is going to be my next phone for a few reasons:</
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2007/06/24/fantastic-four-rise-of-the-silver-surfer/">Fantastic Four: Rise of the Silver Surfer</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2007-06-24T23:14:12-04:00" pubdate data-updated="true">Jun 24<span>th</span>, 2007</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>So I went to see the new Fantastic Four movie - I hadn&#8217;t planned on seeing it
-since I wasn&#8217;t terribly thrilled with the first one.  I never read the comics,
-but I do know some of the FF storyline somehow (a cartoon maybe?  can&#8217;t
-remember&#8230;).  Anyway, a friend said he saw some reviews that said the movie
-was pretty good - so I decided to tag along.</p>
-
-<p>The first hour or so wasn&#8217;t all that great.  It was almost entertaining, but
-not quite.  I think the little bit of the silver surfer story that I did know
-ruined this part for me - they spend so long trying to figure out what is
-going on that it just gets plain boring (not to mention the fact that it never
-really goes into detail about what IS going on&#8230;).  I would say this part of
-the movie was a little worse than Part 1.</p>
-
-<p>The second half (more specifically, the last 20 or so minutes) was where the
-good stuff can be found.  I actually liked end quite a bit - much better than
-the first movie.  I won&#8217;t go into any details or anything, but it was
-entertaining.  I don&#8217;t know that it made up for the entire $8.50 I spent to
-see the movie, but it certainly helped.</p>
-
-<p>If you&#8217;re a FF fan, then maybe you&#8217;ll love the movie.  If you&#8217;ve seen the
-other movies out right now, then might as well see this one too.  If you&#8217;re
-looking for the most entertainment bang for your buck, well, this probably
-isn&#8217;t the film for you.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/page/12/">&larr; Older</a>
@@ -436,6 +428,10 @@ isn&#8217;t the film for you.</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/10/21/cat-feeder-project-part-2/">Cat Feeder Project - Part 2</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/10/17/early-thoughts-on-microsoft-surface/">Early Thoughts on Microsoft Surface</a>
       </li>
     
@@ -449,10 +445,6 @@ isn&#8217;t the film for you.</p>
     
       <li class="post">
         <a href="/2012/01/01/goals-for-2012/">Goals for 2012</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2011/12/31/switching-to-octopress/">Switching to Octopress</a>
       </li>
     
   </ul>
