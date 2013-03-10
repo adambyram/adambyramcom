@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Adam Byram</title>
+  <title>My Thoughts on the Surface Pro - Adam Byram</title>
   <meta name="author" content="Adam Byram">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://www.adambyram.com/">
+  <link rel="canonical" href="http://www.adambyram.com/2013/03/09/my-thoughts-on-the-surface-pro/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -74,15 +74,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/2013/03/09/my-thoughts-on-the-surface-pro/">My Thoughts on the Surface Pro</a></h1>
+      <h1 class="entry-title">My Thoughts on the Surface Pro</h1>
     
     
       <p class="meta">
@@ -105,7 +102,7 @@
   </header>
 
 
-  <div class="entry-content"><p>Now that I’ve had a week and a half of real world use with the Surface Pro, I thought I’d share my observations.</p>
+<div class="entry-content"><p>Now that I’ve had a week and a half of real world use with the Surface Pro, I thought I’d share my observations.</p>
 
 <p>The TL;DR version is that I feel like The Verge’s <a href="http://www.theverge.com/2013/2/5/3955130/microsoft-surface-pro-review">review</a> was spot on and at the end of the day, the device had too many compromises for me to justify the price tag.  It’s a well made device with lots of potential, but that potential isn’t realized today.</p>
 
@@ -183,91 +180,16 @@
 
 <p>I’m not set on having one single device that can support all three of these scenarios, so I’m ok using three different devices.  The catch is my iPad is <em>really</em> great at being a tablet, my MacBook Pro is <em>really</em> great at being a Mac/PC, but my Surface Pro is only moderately good at being a note taking device outside of the excellent pen support - it’s just a very clunky, disjointed experience and I’m not sure I want to deal with that.  There are many good ideas spread across the hardware and software of the Surface Pro, but I don’t feel Microsoft has found a way to combine those pockets of good ideas into a compellingly useful product just yet.</p>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/2012/10/21/cat-feeder-project-part-2/">Cat Feeder Project - Part 2</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
   
 
+<span class="byline author vcard">Posted by <span class="fn">Adam Byram</span></span>
 
-<time datetime="2012-10-21T14:47:00-04:00" pubdate data-updated="true">Oct 21<span>st</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I spent some time this weekend working on the hardware to provide cooling for the cat feeder.  The goal is to get the cat feeder to the same temperatures as a refridgerator.  I want to keep the unit as trouble free and cost effective as possible, so I don&#8217;t want to go the compressor route.  The option I&#8217;m prototyping is using a <a href="http://en.wikipedia.org/wiki/Thermoelectric_cooling">thermoelectric cooling (TEC)</a> chip (known as a Peltier element).  If you apply power to a TEC, it will cool on one side and heat on another.  If you&#8217;re trying to cool, you have to remove the heat from the hot side of the TEC with an external heatsink.  TECs are very inefficient, but they should be able to do exactly what I need for this project.</p>
-
-<h2>The Prototype Setup</h2>
-
-<p><a href="http://share.adambyram.com/2012-10-21-cat-feeder-project-part-2/Cooling-Test.jpg"><img src="http://share.adambyram.com/2012-10-21-cat-feeder-project-part-2/Cooling-Test.jpg" alt="" /></a></p>
-
-<h3>Components</h3>
-
-<ul>
-<li><a href="https://www.adafruit.com/products/50">Arduino Uno R3</a></li>
-<li><a href="https://www.adafruit.com/products/184">Adafruit Adjustable Breadboard Power Supply</a></li>
-<li><a href="https://www.adafruit.com/products/798">12V 1A Regulated Power Adapter</a></li>
-<li><a href="https://www.sparkfun.com/products/10213">2 x N-Channel MOSFET 60V 30A</a></li>
-<li><a href="https://www.sparkfun.com/products/10686">70mm Heatsink and Fan</a></li>
-<li><a href="https://www.sparkfun.com/products/10080">40mm x 40mm Peltier element</a></li>
-<li>Breadboards, jumper wires, heatsink compound, and a few push buttons</li>
-</ul>
-
-
-<h3>Assembly</h3>
-
-<p>I used a few push buttons on the breadboard next the to Arduino so I could control the power to the heatsink&#8217;s fan and the TEC.  The Arudino&#8217;s PWM output is sent to the two MOSFETs which varies the amount of current sent to the fan &amp; TEC.  The fan &amp; TEC are both connected to the 12V 1A regulated power supply via the Adafruit breadboard power supply.  I originally tried to run the TEC at a lower voltage than 12V by using the adjustable power supply, but it turned out to be easier to just hook both items directly to the 12V supply.</p>
-
-<h3>Results</h3>
-
-<p>The power supply can&#8217;t provide enough power to run the TEC with the MOSFET wide open.  One the TEC starts drawing a reasonable amount of power, the fan starts slowing down and evetually, the TEC will draw so much current that everything else shuts down.  I was able to run the fan with the MOSFET wide open and the TEC MOSFET set to about 67% power.  At those settings, the fan runs (at less than full speed) and the TEC is able to cool quite reasonably.  The TEC MOSFET started getting quite hot, so I added a passive heatsink on there.</p>
-
-<p>The at the end of the day, I was able to use the settings above to take the TEC from 75F down to 38F in just a few seconds.  I ran the whole setup in this configuration for about 5 minutes with no issues.  Overall, I&#8217;m very happy to get near freezing temperatures with the relatively small power supply.</p>
-
-<h3>Next Steps</h3>
-
-<p>I want to get a bigger power supply.  I&#8217;d really like to get an adjustable lab power supply so I could try different amounts of current to see what exactly I need, but I&#8217;m thinking I&#8217;ll try a 12V 2A power supply.  I need to see how much current I can run through the jumper wires if I upgrade the power.  The current test didn&#8217;t get the wires hot, but I&#8217;m not sure how much more current they&#8217;ll take.</p>
-
-<p>At this point, I just need to get the TEC a little cooler while getting the fan to run faster on the heatsink.  I&#8217;m not too worried about the hinksink though&#8230;it never got that hot even with the fan running slower.  I&#8217;d like to build a small enclosure so I can experiment with cooling air and not just the surface of the TEC.  This will probably mean I end up building a styrofoam box (or buying one) and mounting a heatsink &amp; fan on the cold side of the TEC to distribute the cooling power.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/2012/10/17/early-thoughts-on-microsoft-surface/">Early Thoughts on Microsoft Surface</a></h1>
-    
-    
-      <p class="meta">
-        
 
 
 
@@ -279,194 +201,44 @@
   
 
 
-<time datetime="2012-10-17T19:23:00-04:00" pubdate data-updated="true">Oct 17<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>The short version: I’m not going to buy one and I’m not sure why most people would buy one at launch.</p>
-
-<p>So the Surface pricing was revealed as the <a href="http://surface.microsoftstore.com/store/msstore/Content/pbpage.Surface?ESICaching=off">pre-order page</a> went live on the Microsoft Store.  For $499 you get a 32GB tablet without a keyboard.  Add $100 and you get a touch cover keyboard with it.  Lets be clear here, you’re going to want the keyboard.  Yes, it’s designed around touch, but Office is one of the bigger selling points of this tablet and you’re going to want a keyboard.</p>
-
-<p>Assuming you go with the $599 tablet + keyboard combo, what do you get?</p>
-
-<p>Well, you get&#8230;</p>
-
-<ul>
-<li>Windows RT</li>
-<li>Office Home &amp; Student 2013 RT</li>
-<li>Sleek (presumably high build quality) tablet hardware</li>
-<li>An innovative cover / keyboard combo</li>
-</ul>
-
-
-<p>That’s fine and dandy, but the real question is what can you <strong>do</strong> with that setup&#8230;</p>
-
-<ul>
-<li>Run the basic first party apps on all mobile platforms like Mail, Calendar, Contacts, Web Browser, etc.</li>
-<li>Run the big hitter 3rd party apps on all mobile platforms like Netflix, Kindle, Evernote, etc.</li>
-<li>Run Office (specifically Word, PowerPoint, Excel, and OneNote)</li>
-</ul>
-
-
-<p>If you don’t see what you do 90% of the time in that list, you’re going to be a bit screwed if you pick up a Surface at launch.  Since this is Windows RT and not Windows 8, it looks the same on the surface, but you can’t actually run any of your regular Windows desktop apps.  Office doesn’t include apps you may expect like Outlook, nor does it allow you to use certain features like macros&#8230;which may or may not be a deal breaker depending on your use case.  All apps have to come through the Windows Store as well - this is more like Apple’s iOS than it is the traditional Windows you’re probably expecting.</p>
-
-<p>Sure, there is an a Windows Store for apps now&#8230;but you’re going to be <strong>very</strong> disappointed with the selection if it doesn’t improve drastically between now and the official launch in 10 days.  Last I checked, there were 663 games in the store.  Of those games, you’ve probably heard of 5 or so of them&#8230;I wouldn’t expect much from the rest.  All of the other categories are worse.  Take the Finance category - there are 46 apps total.  Of those 46, 3 are checkbook/budget apps, a couple are currency converters, and the rest are basically stock tickers.  You’ll see a few apps like Adobe Lightroom 4, but then you’ll see they are “Desktop Apps” which means they aren’t going to work on your Surface.</p>
-
-<p>After browsing through every category in the store, there just isn’t much substance there.  I really thought there would be more useful and/or fun apps at this point, but honestly, I have no idea what people are going to use on their $600 tablet other than the big apps I mentioned earlier.  If Office on a tablet is <strong>that</strong> important to you (and you can live with the Office RT limitations), then maybe this tablet makes a sense for you.  Otherwise, you can get the other apps on a device like the Nexus 7 for much cheaper without sacrificing much (if anything).</p>
-
-<p>The worst part of this is the fact that the hardware looks really nice, the battery life sounds like it’s very reasonable, and the hardware specs overall are certainly capable of delivering some compelling experiences.  Those experiences just don’t exist in the Windows Store today.  I’m afraid the first wave of consumers will pick up the Surface, realize their tablet isn’t backed by a meaningful number of quality apps, and promptly kill any momentum the Surface picks up at launch.  Even the version of Office 2013 that ships on the Surface is a “Preview” release&#8230;it’s not even finished yet (although it may be perfectly usable as is - who knows).</p>
-
-<p>All in all, I hope Microsoft can pull this one off, but I’m not sure their massive marketing campaign can make up for the lackluster launch lineup once consumers get their shiny new devices home.  It’ll be a shame to see such a beautiful hardware design go to waste.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
+<time datetime="2013-03-09T21:05:00-05:00" pubdate data-updated="true">Mar 9<span>th</span>, 2013</time>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/2012/10/12/cat-feeder-project-part-1/">Cat Feeder Project - Part 1</a></h1>
-    
-    
-      <p class="meta">
-        
 
-
-
-
-
-
-
-
+<span class="categories">
   
+    <a class='category' href='/categories/tech/'>Tech</a>
+  
+</span>
 
 
-<time datetime="2012-10-12T23:29:00-04:00" pubdate data-updated="true">Oct 12<span>th</span>, 2012</time>
-        
-      </p>
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><p>Some of you may know my cat situation.  If you&#8217;re not aware, the long and the short of it is that my cats used to only eat dry cat food.  One of the cats ended up getting very sick when I moved to Los Angeles.  After she recovered (she&#8217;s fine now), she decided she&#8217;ll never eat dry food again and only eats very specific wet cat food.</p>
-
-<p>The problem is that I have two very nice automated dry food feeders that I can&#8217;t use.  Both cats need to be on a schedule to help control their weight.  So I started researching wet cat food feeders and it turns out, there aren&#8217;t many.  Not only that, the feeders that are out there all use ice packs which limit you to 8 or maybe 12 hours of feeding.  That&#8217;s totally not acceptable to me so I&#8217;ve decided I&#8217;m going to try to design my own wet cat food feeder.</p>
-
-<h3>What</h3>
-
-<p>So what is this thing?  Well, it&#8217;s a small (~2 ft wide) unit that has a certain number of rotating food cups.  The food cups can be filled with wet food (or dry food) and the unit can be programmed to expose each food cup to the cats on a specific schedule.  The unexposed food will stay seal up inside the unit and a cooling unit will keep the unexposed food nice and cool.</p>
-
-<p>The goal is to have the unit keep food at refridgerated temperatures (TBD what that means) consistently to allow food to be stored in the unit for up to three days.  That seems to be the maximum time wet food is allowed to be refridgerated based on manufacturer information, so that&#8217;ll be the target for version 1.</p>
-
-<p>If the machine can feed twice a day for an overnight trip or once a day for a long weekend trip, it&#8217;ll be fantastic, so that&#8217;s the target.</p>
-
-<h3>Why</h3>
-
-<p>On top of the issues mentioned above, I really want a exposure to the hardware + software world.  I&#8217;ve worked on software for quite a long time and basically everything I&#8217;ve built is totally virtual in nature.  That&#8217;s all fine and good, but I&#8217;m really wanting build something physical.  Of course, some software will still be needed, but I&#8217;ll also get some electrical engineering, product design, and CAD modeling.</p>
-
-<p>The other part of the why is that I really want to be able to go on a long weekend trip and not have to worry about the cats getting fed.  Today, we basically can&#8217;t be gone for longer than about 8 hours at a time without having someone come by to feed the cats.</p>
-
-<h3>How</h3>
-
-<p>I&#8217;m planning on building everything with some pretty common parts.  The initial design / prototype is going to be all plastic, mainly because I&#8217;m getting a <a href="http://www.kickstarter.com/projects/2105227104/ultra-bot-3d-printer">3D printer</a> in December.  The general electronics won&#8217;t be anything super special.  For the prototype, I&#8217;ll be using an Arduino Uno for overall control, a motor controller board to rotate the food dish, a external power module to power the cooling system, and a few other random bits.</p>
-
-<p>For cooling, I&#8217;m planning on using a Peltier cooler.  They aren&#8217;t very efficient, but they are relatively easy to use and they can work reasonably well (based on my experience with a little mini fridge).  They are also pretty cheap, so it&#8217;s quite cost effective from a component perspective.  The cooling will be the trickiest aspect of the whole project.</p>
-
-<h3>When</h3>
-
-<p>Well, I&#8217;ve already started playing with the basic components and working on the hardware design (the body of the feeder, not the electronic components).  The 3D printer won&#8217;t be available until later in December, so I can&#8217;t start working on the real prototype until then, but I&#8217;ll be able to play with the cooling system this month and into November.  My goal is to have a really rough 3D model ready by the time the printer is available.  I&#8217;m assuming I&#8217;ll needed lots of revisions to the plastic parts since all of this (the design process, printing process, and design software) is new to me, but I want to be able to hit the ground running.</p>
-
-<p>As far as the finished product, I&#8217;m hoping to have a totally working prototype in Q1 2013.  Will that happen? I have no idea, but I really, really want this product so I&#8217;d like to have something working sooner rather than later.</p>
-
-<h3>What&#8217;s Next</h3>
-
-<p>I plan to blog my progress on this project.  It&#8217;s as much for me to keep track of things as it is for everyone else to follow along.  Next time, I&#8217;ll show the current stage of the design and share some thoughts on the design process as well as the design software I&#8217;m using.  This should be a fun project, so I hope you have as much fun following along as I&#8217;m having building this thing.</p>
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.adambyram.com/2013/03/09/my-thoughts-on-the-surface-pro/" data-via="adambyram" data-counturl="http://www.adambyram.com/2013/03/09/my-thoughts-on-the-surface-pro/" >Tweet</a>
+  
+  
+  
 </div>
-  
-  
 
-
-    </article>
-  
-  
-    <article>
+    
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/2012/01/05/thoughts-on-the-13-macbook-air/">Thoughts on the 13&quot; MacBook Air</a></h1>
-    
-    
-      <p class="meta">
-        
+        <a class="basic-alignment left" href="/2012/10/21/cat-feeder-project-part-2/" title="Previous Post: Cat Feeder Project - Part 2">&laquo; Cat Feeder Project - Part 2</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-01-05T21:53:00-05:00" pubdate data-updated="true">Jan 5<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I&#8217;ve had my 13&#8221; MacBook Air (mid-2011 model) for a few weeks now and thought it&#8217;d be a good idea to share my impressions.  I originally moved to Apple on a black MacBook, then switched to a top end 17&#8221; MacBook Pro, and now I&#8217;m on an Air.</p>
-
-<h2>What&#8217;s Good?</h2>
-
-<p><strong>Weight</strong></p>
-
-<p>It&#8217;s fantastically light.  My MacBook Pro feels like a brick after using the MBA for a while.</p>
-
-<p><strong>Size</strong></p>
-
-<p>Not only is it light, it&#8217;s thin.  Like, really thin.  It&#8217;s not really that much thicker than my iPad and that&#8217;s impressive when you consider it&#8217;s a full featured computer.</p>
-
-<p><strong>Battery Life</strong></p>
-
-<p>I haven&#8217;t used it for photo/video editing nor have I used it for games, so my usage is pretty moderate, but still, the battery life is excellent.  My MacBook Pro has a good battery life for its size, but the Air has been really impressive.  I haven&#8217;t timed the battery life, but I can say that I frequently use it for extended periods of time without even thinking about the power cable.  That hasn&#8217;t been my experience with other laptops (Apple or otherwise).</p>
-
-<p><strong>Solid State Drive</strong></p>
-
-<p>It&#8217;s amazing how much of a difference a solid state drive makes.  Startup is extremely fast, launching apps is even faster, and even development in a virtual machine is faster.</p>
-
-<h2>What&#8217;s Bad?</h2>
-
-<p><strong>Screen Size</strong></p>
-
-<p>It&#8217;s totally usable for most of my everyday tasks, but for things like development, it&#8217;s a bit small.  The good news is that it powers an external monitor just fine.  If you&#8217;re on the go and need to do certain kinds of tasks, it&#8217;ll feel a bit cramped.  I can&#8217;t imagine the MacBook Airs line won&#8217;t merge with the MacBook Pro line to provide the larger screen sizes in the future.</p>
-
-<h2>Other Thoughts</h2>
-
-<p>That&#8217;s actually the only negative thing I&#8217;ve noticed.  I happen to have the 4GB RAM/256GB SSD model, so it&#8217;s maxed out on the basic specs.  It&#8217;d be nice if the RAM went up to 8GB, but honestly, 4GB has been plenty (even with large-ish databases loaded) due to the SSD.  The storage space may end up being a problem for me down the road if I started storing my main photo library, but I&#8217;m undecided how I want to handle that.  Overall, the MacBook Air is the best laptop I&#8217;ve used for my everyday tasks.  I&#8217;m sure I&#8217;ll find a few things where I miss the power of my PC workstation or my MacBook Pro, but so far, I&#8217;ve really impressed.</p>
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
-  
-  
+  </section>
 
-
-    </article>
-  
-  <div class="pagination">
-    
-      <a class="prev" href="/page/2/">&larr; Older</a>
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
 </div>
+
 <aside class="sidebar">
   
     <section>
@@ -499,6 +271,7 @@
   
 </aside>
 
+
     </div>
   </div>
   <footer role="contentinfo"><p>
@@ -513,7 +286,10 @@
       var disqus_shortname = 'adambyramcom';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://www.adambyram.com/2013/03/09/my-thoughts-on-the-surface-pro/';
+        var disqus_url = 'http://www.adambyram.com/2013/03/09/my-thoughts-on-the-surface-pro/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

@@ -4,7 +4,7 @@
   <title><![CDATA[Adam Byram]]></title>
   <link href="http://www.adambyram.com/atom.xml" rel="self"/>
   <link href="http://www.adambyram.com/"/>
-  <updated>2012-10-21T15:36:40-04:00</updated>
+  <updated>2013-03-09T21:21:25-05:00</updated>
   <id>http://www.adambyram.com/</id>
   <author>
     <name><![CDATA[Adam Byram]]></name>
@@ -12,6 +12,91 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[My Thoughts on the Surface Pro]]></title>
+    <link href="http://www.adambyram.com/2013/03/09/my-thoughts-on-the-surface-pro/"/>
+    <updated>2013-03-09T21:05:00-05:00</updated>
+    <id>http://www.adambyram.com/2013/03/09/my-thoughts-on-the-surface-pro</id>
+    <content type="html"><![CDATA[<p>Now that I’ve had a week and a half of real world use with the Surface Pro, I thought I’d share my observations.</p>
+
+<p>The TL;DR version is that I feel like The Verge’s <a href="http://www.theverge.com/2013/2/5/3955130/microsoft-surface-pro-review">review</a> was spot on and at the end of the day, the device had too many compromises for me to justify the price tag.  It’s a well made device with lots of potential, but that potential isn’t realized today.</p>
+
+<h3>My Priorities</h3>
+
+<p>I had (and loved) my Acer convertible TabletPC back in 2004/2005.  It was perfect for college when combined with OneNote.  I really want something just as useful today for taking notes, doing some diagraming/whiteboarding, basic sketching, and photo editing.  The pen was great back then, but multi touch was missing.  A pen combined with multi touch technology seems like it would make an excellent note taking device and that was my main driver with the Surface Pro.</p>
+
+<p>As a secondary benefit, it would be nice to have a Windows development machine that is portable, yet powerful enough to handle any tasks I need.  I have a Windows 8 desktop and I have a 17” MacBook Pro that has a Windows 8 boot camp partition, but neither of those are really as portable as I would want.  I’m mostly an iOS developer these days, so this feature isn’t critical, but it’s certainly a nice to have.</p>
+
+<p>Finally, it would be great if I could play most of my Steam games (even on low settings).  I’m not usually at my Windows desktop most of the day, but it’d be nice to be able to pop in and play a little Borderlands or Diablo 3 without having to be tied to my office machine.  This is a very low priority, but I’d be another nice to have.</p>
+
+<h3>Initial Impression</h3>
+
+<p>The Surface Pro looks and feels really nice.  The build quality is excellent.  The pen is the only component that feels a little cheaper, but it’s a light tube of shiny black plastic compared to the solid slab of metal and glass.  The screen is bright, vibrant, and clear.  I&#8217;m not a fan of the 16:9 aspect ratio, but  most people don&#8217;t seem to mind it.  The out of the box setup is fast and simple - I think it actually had less setup steps than my iPad which is impressive from Microsoft.</p>
+
+<p>The kickstand is solid and the USB 3.0 port is blazing fast (if you have a good USB drive).  The kickstand is nice and works excellently when propping the device on the counter to watch Netflix while cooking.  It works great in laptop mode on a solid surface, but it’s hit or miss when using it as a laptop on your lap.  It works, but I had to keep fiddling with it to get it to balance properly and to get the screen at a good viewing angle.</p>
+
+<p>Overall, the Surface Pro is a very impressive package.</p>
+
+<h3>Type Cover</h3>
+
+<p>Since I knew I’d be using it as a laptop whenever I wasn’t taking notes, I picked up a Type Cover.  The Type Cover is one of the best tablet keyboards I’ve used.  It took about an hour for me to adjust to it, but after that, it felt great.  The magnetic connector is very secure and I had no concerns about it sliding off in my backpack like my iPad’s Logitech Ultra-thin Keyboard does.  The trackpad area is very responsive, but it’s so small, it’s unusable unless you’re in a pinch.</p>
+
+<p>The big downside is that the keyboard has some serious responsiveness issues if you use it on your lap or any other non-solid surface.  I would randomly experience ignored key-presses - not just once or twice, but nearly half the time.  I’d have to press the key 3 or 4 times to get it to register the key press.  The keyboard was barely flexed, but I never experienced this when using it on a solid surface.</p>
+
+<p>At $130 on top of the Surface Pro’s price, it’s not a cheap cover at all, but to me, this is a must have if you buy a Surface or Surface Pro and expect to do any decent amount of typing.</p>
+
+<h3>The Pen</h3>
+
+<p>The pen is really well done.  It’s Wacom tech, which means it’s very accurate and there is zero noticeable lag between pen movement and when the “ink” shows up on the screen.  It has great pressure sensitivity and feels like a ballpoint pen in your hand.  I really wish Microsoft included a slot for the pen.</p>
+
+<p>The pen magnetically connects to the device via the power port.  That means you have to leave your pen on the table while you charge the Surface Pro.  I was constantly checking the pen when I was carrying the tablet to meetings - the connector magnets are strong, but depending on how you hold the tablet, it’s really easy to knock the pen off and never notice it’s lost.  This was particularly a problem for me when I would pick the tablet up.  The pen never detached while it my backpack, but it would nearly always detach when I picked up the tablet from the side (usually when I was pulling it out of my backpack).</p>
+
+<p>In use, the pen worked great - particularly with OneNote 2013.  I wish there was a little texture on the screen of the Surface Pro so there was a little bit of resistance, but I’m sure that would impact the quality of the display in other ways.  The pen is every bit as good as I was expecting.</p>
+
+<h3>Tablet Mode</h3>
+
+<p>I know it’s not a big surprise to anyone, but there is still no ecosystem of Windows 8 touch interface apps.  I found a few third party apps (Stacks for Instapaper &amp; Nextgen Reader come to mind) that were nice.  The Netflix app was excellent - it’s probably the best implementation of Netflix I’ve seen on any device.  Outside of that, I found the app selection to be really, really lacking.</p>
+
+<p>Microsoft has plenty of their own apps for calendaring, email, address book, etc.  All of these apps work, but they are about as basic as you can get.  I’m actually OK with basic for the most part, but Microsoft decided not to support CardDAV and CalDAV protocols in the contacts app and calendar app respectively.  That essentially means I can’t access any of my Google contact or calendar data out of the box.  It turns out, you can go to live.com and in an obscure mean, you can link your Google contacts to your live.com account and gain access that way.  For calendaring, you can import an iCal feed from the live.com site, but it’s a one way, one time import which is pretty much pointless for me since I can’t see my current Google calendar let alone update it.</p>
+
+<p>When I was using the tablet mode apps, the charms and multitouch gestures work well for the most part.  The charms make a heck of a lot more sense when using them with touch vs a mouse on my Windows 8 desktop.  I love the share charm.  It makes a ton of sense when apps implement it properly and I genuinely hope something like this is implemented on iOS and Android in the future.  I had some trouble moving tiles on the desktop - sometimes it would think I’m was trying to scroll, sometimes it would select the tile, and sometimes it would move the tile.  Overall, the experience using the touch interface was very positive, but there just aren’t any apps to use there and Microsoft needs to step up their game with their built-in apps - both in features and interoperability with other services (specifically Google accounts).</p>
+
+<p>One day in the future, the tablet experience on a Windows 8 device may be excellent.  The hardware is very responsive overall, but the software needs polish.  The biggest deal breaker though is that beyond Kindle, Netflix, and a few other apps, you simply can’t find any apps worth using in tablet mode.</p>
+
+<h3>Desktop Mode</h3>
+
+<p>The desktop runs extremely smoothly and everything is very snappy thanks to the SSD.  I loaded Visual Studio, SQL Server, Resharper, Lightroom, Sketchbook Pro, Chrome, and several other apps that are essential for me.  I also installed the Office 365 trial - mainly because I wanted OneNote 2013.</p>
+
+<p>Since Windows doesn’t natively support high density displays and the Surface Pro has a high density display, Windows is set by default to scale the desktop by 150%.  The impact of this is that everything on the screen is magnified so icons are reasonably touchable and most system text (menu bars, etc) is readable.  In this mode, all of the Microsoft developed apps run great and look really sharp.</p>
+
+<p>Third party apps, (Chrome most notably), were a blur fest.  Text was muddy looking and touch detection seemed really flaky.  Links wouldn’t activate when I tapped them and Chrome generally acted funny.  Sketchbook Pro worked well, particularly with the pen, but it doesn’t support pinch to zoom - you still have to get a zoom tool from the menu bar if you want to pan &amp; zoom and that’s unfortunate.  Lightroom ran fine, but it was almost impossible to use the interface via touch.  Using a mouse or the Type Cover’s touchpad generally worked fine with these apps even with scaling turned on.  I know the Surface Pro is new, but Windows 8’s touch features have been available to developers for quite a while - so I’m curious if third party support will improve.</p>
+
+<p>When I connected my external monitor via mini DisplayPort, everything was blurry - scaling was applied to it as well even though it didn’t need the scaling.  I disabled desktop scaling and that solved the external monitor issues and made Chrome look &amp; act normal, but that caused all system text and icons to become super tiny.  Using desktop mode with scaling turned off was quite a challenge - ideally, third party apps will be updated to properly work with scaling turned on and to incorporate the new touch API, but I didn’t find a single non-Microsoft app that I use which did that today.</p>
+
+<h3>Gaming</h3>
+
+<p>For my purposes, this wasn’t critical at all, but I wanted to give it a try so I installed Borderlands 2 and Diablo 3.  Borderlands 2 never really ran properly for me.  I couldn’t actually select any of the menu items once I got to the game’s main menu.  I think this had to do with the desktop scaling, but I didn’t try again after I disabled scaling.  The main menu was having trouble rendering at a reasonable rate, so I didn’t have high hopes.</p>
+
+<p>Diablo 3 actually ran nicely.  I used a Microsoft Wedge Touch mouse instead of the trackpad on the Type Cover and it was definitely playable.  At 1080p, the game stuttered quite a bit even with no enemies on the screen, but dropping the resolution to 720p made things run smoothly.  The Surface Pro definitely got very, very warm to the touch (particularly on the top of the unit) and the fans kicked into high gear, but they were still much more quiet than my MacBook Pro’s fans.  Diablo looked really nice on the display even though it wasn’t running at full resolution.</p>
+
+<h3>Overall Thoughts</h3>
+
+<p>My main use case was taking notes and sketches.  When doing that, the tablet works well.  Navigating OneNote 2013 could be much better though.  It’s still a desktop interface designed for a mouse (e.g. you still open up the ribbon menu to get different pen colors, line widths, etc), but once you’re just writing (and not creating a new page, changing pen color, etc) things are good.</p>
+
+<p>The most disappointing thing is that OneNote 2013 feels very much like the original version of OneNote I used on my original TabletPC.  As far as ink support and handwriting recognition, that’s a good thing, but it’s very disappointing to see the interface wasn’t updated for touch use.  It’s also worth noting that the OneNote app for iOS can’t display ink - it just displays “[ink]” anywhere you wrote with the pen&#8230;making my notes useless there.  The OneNote web interface does display ink, but my ink was almost unreadable on the web.  Ink that was totally readable and regular size on the tablet looked 2x as large on the web and there was no way to zoom out.</p>
+
+<p>I’m really disappointed with the support for 3rd party apps.  Specifically Sketchbook Pro 6 and Lightroom 4.  Sketchbook handles the pen just fine, but I was really expecting to be able to use pan &amp; zoom via touch since that’s available on every other platform.  Lightroom was disappointing - it ran very fast, but without a mouse, it just wasn’t usable on the Surface Pro’s screen.  I realize these issues aren’t within Microsoft’s control, but they they definitely impact the value I received from Microsoft’s platform.</p>
+
+<p>My biggest worry is the battery life.  I get 3-4 hours with reasonably light use.  The battery connector is proprietary and needs to be plugged into the wall - you won’t be charging this off of another PC’s USB port.  The power brick is smallish, but it’s something that has to stay in my backpack constantly.  If I forget to charge the tablet overnight, there is a good chance I’ll have to plug it up as soon as I get to the office to make sure I have enough juice to make it through a few hour long meetings.  I’m used to having my iPad battery last days without worrying about it and for something I need regularly, I really wish I had more than 3-4 hours of power&#8230;or at the very least, I wish I could trickle charge it off other nearby computers.</p>
+
+<p>The tablet mode has tons of potential and was a nice experience, but until there are many, many more quality apps, it’s an experience that no one will see.  The desktop mode is functional, but I don’t understand why the device has a high density display when Windows clearly isn’t meant to run on one and it’s extremely obvious as soon as any non-Microsoft app is launched.</p>
+
+<p>At the end of the day, I can’t see myself reaching for the Surface Pro instead of my iPad when I have tablet type tasks to do.  I also can’t see myself reaching for it over my MacBook Pro when I’m at home and need to do more desktop type tasks.  It’s definitely the best device I have for note taking, but due to the really limited battery and several smaller issues, I don’t feel that I can count on it always being ready to go when I need it for note taking.</p>
+
+<p>I’m not set on having one single device that can support all three of these scenarios, so I’m ok using three different devices.  The catch is my iPad is <em>really</em> great at being a tablet, my MacBook Pro is <em>really</em> great at being a Mac/PC, but my Surface Pro is only moderately good at being a note taking device outside of the excellent pen support - it’s just a very clunky, disjointed experience and I’m not sure I want to deal with that.  There are many good ideas spread across the hardware and software of the Surface Pro, but I don’t feel Microsoft has found a way to combine those pockets of good ideas into a compellingly useful product just yet.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Cat Feeder Project - Part 2]]></title>
@@ -735,176 +820,6 @@ I&#8217;ve never made the time. There are only 5 shuttle launches left (as of ri
 now) and they all happen in 2010. I don&#8217;t care which launch I see, but I&#8217;m
 going to see one in person (hopefully from the VIP area so I can get a good
 view).</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[My AT&T U-verse Experience in Knoxville]]></title>
-    <link href="http://www.adambyram.com/2009/10/28/my-att-u-verse-experience-in-knoxville/"/>
-    <updated>2009-10-28T13:01:25-04:00</updated>
-    <id>http://www.adambyram.com/2009/10/28/my-att-u-verse-experience-in-knoxville</id>
-    <content type="html"><![CDATA[<p>I&#8217;ve had quite a few people ask about my recent AT&amp;T U-verse install, so I
-thought a quick blog post was in order. Keep in mind, my install happened
-during the first week of the Knoxville, TN U-verse rollout - so I&#8217;m sure
-things will go faster (as far as the installation goes) as they do more and
-more installs in this area.</p>
-
-<p>I chose to go with U-verse because I live in an older neighborhood in
-Knoxville and my high speed internet choices are fairly limited. I&#8217;ve had
-3Mbps DSL from AT&amp;T for the last 3 years and it&#8217;s been decent, but I really
-needed more upload speed. I&#8217;m a software developer so I usually have lots of
-large software updates I need to download quite often and I frequently have
-fairly large chunks of data I need to upload to a server on a regular basis
-(Dropbox, Subversion, etc.). I ended up going with AT&amp;T U-verse since they
-offer a package with 18Mbps download and 2Mbps upload&#8230;this was my main
-consideration for choosing U-verse, not the VoIP service nor the TV service. I
-want to make it clear that I didn&#8217;t compare the TV and phone services to other
-providers&#8230;so if that is your main focus, this writeup may not be useful to
-you.</p>
-
-<p><strong>Speed Test - Before &amp; After</strong> <em>All tests were performed with www.speedtest.net on a MacBook running Snow Leopard connected to my wireless LAN - this is my most common usage scenario, so it&#8217;s what I decided to test with.  Also, ignore the &#8220;distance&#8221; in these speed tests&#8230;all were performed in Knoxville at the same location.</em></p>
-
-<p>Before U-verse - Speed Test</p>
-
-<p><a href="http://share.adambyram.com/2009-10-28-my-att-u-verse-experience-in-knoxville/SpeedTest-DSL.png"><img src="http://share.adambyram.com/2009-10-28-my-att-u-verse-experience-in-knoxville/SpeedTest-DSL.png" alt="" /></a></p>
-
-<p>After U-verse - Speed Test</p>
-
-<p><a href="http://share.adambyram.com/2009-10-28-my-att-u-verse-experience-in-knoxville/SpeedTest-Uverse.png"><img src="http://share.adambyram.com/2009-10-28-my-att-u-verse-experience-in-knoxville/SpeedTest-Uverse.png" alt="" /></a></p>
-
-<p>From this quick test, you can see my download rate is much higher, but my
-upload rate also got a massive improvement.  The ping time got cut in half as
-well - so it&#8217;s a win-win-win with the U-verse upgrade.  The thing is, the
-download rate isn&#8217;t anywhere near the max rate of 18Mbps, so I decided to try
-a speed test against the Atlanta, GA data center since I would assume they
-have more capacity than Morristown&#8230;</p>
-
-<p>Speed Test - Atlanta</p>
-
-<p><a href="http://share.adambyram.com/2009-10-28-my-att-u-verse-experience-in-knoxville/SpeedTest-Uverse2.png"><img src="http://share.adambyram.com/2009-10-28-my-att-u-verse-experience-in-knoxville/SpeedTest-Uverse2.png" alt="" /></a></p>
-
-<p>Nice huh?  That&#8217;s quite close to the max download rate and a very respectable
-upload speed&#8230;and the ping is lower still.  So the bottom line is U-verse
-blows regular DSL out of the water and it is generally better than cable or at
-least very comparable.  One of the things I don&#8217;t like about cable internet is
-they use different methods to boost your speeds for short periods of time.  So
-you may have a 12Mbps package and for 30 secs - 2 minutes, you may get that
-speed when starting a download, but if you&#8217;re downloading something large, you
-will usually notice your download speed dialing back pretty
-drastically&#8230;whereas I should (in theory) have these U-verse speeds
-throughout the whole download.  Realistically though, you&#8217;re going to be very
-unlikely to find a single server that can provide you with a download at these
-rates, so the only way you would be able to get this much data flowing would
-be to have quite a few downloads going on simultaneously.</p>
-
-<p><strong>The Installation</strong><br/>
-Now that the speed test is out of the way, you may want to know about the
-installation process.  When I signed up for the install, I was told the
-install takes between 4 to 6 hours depending on the services I wanted
-installed and the specifics of my house/neighborhood.  The U-verse install
-requires two different groups - one is an external group that hooks up your
-new equipment on the outside of your house and the other group does everything
-inside the house.  In my case, I heard from both groups at 9am - both called
-to confirm the appointment and to let me know they were on the way.  The
-external guy got here around 9:30am and he started checking the lines outside
-my house.  The internal guys got here around 9:45am and I gave them a quick
-tour of the places I wanted U-verse.  The external guy worked until 11 or a
-little after getting everything prepped and getting some electronics added on
-to my house that connect back up to the utility pole.  While he was doing
-that, the internal guys explored the attic and crawlspace to determine the
-best way to run my new wires.</p>
-
-<p>I have an older house and even though I did have coax cables in most of the
-rooms, the cables were always on the opposite wall from my TVs (I have not had
-cable for over 3 years&#8230;so placement in relation to the cables wasn&#8217;t exactly
-important prior to today).  After talking to the U-verse guys about this, they
-agreed they should go ahead and run new wires to all of my TVs&#8230;but here&#8217;s
-the awesome part: they ran Cat 5e cables to all my rooms <em>for free</em> instead of
-coax!  That was a HUGE win for me&#8230;why?  Because now I can add a network
-switch in any room with one of the new network jacks and I&#8217;ve got a way to
-hardwire in my other goodies&#8230;specifically, my Xbox 360 and my Blu-ray
-players.  If you already had coax cable that was close to your TVs, I don&#8217;t
-think they would run anything for you since they prefer to use existing
-wiring.  Even if they do run new stuff for your install, <em>you</em> must ask for
-Cat 5e instead of coax if that is what you want.  They can install either one
-usually unless there are specific environmental conditions at your location -
-in which case they may not give you a choice.  Anyway, it took them maybe an
-hour to hour and a half to run the network drops (I had four sets total in my
-case&#8230;all from the crawlspace).</p>
-
-<p>By this time, the outside stuff was done and tested.  Both teams must test the
-line once it&#8217;s ready to go - until that point, you don&#8217;t really know whether
-you can actually get U-verse service or not.  If you can&#8217;t, I don&#8217;t know what
-happens&#8230;in my case, both teams agreed that I had an excellent signal here so
-we could proceed with installation of the Residential Gateway (the &#8220;RG&#8221;).  So,
-they finished up all of the network jacks (adding faceplates, etc.) and then
-connected up the RG and the backup battery (a small Belkin UPS&#8230;keeps the net
-and VoIP up for 4 hours if the power goes out).  The RG essentially <em>IS</em> the
-U-verse service&#8230;it controls everything.  It has a router (wired and
-wireless&#8230;b/g only), the VoIP system, and the TV connections.  So if this box
-isn&#8217;t happy, nothing is going to work.  It&#8217;s important to note that this RG
-box needs a true, three prong grounded electrical outlet&#8230;I have a 50 year
-old home, but luckily a handful of my outlets were updated to be grounded just
-before I bought this house.  If you&#8217;re thinking about U-verse and you have an
-older house, make sure you have one of these outlets or you won&#8217;t be able to
-install&#8230;you can&#8217;t use an adapter for this part, you <em>must</em> have a real
-grounded outlet near the RG.</p>
-
-<p>As luck would have it, my RG was not happy.  No matter what they did, it just
-wouldn&#8217;t connect to the network.  The techs tried everything they could think
-of, but after about 2 hours of troubleshooting it, they decided it we should
-try another RG.  At this point, the installation was crossing the 7 hour mark
-(the guys didn&#8217;t even take a lunch break&#8230;).  This time, the RG connected
-properly.  Even when the RG works, the initial setup still takes about 15
-minutes while it configures itself.  Once that was done, I had to connect to
-the RG from my MacBook and finish a few last steps on the AT&amp;T website.  Once
-all of that was out of the way, the techs connected up all of my TV boxes and
-let them sync.  All of them had to perform an automatic update that took
-another 10-15 minutes to complete.  Finally, we did a quick test of my phone
-system, finished porting my number to the new system, and then they gave me a
-quick tour of the U-verse software on the DVR.  It was 6:30pm and the
-installation was completed.</p>
-
-<p><strong>So, was it worth it?</strong><br/>
-I&#8217;ve had the service for less than a day as I write this, but I can say that
-this was 110% worth it for my purposes.  Heck, just getting these great upload
-and download rates makes it worth it for me, but getting my house wired with a
-wired gigabit network was an unbelievable bonus.  Will I watch all 450+ TV
-channels?  No, I&#8217;ll probably watch 20 or less any given week.  If you like TV
-though, this package has as much as any of them.  I don&#8217;t use the landline
-phone much, so I&#8217;m not sure how useful the VoIP upgrade will be&#8230;call quality
-sounds much better (I had some noise prior to this upgrade), but I wanted to
-keep my Knoxville number, so I kept the phone service for the moment.  I think
-a typical install in a newer home that already had existing coax (or ethernet)
-cable in all the right places would be much, much shorter than my
-install&#8230;maybe 2-4 hours.  So if you&#8217;re thinking about getting U-verse, don&#8217;t
-let the length of my install deter you - it&#8217;s very unlikely it&#8217;ll take longer
-than 6 hours max.  All of the guys I dealt with during the install were a
-pleasure to work with - other than the technical issues with the bad RG
-hardware, everything went as smoothly as one would want.  The real question is
-the long term support - will AT&amp;T keep up the great customer service I
-experienced or will they drop the ball now that I&#8217;m committed to U-verse?
-Only time will tell, but I can certainly recommend U-verse at this point.</p>
-
-<p>UPDATE (10/30/2009): It&#8217;s been a couple of days now and I&#8217;m still very happy
-with the service.  The only &#8220;issue&#8221; I&#8217;ve found is that I misunderstood the
-stream limit with U-verse as far as TV programming.  I thought all boxes would
-be able to watch any channel (HD or SD) and the DVR box could do 4 channels
-(all recording or watching 1 and recording 3).  What I didn&#8217;t realize was that
-your entire U-verse system can only support 4 channels simultaneously and of
-those 4, only 2 can be HD.  So if you have three boxes like I do, you can&#8217;t
-watch live HD content on all three boxes at the same time unless you&#8217;re
-watching the same show(s) on two or more of the boxes.  If you have lots of
-TVs in your house, you may hit this issue pretty quickly.  In my case, I hit
-the issue because three of the shows I like to watch come on at the same time
-on the same day of the week&#8230;when I tried to set the DVR to record all of
-them in HD, it told me I couldn&#8217;t.  I can drop one of the shows down to SD and
-it&#8217;s fine, but while the recording is going on, I won&#8217;t be able to watch any
-other channels in HD (it gives you a blue screen and tells you no more HD
-channels can be used until the recording has stopped).  For me, this isn&#8217;t a
-deal breaker, but I thought I should put a note on here since this limit
-wasn&#8217;t clear to me&#8230;I knew the limit of 4 streams on the DVR box, I just
-didn&#8217;t realize that was a limit on the whole U-verse install.</p>
 ]]></content>
   </entry>
   
