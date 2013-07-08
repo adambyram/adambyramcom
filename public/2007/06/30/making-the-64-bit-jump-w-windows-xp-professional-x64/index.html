@@ -1,109 +1,99 @@
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Making the 64-bit Jump (w/ Windows XP Professional x64) - Adam Byram</title>
-  <meta name="author" content="Adam Byram">
+	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
+	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<meta charset="utf-8">
+	<title>Making the 64-bit Jump (w/ Windows XP Professional x64)  | Adam Byram</title>
 
-  
-  <meta name="description" content="So I&#8217;ve had a copy of Windows XP Professional x64 for quite a while - I never
-bothered to install it because all of my machines, except one, &hellip;">
-  
+<meta name="author" content="Adam Byram"> 
 
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="So I&#8217;ve had a copy of Windows XP Professional x64 for quite a while - I never
+bothered to install it because all of my machines, except one, &hellip;"> <meta name="keywords" content="">
 
-  
-  <link rel="canonical" href="http://www.adambyram.com/2007/06/30/making-the-64-bit-jump-w-windows-xp-professional-x64/">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="http://feeds.feedburner.com/adambyram" rel="alternate" title="Adam Byram" type="application/atom+xml">
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-174266-2']);
-    _gaq.push(['_trackPageview']);
+	<link href="http://feeds.feedburner.com/adambyram" rel="alternate" title="Adam Byram" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js"></script>
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el, 
+              id = $(this.element).data('title-id');
 
+          if (id) {
+            el = $('#' + id);
 
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+	
 </head>
 
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">Adam Byram</a></h1>
-  
-    <h2>Tech. Geekery. Photography. Lots of Random.</h2>
-  
-</hgroup>
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">Adam Byram</a></h1>
+<h4>Tech. Geekery. Photography. Lots of Random.</h4>
+<nav id="main-nav"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:www.adambyram.com">
+			</form>
+		</div>
+	</div>
+</nav>
+
 
 </header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="http://feeds.feedburner.com/adambyram" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:www.adambyram.com" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Home</a></li>
-  <li><a href="/archives">Archives</a></li>
-  </ul>
 
-</nav>
-  <div id="main">
-    <div id="content">
-      <div>
-<article class="hentry" role="article">
-  
-  <header>
-    
-      <h1 class="entry-title">Making the 64-bit Jump (W/ Windows XP Professional X64)</h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2007-06-30T21:05:16-04:00" pubdate data-updated="true">Jun 30<span>th</span>, 2007</time>
-        
-      </p>
-    
-  </header>
-
-
-<div class="entry-content"><p>So I&#8217;ve had a copy of Windows XP Professional x64 for quite a while - I never
+	<div id="content" class="inner"><article class="post">
+	<h2 class="title">Making the 64-bit Jump (W/ Windows XP Professional X64)</h2>
+	<div class="entry-content"><p>So I&#8217;ve had a copy of Windows XP Professional x64 for quite a while - I never
 bothered to install it because all of my machines, except one, are 32-bit
 only.  My main desktop has an older Athlon 64 (3500+) processor, but I
 recently bumped up the RAM to 3GB for some photography and development work -
@@ -156,14 +146,8 @@ curious about what works in the 64-bit world:</p>
 </div>
 
 
-  <footer>
-    <p class="meta">
-      
-  
-
-<span class="byline author vcard">Posted by <span class="fn">adam</span></span>
-
-      
+<div class="meta">
+	<div class="date">
 
 
 
@@ -175,82 +159,46 @@ curious about what works in the 64-bit world:</p>
   
 
 
-<time datetime="2007-06-30T21:05:16-04:00" pubdate data-updated="true">Jun 30<span>th</span>, 2007</time>
-      
-
-<span class="categories">
-  
-    <a class='category' href='/categories/tech/'>Tech</a>
-  
-</span>
+<time datetime="2007-06-30T21:05:16-04:00" pubdate data-updated="true">Jun 30<span>th</span>, 2007</time></div>
+	<div class="tags">
 
 
-    </p>
-    
-      <div class="sharing">
-  
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.adambyram.com/2007/06/30/making-the-64-bit-jump-w-windows-xp-professional-x64/" data-via="adambyram" data-counturl="http://www.adambyram.com/2007/06/30/making-the-64-bit-jump-w-windows-xp-professional-x64/" >Tweet</a>
-  
-  
-  
-</div>
+	<a class='category' href='/categories/tech/'>Tech</a>
 
-    
-    <p class="meta">
-      
-        <a class="basic-alignment left" href="/2007/06/24/3-reasons-i-probably-wont-buy-an-iphone/" title="Previous Post: 3 Reasons I Probably Won't Buy an iPhone">&laquo; 3 Reasons I Probably Won't Buy an iPhone</a>
-      
-      
-        <a class="basic-alignment right" href="/2007/07/01/money-choices/" title="Next Post: Money Choices">Money Choices &raquo;</a>
-      
-    </p>
-  </footer>
-</article>
 
 </div>
+	
+</div></article>
 
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/2013/03/09/my-thoughts-on-the-surface-pro/">My Thoughts on the Surface Pro</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/10/21/cat-feeder-project-part-2/">Cat Feeder Project - Part 2</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/10/17/early-thoughts-on-microsoft-surface/">Early Thoughts on Microsoft Surface</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/10/12/cat-feeder-project-part-1/">Cat Feeder Project - Part 1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/01/05/thoughts-on-the-13-macbook-air/">Thoughts on the 13&quot; MacBook Air</a>
-      </li>
-    
-  </ul>
-</section>
-
-  
-</aside>
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+<!---	<a class="addthis_counter addthis_pill_style"></a> --->
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
 
 
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - Adam Byram -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
+</div>
+	<footer id="footer" class="inner">Copyright &copy; 2013
 
+    Adam Byram
+
+<br>
+Powered by Octopress.
 </footer>
-  
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
 
 <script type="text/javascript">
       var disqus_shortname = 'adambyramcom';
@@ -267,21 +215,17 @@ curious about what works in the 64-bit world:</p>
 
 
 
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-174266-2']);
+		_gaq.push(['_trackPageview']);
 
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
 
 
 

@@ -1,0 +1,418 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
+	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<meta charset="utf-8">
+	<title>Tech. Geekery. Photography. Lots of Random.  | Adam Byram</title>
+
+<meta name="author" content="Adam Byram"> 
+
+<meta name="description" content="It&#8217;s that time of year again. These goals will change over the course of the year, but today, my goals for 2012 are to: Pay off cat medical &hellip;"> <meta name="keywords" content="">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="http://feeds.feedburner.com/adambyram" rel="alternate" title="Adam Byram" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js"></script>
+
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el, 
+              id = $(this.element).data('title-id');
+
+          if (id) {
+            el = $('#' + id);
+
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+	
+</head>
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">Adam Byram</a></h1>
+<h4>Tech. Geekery. Photography. Lots of Random.</h4>
+<nav id="main-nav"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:www.adambyram.com">
+			</form>
+		</div>
+	</div>
+</nav>
+
+
+</header>
+
+	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/2012/01/01/goals-for-2012/">
+		
+			Goals for 2012</a>
+	</h2>
+	<div class="entry-content">
+		<p>It&#8217;s that time of year again.  These goals will change over the course of the year, but today, my goals for 2012 are to:</p>
+
+<ul>
+<li>Pay off cat medical debt</li>
+<li>Sell (or rent) house</li>
+<li>Launch at least one new iOS game or app</li>
+<li>Get involved with open source</li>
+</ul>
+
+
+<p>Of course, the standard goals of lose weight, eat better, save more, and the like are all things I plan to work on as well.  The goals above are specific to 2012.  It should be a fun &amp; exciting year.</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-01-01T00:00:00-05:00" pubdate data-updated="true">Jan 1<span>st</span>, 2012</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/categories/life/'>Life</a>
+
+
+</div>
+	
+</div></article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/2011/12/31/switching-to-octopress/">
+		
+			Switching to Octopress</a>
+	</h2>
+	<div class="entry-content">
+		<p>I&#8217;ve been looking into Octopress for a month or so now and I finally decided to take the plunge.  As of now, this blog is now powered by Octopress (more or less out of the box) instead of WordPress.  I&#8217;d like to change the theme a bit, but it&#8217;s good enough that I&#8217;ll leave it for now.</p>
+
+<h3>WordPress -> Octopress</h3>
+
+<p>Nothing was wrong with WordPress itself, but I just didn&#8217;t use any of the features it offered.  I&#8217;d rather just type the blog posts in a regular editor instead of a textbox on a webpage.  There are some great tools out there that help with that of course, but I just don&#8217;t need the features there either.  In addition, maintaining WordPress means logging in pretty often to check for updates, apply them, make sure the database is backed up, etc.  All of that would be just fine if I received enough benefit to offset the time there, but I just didn&#8217;t.</p>
+
+<h3>Enter Heroku</h3>
+
+<p>In addition to switching the blogging engine, I moved the physical blog from Linode over to Heroku + Amazon S3.  My blog is very low traffic, so I don&#8217;t need a high powered VPS host that I have to maintain &amp; patch.  Heroku offers a free account if you don&#8217;t need much power and can live without a database (well, effectively without a DB - a 5MB one is included).  I decided to go ahead and put any post specific images/files onto S3 since Heroku offers a limited amount of local storage and I can also redeploy back to Linode if something doesn&#8217;t work out at Heroku.  For the record though, I <em>love</em> Linode for a Linux VPS host.  I highly recommend them as long as you&#8217;re comfortable dealing with Linux via the command line.</p>
+
+<h3>Simplicity</h3>
+
+<p>As I get older, the technology side of things appeals to me less and less.  I still love technology in general, but the nitty gritty details of what platform/framework/OS/whatever is the best is less and less interesting to me.  I&#8217;m more interested in the best way to deliver a solution in a way that is as simple as possible.  That doesn&#8217;t mean I&#8217;m adverse to complexity under the hood though. It means I value the experience, productivity, and the ability to simply get things done over the technical aspects of a solution.</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-12-31T19:08:00-05:00" pubdate data-updated="true">Dec 31<span>st</span>, 2011</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/categories/tech/'>Tech</a>
+
+
+</div>
+	
+</div></article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/2011/12/31/looking-back-on-2011/">
+		
+			Looking Back on 2011</a>
+	</h2>
+	<div class="entry-content">
+		<p>2011 was a crazy year for me.  It was a year full of change.  This year I:</p>
+
+<ul>
+<li><p>Started dating my beautiful girlfriend</p></li>
+<li><p>Watched the last launch of Space Shuttle Discovery from the NASA press site thanks to the STS-133 NASATweetup</p></li>
+<li><p>Took a great vacation to Charleston, SC</p></li>
+<li><p>Turned 30</p></li>
+<li><p>Moved 2200 miles from the East Coast to the West Coast for a new job</p></li>
+<li><p>Began working a dream job in the space industry</p></li>
+</ul>
+
+
+<p>There were some low points in 2011, but overall, it&#8217;s been a good year.  In a lot of ways, I feel like 2011 was a transitional year.  All of the change is mostly finished at this point, so it feels like it&#8217;s time for the good stuff to begin.  I&#8217;m <em>really</em> excited about 2012 - I think like it&#8217;s going to be an amazing year.</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-12-31T19:08:00-05:00" pubdate data-updated="true">Dec 31<span>st</span>, 2011</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/categories/life/'>Life</a>
+
+
+</div>
+	
+</div></article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/2011/11/26/blog-block/">
+		
+			Blog Block</a>
+	</h2>
+	<div class="entry-content">
+		<p>I really thought I&#8217;d have a lot to blog about since this whole week was a
+pretty crazy cross country adventure&#8230;but I can&#8217;t seem to focus on blogging
+at the moment.  I don&#8217;t know if it&#8217;s just a writer&#8217;s block thing or what.
+Whenever I sit down to write, I keep thinking I&#8217;m writing out some formal
+document and that ends up causing me to keep thinking about it and then I just
+stop.  My goal is to blog <em>more</em> now that I&#8217;m out in LA and I have lots of
+friends around the country that will probably be interested in updates.  At
+this point, I&#8217;m not sure what I&#8217;m going to do.  I thought about just using
+Tumblr instead of my own custom WordPress install or I may simply start fresh
+with this domain.  I&#8217;ll definitely find a way to send out updates on my LA
+adventure, but it looks like it&#8217;ll be a little bit longer.</p>
+
+<p>One quick update though - I did make it to LA just fine and both kitties made
+it smoothly.  My furniture isn&#8217;t here yet, so my apartment is basically empty
+at the moment, but at least I&#8217;m here.  I&#8217;ll post more in the near future, but
+so far, so good.</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-11-26T01:28:06-05:00" pubdate data-updated="true">Nov 26<span>th</span>, 2011</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/categories/life/'>Life</a>
+
+
+</div>
+	
+</div></article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/2011/10/28/t-0/">
+		
+			T-0</a>
+	</h2>
+	<div class="entry-content">
+		<p>Today is my last day of work on the East Coast. It&#8217;s a sad day since I&#8217;m
+leaving a stable company full of good people and interesting opportunities. At
+the same time, it&#8217;s an exciting day since I&#8217;m leaving so I can prepare myself
+for the 2200 mile move to Los Angeles before I start my dream job of building
+spaceships. I never thought I&#8217;d be trading my reasonably large house in
+Tennessee and basically all of my stuff for a tiny one bedroom apartment in
+LA, but I never thought I&#8217;d be able to work on spaceships either.</p>
+
+<p>I got a great send off from my coworkers. A few of them decided to do a little
+decorating to my cube&#8230;</p>
+
+<p><a href="http://share.adambyram.com/2011-10-28-t-0/IMG_0017.jpg"><img src="http://share.adambyram.com/2011-10-28-t-0/IMG_0017.jpg" alt="" /></a></p>
+
+<p>&#8230;and my car&#8230;</p>
+
+<p><a href="http://share.adambyram.com/2011-10-28-t-0/IMG_0024.jpg"><img src="http://share.adambyram.com/2011-10-28-t-0/IMG_0024.jpg" alt="" /></a></p>
+
+<p>&#8230;but the best part was the cupcake. :)</p>
+
+<p><a href="http://share.adambyram.com/2011-10-28-t-0/IMG_0021.jpg"><img src="http://share.adambyram.com/2011-10-28-t-0/IMG_0021.jpg" alt="" /></a></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-10-28T21:09:47-04:00" pubdate data-updated="true">Oct 28<span>th</span>, 2011</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/categories/life/'>Life</a>
+
+
+</div>
+	
+</div></article>
+
+<nav id="pagenavi">
+    
+        <a href="/blog/" class="prev">Prev</a>
+    
+    
+        <a href="/blog/page/3/" class="next">Next</a>
+    
+    <div class="center"><a href="/blog/archives">Blog Archives</a></div>
+</nav></div>
+	<footer id="footer" class="inner">Copyright &copy; 2013
+
+    Adam Byram
+
+<br>
+Powered by Octopress.
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'adambyramcom';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-174266-2']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+</body>
+</html>

@@ -1,112 +1,108 @@
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Adam Byram</title>
-  <meta name="author" content="Adam Byram">
+	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
+	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<meta charset="utf-8">
+	<title>Tech. Geekery. Photography. Lots of Random.  | Adam Byram</title>
 
-  
-  <meta name="description" content="I&#8217;ve been using the mac for just right around 5 months now. In that time, I&#8217;ve
-found that there are a handful of applications I use very &hellip;">
-  
+<meta name="author" content="Adam Byram"> 
 
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="I&#8217;ve been using the mac for just right around 5 months now. In that time, I&#8217;ve
+found that there are a handful of applications I use very &hellip;"> <meta name="keywords" content="">
 
-  
-  <link rel="canonical" href="http://www.adambyram.com/page/6/">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="http://feeds.feedburner.com/adambyram" rel="alternate" title="Adam Byram" type="application/atom+xml">
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-174266-2']);
-    _gaq.push(['_trackPageview']);
+	<link href="http://feeds.feedburner.com/adambyram" rel="alternate" title="Adam Byram" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js"></script>
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el, 
+              id = $(this.element).data('title-id');
 
+          if (id) {
+            el = $('#' + id);
 
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+	
 </head>
 
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">Adam Byram</a></h1>
-  
-    <h2>Tech. Geekery. Photography. Lots of Random.</h2>
-  
-</hgroup>
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">Adam Byram</a></h1>
+<h4>Tech. Geekery. Photography. Lots of Random.</h4>
+<nav id="main-nav"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:www.adambyram.com">
+			</form>
+		</div>
+	</div>
+</nav>
+
 
 </header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="http://feeds.feedburner.com/adambyram" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:www.adambyram.com" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Home</a></li>
-  <li><a href="/archives">Archives</a></li>
-  </ul>
 
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2009/02/18/top-5-favorite-apps-for-mac/">Top 5 Favorite Apps (for Mac)</a></h1>
-    
-    
-      <p class="meta">
-        
+	<div id="content" class="inner">
 
 
-
-
-
-
-
-
-  
-
-
-<time datetime="2009-02-18T08:22:13-05:00" pubdate data-updated="true">Feb 18<span>th</span>, 2009</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I&#8217;ve been using the mac for just right around 5 months now. In that time, I&#8217;ve
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/2009/02/18/top-5-favorite-apps-for-mac/">
+		
+			Top 5 Favorite Apps (for Mac)</a>
+	</h2>
+	<div class="entry-content">
+		<p>I&#8217;ve been using the mac for just right around 5 months now. In that time, I&#8217;ve
 found that there are a handful of applications I use very regularly, so I
 thought I would share in case any other switchers are looking for apps to
 check out. Here are my current top 5 (in no particular order):</p>
@@ -130,42 +126,46 @@ check out. Here are my current top 5 (in no particular order):</p>
 <li><a href="http://www.transmissionbt.com/">Transmission</a></li>
 </ul>
 
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-02-18T08:22:13-05:00" pubdate data-updated="true">Feb 18<span>th</span>, 2009</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/categories/tech/'>Tech</a>
+
+
 </div>
-  
-  
+	
+</div></article>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2009/01/21/first-time-skiing/">First Time Skiing</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2009-01-21T08:54:04-05:00" pubdate data-updated="true">Jan 21<span>st</span>, 2009</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Since I moved to Tennessee, I&#8217;ve wanted to go try out skiing - mainly because
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/2009/01/21/first-time-skiing/">
+		
+			First Time Skiing</a>
+	</h2>
+	<div class="entry-content">
+		<p>Since I moved to Tennessee, I&#8217;ve wanted to go try out skiing - mainly because
 it&#8217;s relatively close to where I live, so it alwayed seemed like a good thing
 to try while I&#8217;m in the area.  Well, yesterday, I tried skiing for the first
 time&#8230;</p>
@@ -211,42 +211,46 @@ so much once I started going at a good pace (because I know I kept leaning
 back too far and my skis came out from under me).  Overall, I&#8217;m glad I went
 since I&#8217;ve wanted to try skiing, but I don&#8217;t think I&#8217;ll be going back.  Skiing
 just isn&#8217;t for me, but it was certainly an interesting experience.</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-01-21T08:54:04-05:00" pubdate data-updated="true">Jan 21<span>st</span>, 2009</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/categories/life/'>Life</a>
+
+
 </div>
-  
-  
+	
+</div></article>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2009/01/01/my-goals-for-2009/">My Goals for 2009</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2009-01-01T23:16:32-05:00" pubdate data-updated="true">Jan 1<span>st</span>, 2009</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Now seems as good a time as any to post my a list of goals I want to
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/2009/01/01/my-goals-for-2009/">
+		
+			My Goals for 2009</a>
+	</h2>
+	<div class="entry-content">
+		<p>Now seems as good a time as any to post my a list of goals I want to
 accomplish in 2009. I think everything is quite realistic. So, I now have 364
 days left to:</p>
 
@@ -280,42 +284,46 @@ days left to:</p>
 <li>Write at least one blog post per week on this blog - just to start writing more</li>
 </ul>
 
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-01-01T23:16:32-05:00" pubdate data-updated="true">Jan 1<span>st</span>, 2009</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/categories/life/'>Life</a>
+
+
 </div>
-  
-  
+	
+</div></article>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2008/12/31/looking-back-on-2008/">Looking Back on 2008</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2008-12-31T21:25:47-05:00" pubdate data-updated="true">Dec 31<span>st</span>, 2008</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Well, 2008 is almost over and overall, it really hasn&#8217;t been that bad.  This
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/2008/12/31/looking-back-on-2008/">
+		
+			Looking Back on 2008</a>
+	</h2>
+	<div class="entry-content">
+		<p>Well, 2008 is almost over and overall, it really hasn&#8217;t been that bad.  This
 year I:</p>
 
 <ul>
@@ -334,42 +342,46 @@ in quite a few ways&#8230;  Here&#8217;s looking forward to a whole new year an
 exciting adventures to come&#8230;</li>
 </ul>
 
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-12-31T21:25:47-05:00" pubdate data-updated="true">Dec 31<span>st</span>, 2008</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/categories/life/'>Life</a>
+
+
 </div>
-  
-  
+	
+</div></article>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2008/10/21/checking-in/">Checking In</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2008-10-21T01:25:23-04:00" pubdate data-updated="true">Oct 21<span>st</span>, 2008</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Just a quick post to say I&#8217;m still around&#8230;  I haven&#8217;t been updating this
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/2008/10/21/checking-in/">
+		
+			Checking In</a>
+	</h2>
+	<div class="entry-content">
+		<p>Just a quick post to say I&#8217;m still around&#8230;  I haven&#8217;t been updating this
 blog much because things got quite busy at work and after that settled down, I
 started working on a small iPhone app that I&#8217;ve been wanting for a long time.
 On October 14th, I finally released my app (called Budgee) to the Apple App
@@ -384,64 +396,60 @@ http://www.cogitu.com/Products/Budgee/).</p>
 <p>Anyway - not much else to say other than I&#8217;m still not going to be posting too
 many updates to this blog in the near future.  I&#8217;m really trying to focus most
 of my free time getting my new iPhone venture up and running at full speed.</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-10-21T01:25:23-04:00" pubdate data-updated="true">Oct 21<span>st</span>, 2008</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/categories/life/'>Life</a>
+
+
 </div>
-  
-  
+	
+</div></article>
 
+<nav id="pagenavi">
+    
+        <a href="/page/5/" class="prev">Prev</a>
+    
+    
+        <a href="/page/7/" class="next">Next</a>
+    
+    <div class="center"><a href="/archives">Blog Archives</a></div>
+</nav></div>
+	<footer id="footer" class="inner">Copyright &copy; 2013
 
-    </article>
-  
-  <div class="pagination">
-    
-      <a class="prev" href="/page/7/">&larr; Older</a>
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-    <a class="next" href="/page/5/">Newer &rarr;</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/2013/03/09/my-thoughts-on-the-surface-pro/">My Thoughts on the Surface Pro</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/10/21/cat-feeder-project-part-2/">Cat Feeder Project - Part 2</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/10/17/early-thoughts-on-microsoft-surface/">Early Thoughts on Microsoft Surface</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/10/12/cat-feeder-project-part-1/">Cat Feeder Project - Part 1</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/01/05/thoughts-on-the-13-macbook-air/">Thoughts on the 13&quot; MacBook Air</a>
-      </li>
-    
-  </ul>
-</section>
+    Adam Byram
 
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - Adam Byram -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
+<br>
+Powered by Octopress.
 </footer>
-  
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
 
 <script type="text/javascript">
       var disqus_shortname = 'adambyramcom';
@@ -458,21 +466,17 @@ of my free time getting my new iPhone venture up and running at full speed.</p>
 
 
 
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-174266-2']);
+		_gaq.push(['_trackPageview']);
 
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
 
 
 
