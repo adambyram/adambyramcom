@@ -9,7 +9,7 @@
 
 <meta name="author" content="Adam Byram"> 
 
-<meta name="description" content="Some of you may know my cat situation. If you&#8217;re not aware, the long and the short of it is that my cats used to only eat dry cat food. One of &hellip;"> <meta name="keywords" content="">
+<meta name="description" content="Some of you may know my cat situation. If you&rsquo;re not aware, the long and the short of it is that my cats used to only eat dry cat food. One of &hellip;"> <meta name="keywords" content="">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -92,39 +92,39 @@ $(document).ready(
 
 	<div id="content" class="inner"><article class="post">
 	<h2 class="title">Cat Feeder Project - Part 1</h2>
-	<div class="entry-content"><p>Some of you may know my cat situation.  If you&#8217;re not aware, the long and the short of it is that my cats used to only eat dry cat food.  One of the cats ended up getting very sick when I moved to Los Angeles.  After she recovered (she&#8217;s fine now), she decided she&#8217;ll never eat dry food again and only eats very specific wet cat food.</p>
+	<div class="entry-content"><p>Some of you may know my cat situation.  If you&rsquo;re not aware, the long and the short of it is that my cats used to only eat dry cat food.  One of the cats ended up getting very sick when I moved to Los Angeles.  After she recovered (she&rsquo;s fine now), she decided she&rsquo;ll never eat dry food again and only eats very specific wet cat food.</p>
 
-<p>The problem is that I have two very nice automated dry food feeders that I can&#8217;t use.  Both cats need to be on a schedule to help control their weight.  So I started researching wet cat food feeders and it turns out, there aren&#8217;t many.  Not only that, the feeders that are out there all use ice packs which limit you to 8 or maybe 12 hours of feeding.  That&#8217;s totally not acceptable to me so I&#8217;ve decided I&#8217;m going to try to design my own wet cat food feeder.</p>
+<p>The problem is that I have two very nice automated dry food feeders that I can&rsquo;t use.  Both cats need to be on a schedule to help control their weight.  So I started researching wet cat food feeders and it turns out, there aren&rsquo;t many.  Not only that, the feeders that are out there all use ice packs which limit you to 8 or maybe 12 hours of feeding.  That&rsquo;s totally not acceptable to me so I&rsquo;ve decided I&rsquo;m going to try to design my own wet cat food feeder.</p>
 
 <h3>What</h3>
 
-<p>So what is this thing?  Well, it&#8217;s a small (~2 ft wide) unit that has a certain number of rotating food cups.  The food cups can be filled with wet food (or dry food) and the unit can be programmed to expose each food cup to the cats on a specific schedule.  The unexposed food will stay seal up inside the unit and a cooling unit will keep the unexposed food nice and cool.</p>
+<p>So what is this thing?  Well, it&rsquo;s a small (~2 ft wide) unit that has a certain number of rotating food cups.  The food cups can be filled with wet food (or dry food) and the unit can be programmed to expose each food cup to the cats on a specific schedule.  The unexposed food will stay seal up inside the unit and a cooling unit will keep the unexposed food nice and cool.</p>
 
-<p>The goal is to have the unit keep food at refridgerated temperatures (TBD what that means) consistently to allow food to be stored in the unit for up to three days.  That seems to be the maximum time wet food is allowed to be refridgerated based on manufacturer information, so that&#8217;ll be the target for version 1.</p>
+<p>The goal is to have the unit keep food at refridgerated temperatures (TBD what that means) consistently to allow food to be stored in the unit for up to three days.  That seems to be the maximum time wet food is allowed to be refridgerated based on manufacturer information, so that&rsquo;ll be the target for version 1.</p>
 
-<p>If the machine can feed twice a day for an overnight trip or once a day for a long weekend trip, it&#8217;ll be fantastic, so that&#8217;s the target.</p>
+<p>If the machine can feed twice a day for an overnight trip or once a day for a long weekend trip, it&rsquo;ll be fantastic, so that&rsquo;s the target.</p>
 
 <h3>Why</h3>
 
-<p>On top of the issues mentioned above, I really want a exposure to the hardware + software world.  I&#8217;ve worked on software for quite a long time and basically everything I&#8217;ve built is totally virtual in nature.  That&#8217;s all fine and good, but I&#8217;m really wanting build something physical.  Of course, some software will still be needed, but I&#8217;ll also get some electrical engineering, product design, and CAD modeling.</p>
+<p>On top of the issues mentioned above, I really want a exposure to the hardware + software world.  I&rsquo;ve worked on software for quite a long time and basically everything I&rsquo;ve built is totally virtual in nature.  That&rsquo;s all fine and good, but I&rsquo;m really wanting build something physical.  Of course, some software will still be needed, but I&rsquo;ll also get some electrical engineering, product design, and CAD modeling.</p>
 
-<p>The other part of the why is that I really want to be able to go on a long weekend trip and not have to worry about the cats getting fed.  Today, we basically can&#8217;t be gone for longer than about 8 hours at a time without having someone come by to feed the cats.</p>
+<p>The other part of the why is that I really want to be able to go on a long weekend trip and not have to worry about the cats getting fed.  Today, we basically can&rsquo;t be gone for longer than about 8 hours at a time without having someone come by to feed the cats.</p>
 
 <h3>How</h3>
 
-<p>I&#8217;m planning on building everything with some pretty common parts.  The initial design / prototype is going to be all plastic, mainly because I&#8217;m getting a <a href="http://www.kickstarter.com/projects/2105227104/ultra-bot-3d-printer">3D printer</a> in December.  The general electronics won&#8217;t be anything super special.  For the prototype, I&#8217;ll be using an Arduino Uno for overall control, a motor controller board to rotate the food dish, a external power module to power the cooling system, and a few other random bits.</p>
+<p>I&rsquo;m planning on building everything with some pretty common parts.  The initial design / prototype is going to be all plastic, mainly because I&rsquo;m getting a <a href="http://www.kickstarter.com/projects/2105227104/ultra-bot-3d-printer">3D printer</a> in December.  The general electronics won&rsquo;t be anything super special.  For the prototype, I&rsquo;ll be using an Arduino Uno for overall control, a motor controller board to rotate the food dish, a external power module to power the cooling system, and a few other random bits.</p>
 
-<p>For cooling, I&#8217;m planning on using a Peltier cooler.  They aren&#8217;t very efficient, but they are relatively easy to use and they can work reasonably well (based on my experience with a little mini fridge).  They are also pretty cheap, so it&#8217;s quite cost effective from a component perspective.  The cooling will be the trickiest aspect of the whole project.</p>
+<p>For cooling, I&rsquo;m planning on using a Peltier cooler.  They aren&rsquo;t very efficient, but they are relatively easy to use and they can work reasonably well (based on my experience with a little mini fridge).  They are also pretty cheap, so it&rsquo;s quite cost effective from a component perspective.  The cooling will be the trickiest aspect of the whole project.</p>
 
 <h3>When</h3>
 
-<p>Well, I&#8217;ve already started playing with the basic components and working on the hardware design (the body of the feeder, not the electronic components).  The 3D printer won&#8217;t be available until later in December, so I can&#8217;t start working on the real prototype until then, but I&#8217;ll be able to play with the cooling system this month and into November.  My goal is to have a really rough 3D model ready by the time the printer is available.  I&#8217;m assuming I&#8217;ll needed lots of revisions to the plastic parts since all of this (the design process, printing process, and design software) is new to me, but I want to be able to hit the ground running.</p>
+<p>Well, I&rsquo;ve already started playing with the basic components and working on the hardware design (the body of the feeder, not the electronic components).  The 3D printer won&rsquo;t be available until later in December, so I can&rsquo;t start working on the real prototype until then, but I&rsquo;ll be able to play with the cooling system this month and into November.  My goal is to have a really rough 3D model ready by the time the printer is available.  I&rsquo;m assuming I&rsquo;ll needed lots of revisions to the plastic parts since all of this (the design process, printing process, and design software) is new to me, but I want to be able to hit the ground running.</p>
 
-<p>As far as the finished product, I&#8217;m hoping to have a totally working prototype in Q1 2013.  Will that happen? I have no idea, but I really, really want this product so I&#8217;d like to have something working sooner rather than later.</p>
+<p>As far as the finished product, I&rsquo;m hoping to have a totally working prototype in Q1 2013.  Will that happen? I have no idea, but I really, really want this product so I&rsquo;d like to have something working sooner rather than later.</p>
 
-<h3>What&#8217;s Next</h3>
+<h3>What&rsquo;s Next</h3>
 
-<p>I plan to blog my progress on this project.  It&#8217;s as much for me to keep track of things as it is for everyone else to follow along.  Next time, I&#8217;ll show the current stage of the design and share some thoughts on the design process as well as the design software I&#8217;m using.  This should be a fun project, so I hope you have as much fun following along as I&#8217;m having building this thing.</p>
+<p>I plan to blog my progress on this project.  It&rsquo;s as much for me to keep track of things as it is for everyone else to follow along.  Next time, I&rsquo;ll show the current stage of the design and share some thoughts on the design process as well as the design software I&rsquo;m using.  This should be a fun project, so I hope you have as much fun following along as I&rsquo;m having building this thing.</p>
 </div>
 
 
@@ -155,8 +155,6 @@ $(document).ready(
 	<div class="share">
 	<div class="addthis_toolbox addthis_default_style ">
 	
-	
-	<a class="addthis_button_tweet"></a>
 	
 	
 <!---	<a class="addthis_counter addthis_pill_style"></a> --->

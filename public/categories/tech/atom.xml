@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Tech | Adam Byram]]></title>
   <link href="http://www.adambyram.com/categories/tech/atom.xml" rel="self"/>
   <link href="http://www.adambyram.com/"/>
-  <updated>2013-07-07T21:10:34-04:00</updated>
+  <updated>2013-07-07T21:42:13-04:00</updated>
   <id>http://www.adambyram.com/</id>
   <author>
     <name><![CDATA[Adam Byram]]></name>
@@ -32,7 +32,7 @@
 
 <h3>Initial Impression</h3>
 
-<p>The Surface Pro looks and feels really nice.  The build quality is excellent.  The pen is the only component that feels a little cheaper, but it’s a light tube of shiny black plastic compared to the solid slab of metal and glass.  The screen is bright, vibrant, and clear.  I'm not a fan of the 16:9 aspect ratio, but  most people don't seem to mind it.  The out of the box setup is fast and simple - I think it actually had less setup steps than my iPad which is impressive from Microsoft.</p>
+<p>The Surface Pro looks and feels really nice.  The build quality is excellent.  The pen is the only component that feels a little cheaper, but it’s a light tube of shiny black plastic compared to the solid slab of metal and glass.  The screen is bright, vibrant, and clear.  I&rsquo;m not a fan of the 16:9 aspect ratio, but  most people don&rsquo;t seem to mind it.  The out of the box setup is fast and simple &ndash; I think it actually had less setup steps than my iPad which is impressive from Microsoft.</p>
 
 <p>The kickstand is solid and the USB 3.0 port is blazing fast (if you have a good USB drive).  The kickstand is nice and works excellently when propping the device on the counter to watch Netflix while cooking.  It works great in laptop mode on a solid surface, but it’s hit or miss when using it as a laptop on your lap.  It works, but I had to keep fiddling with it to get it to balance properly and to get the screen at a good viewing angle.</p>
 
@@ -42,7 +42,7 @@
 
 <p>Since I knew I’d be using it as a laptop whenever I wasn’t taking notes, I picked up a Type Cover.  The Type Cover is one of the best tablet keyboards I’ve used.  It took about an hour for me to adjust to it, but after that, it felt great.  The magnetic connector is very secure and I had no concerns about it sliding off in my backpack like my iPad’s Logitech Ultra-thin Keyboard does.  The trackpad area is very responsive, but it’s so small, it’s unusable unless you’re in a pinch.</p>
 
-<p>The big downside is that the keyboard has some serious responsiveness issues if you use it on your lap or any other non-solid surface.  I would randomly experience ignored key-presses - not just once or twice, but nearly half the time.  I’d have to press the key 3 or 4 times to get it to register the key press.  The keyboard was barely flexed, but I never experienced this when using it on a solid surface.</p>
+<p>The big downside is that the keyboard has some serious responsiveness issues if you use it on your lap or any other non-solid surface.  I would randomly experience ignored key-presses &ndash; not just once or twice, but nearly half the time.  I’d have to press the key 3 or 4 times to get it to register the key press.  The keyboard was barely flexed, but I never experienced this when using it on a solid surface.</p>
 
 <p>At $130 on top of the Surface Pro’s price, it’s not a cheap cover at all, but to me, this is a must have if you buy a Surface or Surface Pro and expect to do any decent amount of typing.</p>
 
@@ -50,29 +50,29 @@
 
 <p>The pen is really well done.  It’s Wacom tech, which means it’s very accurate and there is zero noticeable lag between pen movement and when the “ink” shows up on the screen.  It has great pressure sensitivity and feels like a ballpoint pen in your hand.  I really wish Microsoft included a slot for the pen.</p>
 
-<p>The pen magnetically connects to the device via the power port.  That means you have to leave your pen on the table while you charge the Surface Pro.  I was constantly checking the pen when I was carrying the tablet to meetings - the connector magnets are strong, but depending on how you hold the tablet, it’s really easy to knock the pen off and never notice it’s lost.  This was particularly a problem for me when I would pick the tablet up.  The pen never detached while it my backpack, but it would nearly always detach when I picked up the tablet from the side (usually when I was pulling it out of my backpack).</p>
+<p>The pen magnetically connects to the device via the power port.  That means you have to leave your pen on the table while you charge the Surface Pro.  I was constantly checking the pen when I was carrying the tablet to meetings &ndash; the connector magnets are strong, but depending on how you hold the tablet, it’s really easy to knock the pen off and never notice it’s lost.  This was particularly a problem for me when I would pick the tablet up.  The pen never detached while it my backpack, but it would nearly always detach when I picked up the tablet from the side (usually when I was pulling it out of my backpack).</p>
 
-<p>In use, the pen worked great - particularly with OneNote 2013.  I wish there was a little texture on the screen of the Surface Pro so there was a little bit of resistance, but I’m sure that would impact the quality of the display in other ways.  The pen is every bit as good as I was expecting.</p>
+<p>In use, the pen worked great &ndash; particularly with OneNote 2013.  I wish there was a little texture on the screen of the Surface Pro so there was a little bit of resistance, but I’m sure that would impact the quality of the display in other ways.  The pen is every bit as good as I was expecting.</p>
 
 <h3>Tablet Mode</h3>
 
-<p>I know it’s not a big surprise to anyone, but there is still no ecosystem of Windows 8 touch interface apps.  I found a few third party apps (Stacks for Instapaper &amp; Nextgen Reader come to mind) that were nice.  The Netflix app was excellent - it’s probably the best implementation of Netflix I’ve seen on any device.  Outside of that, I found the app selection to be really, really lacking.</p>
+<p>I know it’s not a big surprise to anyone, but there is still no ecosystem of Windows 8 touch interface apps.  I found a few third party apps (Stacks for Instapaper &amp; Nextgen Reader come to mind) that were nice.  The Netflix app was excellent &ndash; it’s probably the best implementation of Netflix I’ve seen on any device.  Outside of that, I found the app selection to be really, really lacking.</p>
 
 <p>Microsoft has plenty of their own apps for calendaring, email, address book, etc.  All of these apps work, but they are about as basic as you can get.  I’m actually OK with basic for the most part, but Microsoft decided not to support CardDAV and CalDAV protocols in the contacts app and calendar app respectively.  That essentially means I can’t access any of my Google contact or calendar data out of the box.  It turns out, you can go to live.com and in an obscure mean, you can link your Google contacts to your live.com account and gain access that way.  For calendaring, you can import an iCal feed from the live.com site, but it’s a one way, one time import which is pretty much pointless for me since I can’t see my current Google calendar let alone update it.</p>
 
-<p>When I was using the tablet mode apps, the charms and multitouch gestures work well for the most part.  The charms make a heck of a lot more sense when using them with touch vs a mouse on my Windows 8 desktop.  I love the share charm.  It makes a ton of sense when apps implement it properly and I genuinely hope something like this is implemented on iOS and Android in the future.  I had some trouble moving tiles on the desktop - sometimes it would think I’m was trying to scroll, sometimes it would select the tile, and sometimes it would move the tile.  Overall, the experience using the touch interface was very positive, but there just aren’t any apps to use there and Microsoft needs to step up their game with their built-in apps - both in features and interoperability with other services (specifically Google accounts).</p>
+<p>When I was using the tablet mode apps, the charms and multitouch gestures work well for the most part.  The charms make a heck of a lot more sense when using them with touch vs a mouse on my Windows 8 desktop.  I love the share charm.  It makes a ton of sense when apps implement it properly and I genuinely hope something like this is implemented on iOS and Android in the future.  I had some trouble moving tiles on the desktop &ndash; sometimes it would think I’m was trying to scroll, sometimes it would select the tile, and sometimes it would move the tile.  Overall, the experience using the touch interface was very positive, but there just aren’t any apps to use there and Microsoft needs to step up their game with their built-in apps &ndash; both in features and interoperability with other services (specifically Google accounts).</p>
 
 <p>One day in the future, the tablet experience on a Windows 8 device may be excellent.  The hardware is very responsive overall, but the software needs polish.  The biggest deal breaker though is that beyond Kindle, Netflix, and a few other apps, you simply can’t find any apps worth using in tablet mode.</p>
 
 <h3>Desktop Mode</h3>
 
-<p>The desktop runs extremely smoothly and everything is very snappy thanks to the SSD.  I loaded Visual Studio, SQL Server, Resharper, Lightroom, Sketchbook Pro, Chrome, and several other apps that are essential for me.  I also installed the Office 365 trial - mainly because I wanted OneNote 2013.</p>
+<p>The desktop runs extremely smoothly and everything is very snappy thanks to the SSD.  I loaded Visual Studio, SQL Server, Resharper, Lightroom, Sketchbook Pro, Chrome, and several other apps that are essential for me.  I also installed the Office 365 trial &ndash; mainly because I wanted OneNote 2013.</p>
 
 <p>Since Windows doesn’t natively support high density displays and the Surface Pro has a high density display, Windows is set by default to scale the desktop by 150%.  The impact of this is that everything on the screen is magnified so icons are reasonably touchable and most system text (menu bars, etc) is readable.  In this mode, all of the Microsoft developed apps run great and look really sharp.</p>
 
-<p>Third party apps, (Chrome most notably), were a blur fest.  Text was muddy looking and touch detection seemed really flaky.  Links wouldn’t activate when I tapped them and Chrome generally acted funny.  Sketchbook Pro worked well, particularly with the pen, but it doesn’t support pinch to zoom - you still have to get a zoom tool from the menu bar if you want to pan &amp; zoom and that’s unfortunate.  Lightroom ran fine, but it was almost impossible to use the interface via touch.  Using a mouse or the Type Cover’s touchpad generally worked fine with these apps even with scaling turned on.  I know the Surface Pro is new, but Windows 8’s touch features have been available to developers for quite a while - so I’m curious if third party support will improve.</p>
+<p>Third party apps, (Chrome most notably), were a blur fest.  Text was muddy looking and touch detection seemed really flaky.  Links wouldn’t activate when I tapped them and Chrome generally acted funny.  Sketchbook Pro worked well, particularly with the pen, but it doesn’t support pinch to zoom &ndash; you still have to get a zoom tool from the menu bar if you want to pan &amp; zoom and that’s unfortunate.  Lightroom ran fine, but it was almost impossible to use the interface via touch.  Using a mouse or the Type Cover’s touchpad generally worked fine with these apps even with scaling turned on.  I know the Surface Pro is new, but Windows 8’s touch features have been available to developers for quite a while &ndash; so I’m curious if third party support will improve.</p>
 
-<p>When I connected my external monitor via mini DisplayPort, everything was blurry - scaling was applied to it as well even though it didn’t need the scaling.  I disabled desktop scaling and that solved the external monitor issues and made Chrome look &amp; act normal, but that caused all system text and icons to become super tiny.  Using desktop mode with scaling turned off was quite a challenge - ideally, third party apps will be updated to properly work with scaling turned on and to incorporate the new touch API, but I didn’t find a single non-Microsoft app that I use which did that today.</p>
+<p>When I connected my external monitor via mini DisplayPort, everything was blurry &ndash; scaling was applied to it as well even though it didn’t need the scaling.  I disabled desktop scaling and that solved the external monitor issues and made Chrome look &amp; act normal, but that caused all system text and icons to become super tiny.  Using desktop mode with scaling turned off was quite a challenge &ndash; ideally, third party apps will be updated to properly work with scaling turned on and to incorporate the new touch API, but I didn’t find a single non-Microsoft app that I use which did that today.</p>
 
 <h3>Gaming</h3>
 
@@ -84,17 +84,17 @@
 
 <p>My main use case was taking notes and sketches.  When doing that, the tablet works well.  Navigating OneNote 2013 could be much better though.  It’s still a desktop interface designed for a mouse (e.g. you still open up the ribbon menu to get different pen colors, line widths, etc), but once you’re just writing (and not creating a new page, changing pen color, etc) things are good.</p>
 
-<p>The most disappointing thing is that OneNote 2013 feels very much like the original version of OneNote I used on my original TabletPC.  As far as ink support and handwriting recognition, that’s a good thing, but it’s very disappointing to see the interface wasn’t updated for touch use.  It’s also worth noting that the OneNote app for iOS can’t display ink - it just displays “[ink]” anywhere you wrote with the pen...making my notes useless there.  The OneNote web interface does display ink, but my ink was almost unreadable on the web.  Ink that was totally readable and regular size on the tablet looked 2x as large on the web and there was no way to zoom out.</p>
+<p>The most disappointing thing is that OneNote 2013 feels very much like the original version of OneNote I used on my original TabletPC.  As far as ink support and handwriting recognition, that’s a good thing, but it’s very disappointing to see the interface wasn’t updated for touch use.  It’s also worth noting that the OneNote app for iOS can’t display ink &ndash; it just displays “[ink]” anywhere you wrote with the pen&hellip;making my notes useless there.  The OneNote web interface does display ink, but my ink was almost unreadable on the web.  Ink that was totally readable and regular size on the tablet looked 2x as large on the web and there was no way to zoom out.</p>
 
-<p>I’m really disappointed with the support for 3rd party apps.  Specifically Sketchbook Pro 6 and Lightroom 4.  Sketchbook handles the pen just fine, but I was really expecting to be able to use pan &amp; zoom via touch since that’s available on every other platform.  Lightroom was disappointing - it ran very fast, but without a mouse, it just wasn’t usable on the Surface Pro’s screen.  I realize these issues aren’t within Microsoft’s control, but they they definitely impact the value I received from Microsoft’s platform.</p>
+<p>I’m really disappointed with the support for 3rd party apps.  Specifically Sketchbook Pro 6 and Lightroom 4.  Sketchbook handles the pen just fine, but I was really expecting to be able to use pan &amp; zoom via touch since that’s available on every other platform.  Lightroom was disappointing &ndash; it ran very fast, but without a mouse, it just wasn’t usable on the Surface Pro’s screen.  I realize these issues aren’t within Microsoft’s control, but they they definitely impact the value I received from Microsoft’s platform.</p>
 
-<p>My biggest worry is the battery life.  I get 3-4 hours with reasonably light use.  The battery connector is proprietary and needs to be plugged into the wall - you won’t be charging this off of another PC’s USB port.  The power brick is smallish, but it’s something that has to stay in my backpack constantly.  If I forget to charge the tablet overnight, there is a good chance I’ll have to plug it up as soon as I get to the office to make sure I have enough juice to make it through a few hour long meetings.  I’m used to having my iPad battery last days without worrying about it and for something I need regularly, I really wish I had more than 3-4 hours of power...or at the very least, I wish I could trickle charge it off other nearby computers.</p>
+<p>My biggest worry is the battery life.  I get 3-4 hours with reasonably light use.  The battery connector is proprietary and needs to be plugged into the wall &ndash; you won’t be charging this off of another PC’s USB port.  The power brick is smallish, but it’s something that has to stay in my backpack constantly.  If I forget to charge the tablet overnight, there is a good chance I’ll have to plug it up as soon as I get to the office to make sure I have enough juice to make it through a few hour long meetings.  I’m used to having my iPad battery last days without worrying about it and for something I need regularly, I really wish I had more than 3-4 hours of power&hellip;or at the very least, I wish I could trickle charge it off other nearby computers.</p>
 
 <p>The tablet mode has tons of potential and was a nice experience, but until there are many, many more quality apps, it’s an experience that no one will see.  The desktop mode is functional, but I don’t understand why the device has a high density display when Windows clearly isn’t meant to run on one and it’s extremely obvious as soon as any non-Microsoft app is launched.</p>
 
 <p>At the end of the day, I can’t see myself reaching for the Surface Pro instead of my iPad when I have tablet type tasks to do.  I also can’t see myself reaching for it over my MacBook Pro when I’m at home and need to do more desktop type tasks.  It’s definitely the best device I have for note taking, but due to the really limited battery and several smaller issues, I don’t feel that I can count on it always being ready to go when I need it for note taking.</p>
 
-<p>I’m not set on having one single device that can support all three of these scenarios, so I’m ok using three different devices.  The catch is my iPad is <em>really</em> great at being a tablet, my MacBook Pro is <em>really</em> great at being a Mac/PC, but my Surface Pro is only moderately good at being a note taking device outside of the excellent pen support - it’s just a very clunky, disjointed experience and I’m not sure I want to deal with that.  There are many good ideas spread across the hardware and software of the Surface Pro, but I don’t feel Microsoft has found a way to combine those pockets of good ideas into a compellingly useful product just yet.</p>
+<p>I’m not set on having one single device that can support all three of these scenarios, so I’m ok using three different devices.  The catch is my iPad is <em>really</em> great at being a tablet, my MacBook Pro is <em>really</em> great at being a Mac/PC, but my Surface Pro is only moderately good at being a note taking device outside of the excellent pen support &ndash; it’s just a very clunky, disjointed experience and I’m not sure I want to deal with that.  There are many good ideas spread across the hardware and software of the Surface Pro, but I don’t feel Microsoft has found a way to combine those pockets of good ideas into a compellingly useful product just yet.</p>
 ]]></content>
   </entry>
   
@@ -103,35 +103,35 @@
     <link href="http://www.adambyram.com/2012/01/05/thoughts-on-the-13-macbook-air/"/>
     <updated>2012-01-05T21:53:00-05:00</updated>
     <id>http://www.adambyram.com/2012/01/05/thoughts-on-the-13-macbook-air</id>
-    <content type="html"><![CDATA[<p>I've had my 13" MacBook Air (mid-2011 model) for a few weeks now and thought it'd be a good idea to share my impressions.  I originally moved to Apple on a black MacBook, then switched to a top end 17" MacBook Pro, and now I'm on an Air.</p>
+    <content type="html"><![CDATA[<p>I&rsquo;ve had my 13" MacBook Air (mid-2011 model) for a few weeks now and thought it&rsquo;d be a good idea to share my impressions.  I originally moved to Apple on a black MacBook, then switched to a top end 17" MacBook Pro, and now I&rsquo;m on an Air.</p>
 
-<h2>What's Good?</h2>
+<h2>What&rsquo;s Good?</h2>
 
 <p><strong>Weight</strong></p>
 
-<p>It's fantastically light.  My MacBook Pro feels like a brick after using the MBA for a while.</p>
+<p>It&rsquo;s fantastically light.  My MacBook Pro feels like a brick after using the MBA for a while.</p>
 
 <p><strong>Size</strong></p>
 
-<p>Not only is it light, it's thin.  Like, really thin.  It's not really that much thicker than my iPad and that's impressive when you consider it's a full featured computer.</p>
+<p>Not only is it light, it&rsquo;s thin.  Like, really thin.  It&rsquo;s not really that much thicker than my iPad and that&rsquo;s impressive when you consider it&rsquo;s a full featured computer.</p>
 
 <p><strong>Battery Life</strong></p>
 
-<p>I haven't used it for photo/video editing nor have I used it for games, so my usage is pretty moderate, but still, the battery life is excellent.  My MacBook Pro has a good battery life for its size, but the Air has been really impressive.  I haven't timed the battery life, but I can say that I frequently use it for extended periods of time without even thinking about the power cable.  That hasn't been my experience with other laptops (Apple or otherwise).</p>
+<p>I haven&rsquo;t used it for photo/video editing nor have I used it for games, so my usage is pretty moderate, but still, the battery life is excellent.  My MacBook Pro has a good battery life for its size, but the Air has been really impressive.  I haven&rsquo;t timed the battery life, but I can say that I frequently use it for extended periods of time without even thinking about the power cable.  That hasn&rsquo;t been my experience with other laptops (Apple or otherwise).</p>
 
 <p><strong>Solid State Drive</strong></p>
 
-<p>It's amazing how much of a difference a solid state drive makes.  Startup is extremely fast, launching apps is even faster, and even development in a virtual machine is faster.</p>
+<p>It&rsquo;s amazing how much of a difference a solid state drive makes.  Startup is extremely fast, launching apps is even faster, and even development in a virtual machine is faster.</p>
 
-<h2>What's Bad?</h2>
+<h2>What&rsquo;s Bad?</h2>
 
 <p><strong>Screen Size</strong></p>
 
-<p>It's totally usable for most of my everyday tasks, but for things like development, it's a bit small.  The good news is that it powers an external monitor just fine.  If you're on the go and need to do certain kinds of tasks, it'll feel a bit cramped.  I can't imagine the MacBook Airs line won't merge with the MacBook Pro line to provide the larger screen sizes in the future.</p>
+<p>It&rsquo;s totally usable for most of my everyday tasks, but for things like development, it&rsquo;s a bit small.  The good news is that it powers an external monitor just fine.  If you&rsquo;re on the go and need to do certain kinds of tasks, it&rsquo;ll feel a bit cramped.  I can&rsquo;t imagine the MacBook Airs line won&rsquo;t merge with the MacBook Pro line to provide the larger screen sizes in the future.</p>
 
 <h2>Other Thoughts</h2>
 
-<p>That's actually the only negative thing I've noticed.  I happen to have the 4GB RAM/256GB SSD model, so it's maxed out on the basic specs.  It'd be nice if the RAM went up to 8GB, but honestly, 4GB has been plenty (even with large-ish databases loaded) due to the SSD.  The storage space may end up being a problem for me down the road if I started storing my main photo library, but I'm undecided how I want to handle that.  Overall, the MacBook Air is the best laptop I've used for my everyday tasks.  I'm sure I'll find a few things where I miss the power of my PC workstation or my MacBook Pro, but so far, I've really impressed.</p>
+<p>That&rsquo;s actually the only negative thing I&rsquo;ve noticed.  I happen to have the 4GB RAM/256GB SSD model, so it&rsquo;s maxed out on the basic specs.  It&rsquo;d be nice if the RAM went up to 8GB, but honestly, 4GB has been plenty (even with large-ish databases loaded) due to the SSD.  The storage space may end up being a problem for me down the road if I started storing my main photo library, but I&rsquo;m undecided how I want to handle that.  Overall, the MacBook Air is the best laptop I&rsquo;ve used for my everyday tasks.  I&rsquo;m sure I&rsquo;ll find a few things where I miss the power of my PC workstation or my MacBook Pro, but so far, I&rsquo;ve really impressed.</p>
 ]]></content>
   </entry>
   
@@ -140,19 +140,19 @@
     <link href="http://www.adambyram.com/2011/12/31/switching-to-octopress/"/>
     <updated>2011-12-31T19:08:00-05:00</updated>
     <id>http://www.adambyram.com/2011/12/31/switching-to-octopress</id>
-    <content type="html"><![CDATA[<p>I've been looking into Octopress for a month or so now and I finally decided to take the plunge.  As of now, this blog is now powered by Octopress (more or less out of the box) instead of WordPress.  I'd like to change the theme a bit, but it's good enough that I'll leave it for now.</p>
+    <content type="html"><![CDATA[<p>I&rsquo;ve been looking into Octopress for a month or so now and I finally decided to take the plunge.  As of now, this blog is now powered by Octopress (more or less out of the box) instead of WordPress.  I&rsquo;d like to change the theme a bit, but it&rsquo;s good enough that I&rsquo;ll leave it for now.</p>
 
-<h3>WordPress -> Octopress</h3>
+<h3>WordPress &ndash;> Octopress</h3>
 
-<p>Nothing was wrong with WordPress itself, but I just didn't use any of the features it offered.  I'd rather just type the blog posts in a regular editor instead of a textbox on a webpage.  There are some great tools out there that help with that of course, but I just don't need the features there either.  In addition, maintaining WordPress means logging in pretty often to check for updates, apply them, make sure the database is backed up, etc.  All of that would be just fine if I received enough benefit to offset the time there, but I just didn't.</p>
+<p>Nothing was wrong with WordPress itself, but I just didn&rsquo;t use any of the features it offered.  I&rsquo;d rather just type the blog posts in a regular editor instead of a textbox on a webpage.  There are some great tools out there that help with that of course, but I just don&rsquo;t need the features there either.  In addition, maintaining WordPress means logging in pretty often to check for updates, apply them, make sure the database is backed up, etc.  All of that would be just fine if I received enough benefit to offset the time there, but I just didn&rsquo;t.</p>
 
 <h3>Enter Heroku</h3>
 
-<p>In addition to switching the blogging engine, I moved the physical blog from Linode over to Heroku + Amazon S3.  My blog is very low traffic, so I don't need a high powered VPS host that I have to maintain &amp; patch.  Heroku offers a free account if you don't need much power and can live without a database (well, effectively without a DB - a 5MB one is included).  I decided to go ahead and put any post specific images/files onto S3 since Heroku offers a limited amount of local storage and I can also redeploy back to Linode if something doesn't work out at Heroku.  For the record though, I <em>love</em> Linode for a Linux VPS host.  I highly recommend them as long as you're comfortable dealing with Linux via the command line.</p>
+<p>In addition to switching the blogging engine, I moved the physical blog from Linode over to Heroku + Amazon S3.  My blog is very low traffic, so I don&rsquo;t need a high powered VPS host that I have to maintain &amp; patch.  Heroku offers a free account if you don&rsquo;t need much power and can live without a database (well, effectively without a DB &ndash; a 5MB one is included).  I decided to go ahead and put any post specific images/files onto S3 since Heroku offers a limited amount of local storage and I can also redeploy back to Linode if something doesn&rsquo;t work out at Heroku.  For the record though, I <em>love</em> Linode for a Linux VPS host.  I highly recommend them as long as you&rsquo;re comfortable dealing with Linux via the command line.</p>
 
 <h3>Simplicity</h3>
 
-<p>As I get older, the technology side of things appeals to me less and less.  I still love technology in general, but the nitty gritty details of what platform/framework/OS/whatever is the best is less and less interesting to me.  I'm more interested in the best way to deliver a solution in a way that is as simple as possible.  That doesn't mean I'm adverse to complexity under the hood though. It means I value the experience, productivity, and the ability to simply get things done over the technical aspects of a solution.</p>
+<p>As I get older, the technology side of things appeals to me less and less.  I still love technology in general, but the nitty gritty details of what platform/framework/OS/whatever is the best is less and less interesting to me.  I&rsquo;m more interested in the best way to deliver a solution in a way that is as simple as possible.  That doesn&rsquo;t mean I&rsquo;m adverse to complexity under the hood though. It means I value the experience, productivity, and the ability to simply get things done over the technical aspects of a solution.</p>
 ]]></content>
   </entry>
   
@@ -172,65 +172,65 @@
 
 <h3>Retina</h3>
 
-<p>The display is stunning - it is crystal clear and the colors are beautiful.
-Most apps simply become more crisp (assuming they don't use a lot of low-res
-images). I don't think you'll see a ton of difference in the way you use apps
-due to the display, but you'll enjoy the experience much more and it'll feel
+<p>The display is stunning &ndash; it is crystal clear and the colors are beautiful.
+Most apps simply become more crisp (assuming they don&rsquo;t use a lot of low-res
+images). I don&rsquo;t think you&rsquo;ll see a ton of difference in the way you use apps
+due to the display, but you&rsquo;ll enjoy the experience much more and it&rsquo;ll feel
 less like a computer screen. This is one of those things where the old
 technology got the job done just fine, but man, after using this display for a
-few days now, I can't wait to see it come to iPad and to traditional computer
+few days now, I can&rsquo;t wait to see it come to iPad and to traditional computer
 monitors. Once you get used to retina, all other displays start looking really
 blurry.</p>
 
 <h3>Battery Life</h3>
 
-<p>It's excellent. It still isn't going to last nearly as long as the iPad, but
+<p>It&rsquo;s excellent. It still isn&rsquo;t going to last nearly as long as the iPad, but
 it seems to last significantly longer than my 3GS did while performing the
 same tasks.</p>
 
 <h3>Camera</h3>
 
-<p>For still photography, the camera seems to be improved, but it's significantly
+<p>For still photography, the camera seems to be improved, but it&rsquo;s significantly
 better at low light photography. This is partly due to the new sensor
-technology, but it's also due to the inclusion of a small LED flash. Don't get
+technology, but it&rsquo;s also due to the inclusion of a small LED flash. Don&rsquo;t get
 me wrong, the low light photos are terrible compared to a DSLR or even a mid-
-range Point &amp; Shoot...but it's a huge step up from the camera in the 3GS that
+range Point &amp; Shoot&hellip;but it&rsquo;s a huge step up from the camera in the 3GS that
 was barely usable in lower light conditions. Daylight photos (particularly
 macro type shots) range from good to excellent. If you want proof, check out
 this <a href="http://www.flickr.com/photos/pminton/4740503969/">shot</a> by a friend of
-mine. I'd say that under optimal conditions, the iPhone 4's still camera is
-very competitive with mid-range Point &amp; Shoot cameras. As for video, it's 720p
-in size, but don't expect anything close to Bluray quality. I put a couple of
-<a href="http://vimeo.com/12805175">videos</a> on my Vimeo account...these are "worst
-case" shots - indoors with low light shooting a dark subject with some fast
+mine. I&rsquo;d say that under optimal conditions, the iPhone 4&rsquo;s still camera is
+very competitive with mid-range Point &amp; Shoot cameras. As for video, it&rsquo;s 720p
+in size, but don&rsquo;t expect anything close to Bluray quality. I put a couple of
+<a href="http://vimeo.com/12805175">videos</a> on my Vimeo account&hellip;these are &ldquo;worst
+case&rdquo; shots &ndash; indoors with low light shooting a dark subject with some fast
 movement. Quality wise, the video function alone is right there with my
-Creative Vado...there is absolutely no reason to use a Vado, Flip, etc. if you
+Creative Vado&hellip;there is absolutely no reason to use a Vado, Flip, etc. if you
 have an iPhone 4. In fact, when you add on the software (iMovie or otherwise),
 the iPhone 4 blows those devices out of the water.</p>
 
 <h3>Overall Feel</h3>
 
-<p>Compared to my 3GS, the iPhone 4 feels better &amp; worse. I love the new design -
-it's more sleek and feels even more solid. The downside is I feel more
-paranoid that I'm going to drop it. With the 3GS, you could drop it and have a
+<p>Compared to my 3GS, the iPhone 4 feels better &amp; worse. I love the new design &ndash;
+it&rsquo;s more sleek and feels even more solid. The downside is I feel more
+paranoid that I&rsquo;m going to drop it. With the 3GS, you could drop it and have a
 pretty good chance of only minor scratches or maybe a small crack in the
-plastic back. With the iPhone 4, you're either going to damage the glass on
+plastic back. With the iPhone 4, you&rsquo;re either going to damage the glass on
 the front or back (and the camera is integrated into that back glass as well)
-or you're going to bang up the antennas (since they form the metal band around
+or you&rsquo;re going to bang up the antennas (since they form the metal band around
 the outside). In theory, the glass is super strong and not easy to break, but
 something about it just feels a little more fragile. Speed wise, everything
-feels fast. If you've used an iPad, it's pretty much the same. I really don't
-notice a ton of speed increase over my 3GS for day to day activities - I do
-know it's much more powerful though, so I'm sure future apps will widen this
+feels fast. If you&rsquo;ve used an iPad, it&rsquo;s pretty much the same. I really don&rsquo;t
+notice a ton of speed increase over my 3GS for day to day activities &ndash; I do
+know it&rsquo;s much more powerful though, so I&rsquo;m sure future apps will widen this
 gap.</p>
 
 <h3>FaceTime</h3>
 
 <p>FaceTime is the video calling feature built-in to each iPhone 4. I tried it
-out with a friend from Twitter and it's certainly a nifty feature. It works as
-easily as Apple advertises...call someone, touch a button, and boom - video
+out with a friend from Twitter and it&rsquo;s certainly a nifty feature. It works as
+easily as Apple advertises&hellip;call someone, touch a button, and boom &ndash; video
 call. The big gotcha (for now) is that both parties must have iPhone 4s AND be
-on a WiFi network. I'm not sure I'll be using this feature all that much, but
+on a WiFi network. I&rsquo;m not sure I&rsquo;ll be using this feature all that much, but
 I also prefer e-mail/twitter/IM to phone calls anyway. I can see it being
 pretty popular for some people and I do see a few use cases for myself.</p>
 
@@ -238,49 +238,49 @@ pretty popular for some people and I do see a few use cases for myself.</p>
 
 <p>iBooks is an app I use a ton on my iPad. I was hoping the retina display would
 make it more readable to me on the iPhone 4. Text &amp; images looks absolutely
-fantastic - but at the end of the day, I just can't read on such a tiny
-screen. It's not that the font is too small - I can see it fine - I just can't
+fantastic &ndash; but at the end of the day, I just can&rsquo;t read on such a tiny
+screen. It&rsquo;s not that the font is too small &ndash; I can see it fine &ndash; I just can&rsquo;t
 fit enough content on the screen for my tastes. I read mostly technical (or at
 least non-fiction books) though, so books with less structured content may be
-a bit better. Imagine reading the tiny bibles you used to find in hotels -
-that's what it's like reading on the iPhone 4...super crisp text, but a little
+a bit better. Imagine reading the tiny bibles you used to find in hotels &ndash;
+that&rsquo;s what it&rsquo;s like reading on the iPhone 4&hellip;super crisp text, but a little
 bitty reading surface. I do like having the ability to look up something in
-iBooks in an emergency though - so I'll keep it installed just in case.</p>
+iBooks in an emergency though &ndash; so I&rsquo;ll keep it installed just in case.</p>
 
 <h3>Multitasking</h3>
 
-<p>A lot of people have been anxiously awaiting multitasking on iPhone. I'm not
+<p>A lot of people have been anxiously awaiting multitasking on iPhone. I&rsquo;m not
 one of them. I would like a few apps to be able to update in the background
-(Twitter for example) and I'd like to have a live IM client, but that's about
-it. I don't use Skype or Pandora on the phone, but if I did, I'd be happy. For
-me, this is a nice feature, but the only real benefit I get is that it's
-slightly faster to switch between applications. Maybe I'll be wow'd with what
-people are able to do with this in the future, but for now, I just don't see
-much benefit for the tasks I do today...but I was never the target of this
+(Twitter for example) and I&rsquo;d like to have a live IM client, but that&rsquo;s about
+it. I don&rsquo;t use Skype or Pandora on the phone, but if I did, I&rsquo;d be happy. For
+me, this is a nice feature, but the only real benefit I get is that it&rsquo;s
+slightly faster to switch between applications. Maybe I&rsquo;ll be wow&rsquo;d with what
+people are able to do with this in the future, but for now, I just don&rsquo;t see
+much benefit for the tasks I do today&hellip;but I was never the target of this
 feature in the first place.</p>
 
 <h3>Reception</h3>
 
-<p>You've probably heard about the reception issues with iPhone 4. Steve Jobs
-said they don't exist, but if they did, it's because you're holding it the
+<p>You&rsquo;ve probably heard about the reception issues with iPhone 4. Steve Jobs
+said they don&rsquo;t exist, but if they did, it&rsquo;s because you&rsquo;re holding it the
 wrong way. Apple corporate said they exist on all phones and you should buy a
-case. Well, they definitely do exist and I'm holding my phone the same way
-I've held every Apple iPhone. I'm going to end up buying a case I'm sure, but
-I'm really disappointed in Apple over this one. If you hold the phone in your
-left hand, you'll connect two of the antennas with your finger or palm. By
-doing this, your 5 bars of full signal will drop to "No Service" within 30
+case. Well, they definitely do exist and I&rsquo;m holding my phone the same way
+I&rsquo;ve held every Apple iPhone. I&rsquo;m going to end up buying a case I&rsquo;m sure, but
+I&rsquo;m really disappointed in Apple over this one. If you hold the phone in your
+left hand, you&rsquo;ll connect two of the antennas with your finger or palm. By
+doing this, your 5 bars of full signal will drop to &ldquo;No Service&rdquo; within 30
 seconds or so unless you happen to be <em>very</em> close to a cell tower. At home, I
 can do this easily every time I try. In West Knoxville, I had a harder time
-getting the signal to drop...so it seems to be partially dependent on your
+getting the signal to drop&hellip;so it seems to be partially dependent on your
 proximity to cell towers. I have yet to have a call drop due to this, but I
-have had SMS messages and data downloads stop/fail due to it...so it isn't
-just a display issue - it really is losing the signal. Apple says some type of
-fix is on the way and if that's the case, then maybe this won't be a problem
+have had SMS messages and data downloads stop/fail due to it&hellip;so it isn&rsquo;t
+just a display issue &ndash; it really is losing the signal. Apple says some type of
+fix is on the way and if that&rsquo;s the case, then maybe this won&rsquo;t be a problem
 much longer. I expected I would get better reception than my 3GS due to the
 larger exposed antenna, but so far, my 3GS had a more stable signal. Call
-quality is as good or better on the iPhone 4 though. I haven't tried making a
-call from a noisy area yet, but all of the calls I've made have sounded very
-clear on my end and no complaints from those that I've called.</p>
+quality is as good or better on the iPhone 4 though. I haven&rsquo;t tried making a
+call from a noisy area yet, but all of the calls I&rsquo;ve made have sounded very
+clear on my end and no complaints from those that I&rsquo;ve called.</p>
 ]]></content>
   </entry>
   
@@ -289,15 +289,15 @@ clear on my end and no complaints from those that I've called.</p>
     <link href="http://www.adambyram.com/2010/03/14/giving-tumblr-a-try/"/>
     <updated>2010-03-14T06:41:47-04:00</updated>
     <id>http://www.adambyram.com/2010/03/14/giving-tumblr-a-try</id>
-    <content type="html"><![CDATA[<p>I know I don't post very much to this blog...I never have really. I can't
+    <content type="html"><![CDATA[<p>I know I don&rsquo;t post very much to this blog&hellip;I never have really. I can&rsquo;t
 quite figure out a good use for my domain. I post a reasonable amount on
-<a href="http://www.twitter.com/adambyram">Twitter</a> these days, so I thought I'd give
-<a href="http://www.tumblr.com">Tumblr</a> a try. It's a microblogging site - there is no
-140 character limit like there is on Twitter, but it's setup in a way that
-encourages quick, focused posts. I don't know if I'll stay active with it or
-not, but since I don't have a good way to integrate my Tumblr posts into this
+<a href="http://www.twitter.com/adambyram">Twitter</a> these days, so I thought I&rsquo;d give
+<a href="http://www.tumblr.com">Tumblr</a> a try. It&rsquo;s a microblogging site &ndash; there is no
+140 character limit like there is on Twitter, but it&rsquo;s setup in a way that
+encourages quick, focused posts. I don&rsquo;t know if I&rsquo;ll stay active with it or
+not, but since I don&rsquo;t have a good way to integrate my Tumblr posts into this
 blog, I wanted to give you guys the direct link for any that are interested in
-follow me there. Here's the URL:</p>
+follow me there. Here&rsquo;s the URL:</p>
 
 <p><a href="http://adambyram.tumblr.com">http://adambyram.tumblr.com</a></p>
 ]]></content>
